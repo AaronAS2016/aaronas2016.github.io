@@ -1,187 +1,52 @@
-
-//boton
-$tamañoDeFuente : 1.5rem;
-
-//Animacion menuBoton
-$cantidadDeOpciones : 5;
-$delayDeAnimacion : .2s;
-
-
-.btn{
-  cursor: pointer;
-  font-weight: 400;
-  margin: 0 0 2em;
-  text-decoration: none;
-  width: 150px; 
+html{
+  margin: 0;
+  padding: 0;
+  height: 1000px;
 }
-
-nav{
-  position:absolute;
+header{
+  position: fixed;
   display: flex;
-  height:auto;
-  bottom:0;
-  top:0;
-  left:0;
-  right:0;
-  justify-content: center;
-  align-items: center;
-  background: $color-secundario;
-  color: $color-primario;
-  transition: all .3s ease-in;
-  text-transform: uppercase;
-  opacity: 0;
-  z-index: 1;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  top: 0;
+  background-color: red;
 }
-.active-menu{
-  opacity: 1;
+nav{
+  margin: 0;
+  padding: 0;
+  height: 60px;
+  position: fixed;
+  display: flex;
+  width:100%;
+  justify-content: space-between;
 }
 
-
-.nav-menu ul{
+.logo{
   position: relative;
-  list-style: none;
+  margin-left: 20px;
+  display: flex;
+  justify-content: center;
+  align-items:center;
+}
+.logo img{
+  width: 50px;
+  margin-right: 5px;
 }
 
-.nav-menu ul li{
-  width: 300px;
-  text-align: center;
-  margin: 10px;
+.logo span{
+  display: none;
+  color: $color-secundario;
+  font-size: .9rem;
+  align-self: flex-end;
+  position: relative;
+  bottom: 10px;
+  margin-left: 5px;
+  text-transform: uppercase;
 }
 
-
-
-@for $i from 1 to $cantidadDeOpciones {
-  .nav-menu ul li:nth-child(#{$i}) a.btn-menu{
-    animation-delay: 0 + ($i* $delayDeAnimacion);
+@media(min-width: 540px){
+  .logo span{
+    display: block;
   }
 }
-
-
-.btn-menu{
-  width: 140px;
-  font-size: $tamañoDeFuente;
-  line-height: 3rem;
-  position: relative;
-  letter-spacing: 0;
-  text-decoration: none;
-  transition: all .3s;
-  color: transparent;
-}
-.menu-animado{
-  animation-name: goToBottom;
-  animation-duration: 1s;
-  animation-fill-mode: forwards;
-} 
-.btn-menu:hover,
-.btn-menu:active{
-  transform: scale(1.5);
-  letter-spacing: 4px;
-}
-
-.btn-menu:after,
-.btn-menu::before{
-  backface-visibility: hidden;
-  border: 1px solid rgba($color-secundario,0);
-  bottom: 0;
-  left: 0;
-  content: " ";
-  display: block;
-  margin: 0 auto;
-  position: relative;
-  transition: all 150ms ease-in-out;
-  width: 0;
-}
-
-.btn-menu:hover:after,
-.btn-menu:hover:before {
-  backface-visibility: hidden;
-  border-color: $color-primario;
-  transition: width 350ms ease-in-out;
-  width: 100%;
-}
-
-.btn-menu:hover:before {
-  bottom: auto;
-  top: 0;
-  width: 100%;
-}
-
-/* MENU HAMBURGUESA */
-$size: 20px;
-$weight: 2px;
-$speed: .33s;
-$option: 225deg;
-
-
-.btn-burger{
-    z-index: 100;
-    height: calc(#{$size} - #{$weight});
-    width: $size;
-    position: absolute;
-    right: 40px;
-    top: 40px;
-    span,
-    &::after,
-    &::before{
-      display: block;
-      width: 100%;
-      height: $weight;
-      background: $color-secundario;
-      position: absolute;
-      transition: $speed ease-in-out;
-    }
-
-    span{
-      top: calc((#{$size} - #{$weight} * 2) / 2);
-    }
-
-    &:before{
-      content: "";
-      top: 0;
-    }
-
-    &:after{
-      content: "";
-      top: calc(#{$size} - (#{$weight * 2}));
-    }
-
-    // ------- EFECTO HOVER -----------//
-
-    &:hover:after{
-      transform: translateY($weight / 2);
-    }
-    
-    &:hover:before{
-      transform: translateY(($weight / 2) * -1);
-    }
-
-    &.--is-active{
-      &:after,
-      &:before{
-        background: $color-primario;
-        top: calc((#{$size} - #{$weight}*2) / 2 );
-      }
-
-      &:after{
-        transform: rotate($option);
-      }
-
-      &:before{
-        transform: rotate(-$option);
-      }
-
-      span{
-        width: 0;
-      }
-    }
-
-}
-
-@keyframes goToBottom {
-  from {color: transparent}
-  to {color: $color-primario}
-}
-
-
-
-
