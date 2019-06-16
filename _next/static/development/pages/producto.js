@@ -1,4 +1,4 @@
-((window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static\\development\\pages\\producto.js"],{
+(window["webpackJsonp"] = window["webpackJsonp"] || []).push([["static/development/pages/producto.js"],{
 
 /***/ "./breakpoints.js":
 /*!************************!*\
@@ -42,14 +42,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../routes */ "./routes.js");
+/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_routes__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _breakpoints__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../breakpoints */ "./breakpoints.js");
 
 
 
 
 
-var _jsxFileName = "C:\\Users\\Aaron\\Documents\\GitHub\\filippini_hospitalario\\Client\\components\\Footer.js";
+
 
 
 
@@ -69,215 +70,68 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("footer", {
-        className: "jsx-2372043361",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 5
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 6
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["2116259456", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]])
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_routes__WEBPACK_IMPORTED_MODULE_7__["Link"], {
+        routes: "/"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
         src: "/static/logo.svg",
-        className: "jsx-2372043361" + " " + "logo",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 6
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-2372043361" + " " + "Navegacion",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 8
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["2116259456", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]]) + " " + "logo"
+      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("section", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["2116259456", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]]) + " " + "navegacion"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-2372043361" + " " + "navegation-title",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 10
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["2116259456", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]]) + " " + "navegation-title"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        className: "jsx-2372043361",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 11
-        },
-        __self: this
-      }, "Navegacion")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/productos",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["2116259456", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]])
+      }, "Navegaci\xF3n")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_routes__WEBPACK_IMPORTED_MODULE_7__["Link"], {
+        href: "/productos"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-        className: "jsx-2372043361",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13
-        },
-        __self: this
-      }, "Productos")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/contacto",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 14
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["2116259456", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]])
+      }, "Productos")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_routes__WEBPACK_IMPORTED_MODULE_7__["Link"], {
+        href: "/contacto"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-        className: "jsx-2372043361",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 14
-        },
-        __self: this
-      }, "Contacto")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/quienes-somos",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["2116259456", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]])
+      }, "Contacto")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_routes__WEBPACK_IMPORTED_MODULE_7__["Link"], {
+        href: "/quienes-somos"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-        className: "jsx-2372043361",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        },
-        __self: this
-      }, "Quienes Somos")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/preguntas-frecuentes",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["2116259456", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]])
+      }, "Qui\xE9nes Somos")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_routes__WEBPACK_IMPORTED_MODULE_7__["Link"], {
+        href: "/preguntas-frecuentes"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-        className: "jsx-2372043361",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        },
-        __self: this
-      }, "Preguntas Frecuentes"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-2372043361" + " " + "Contactenos",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["2116259456", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]])
+      }, "Preguntas Frecuentes"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("section", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["2116259456", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]]) + " " + "contactenos"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h4", {
-        className: "jsx-2372043361",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20
-        },
-        __self: this
-      }, "Contactenos"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-2372043361" + " " + "contact-items",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["2116259456", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]])
+      }, "Cont\xE1ctenos"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["2116259456", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]]) + " " + "contact-items"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-2372043361" + " " + "telefono",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 23
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["2116259456", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]]) + " " + "telefono"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        className: "jsx-2372043361",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 24
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["2116259456", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]])
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
-        class: "fas fa-phone",
-        className: "jsx-2372043361",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 24
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["2116259456", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]]) + " " + "fab fa-whatsapp"
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-        className: "jsx-2372043361" + " " + "medios-contacto",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 25
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["2116259456", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]]) + " " + "medios-contacto"
       }, "011 5574 4632")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-2372043361" + " " + "mail",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 28
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["2116259456", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]]) + " " + "mail"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        className: "jsx-2372043361",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 29
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["2116259456", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]])
       }, " ", react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
-        class: "far fa-envelope",
-        className: "jsx-2372043361",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 29
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["2116259456", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]]) + " " + "far fa-envelope"
       }), " "), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-        className: "jsx-2372043361" + " " + "medios-contacto",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 30
-        },
-        __self: this
-      }, "hospitalario.filippini@gmail.com")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-2372043361" + " " + "face",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 33
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["2116259456", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]]) + " " + "medios-contacto"
+      }, "carlososcarfilippini@yahoo.com.ar")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["2116259456", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]]) + " " + "face"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("span", {
-        className: "jsx-2372043361",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 34
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["2116259456", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]])
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("i", {
-        className: "jsx-2372043361" + " " + "fab fa-facebook-f",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 34
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["2116259456", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]]) + " " + "fab fa-facebook-f"
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-        className: "jsx-2372043361" + " " + "medios-contacto",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 35
-        },
-        __self: this
-      }, "Facebook.com/FilippiniHospitalario")))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
-        id: "2372043361",
-        __self: this
-      }, "footer.jsx-2372043361{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:80%;-webkit-box-pack:space-around;-webkit-justify-content:space-around;-ms-flex-pack:space-around;justify-content:space-around;position:relative;left:170px;}.logo.jsx-2372043361{width:5%;position:relative;left:-30px;cursor:pointer;}.Navegacion.jsx-2372043361{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}.Navegacion.jsx-2372043361 p.jsx-2372043361{cursor:pointer;}.Contactenos.jsx-2372043361{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}.contact-items.jsx-2372043361 div.jsx-2372043361{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.medios-contacto.jsx-2372043361{position:relative;left:20px;}.face.jsx-2372043361 span.jsx-2372043361{position:relative;left:5px;}.face.jsx-2372043361 p.jsx-2372043361{position:relative;left:30px;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcQWFyb25cXERvY3VtZW50c1xcR2l0SHViXFxmaWxpcHBpbmlfaG9zcGl0YWxhcmlvXFxDbGllbnRcXGNvbXBvbmVudHNcXEZvb3Rlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUE0Q3dCLEFBSThDLEFBUUosQUFPRyxBQUtHLEFBSUgsQUFNRCxBQU1LLEFBSUEsQUFJQyxTQW5DQyxNQVl0QixHQWdCWSxBQUlBLEFBSUMsU0FuQ0UsQUFnQ2hCLENBSkEsQUFRQSxVQW5Db0IsZUFDbkIscUJBWGMsQUFlWSxBQVNBLEFBTUosVUE3QlcsMkRBOEJYLFNBZnRCLEFBVUEsdURBeEJxQixrQkFDTixXQUNmLEFBNEJEIiwiZmlsZSI6IkM6XFxVc2Vyc1xcQWFyb25cXERvY3VtZW50c1xcR2l0SHViXFxmaWxpcHBpbmlfaG9zcGl0YWxhcmlvXFxDbGllbnRcXGNvbXBvbmVudHNcXEZvb3Rlci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAgTGluayAgZnJvbSAnbmV4dC9saW5rJztcclxuZXhwb3J0IGRlZmF1bHQgY2xhc3MgRm9vdGVyIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50e1xyXG4gICAgcmVuZGVyKCl7XHJcbiAgICAgICAgcmV0dXJuKFxyXG4gICAgICAgICAgICA8Zm9vdGVyPlxyXG4gICAgICAgICAgICAgICAgPExpbmsgaHJlZj1cIi9cIj48aW1nIGNsYXNzTmFtZT1cImxvZ29cIiBzcmM9XCIvc3RhdGljL2xvZ28uc3ZnXCIvPjwvTGluaz5cclxuXHJcbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIk5hdmVnYWNpb25cIj4gICAgXHJcbiAgICAgICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJuYXZlZ2F0aW9uLXRpdGxlXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxoND5OYXZlZ2FjaW9uPC9oND5cclxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgICAgICA8TGluayBocmVmPVwiL3Byb2R1Y3Rvc1wiPjxwPlByb2R1Y3RvczwvcD48L0xpbms+XHJcbiAgICAgICAgICAgICAgICAgICAgPExpbmsgaHJlZj1cIi9jb250YWN0b1wiPjxwPkNvbnRhY3RvPC9wPjwvTGluaz5cclxuICAgICAgICAgICAgICAgICAgICA8TGluayBocmVmPVwiL3F1aWVuZXMtc29tb3NcIj48cD5RdWllbmVzIFNvbW9zPC9wPjwvTGluaz5cclxuICAgICAgICAgICAgICAgICAgICA8TGluayBocmVmPVwiL3ByZWd1bnRhcy1mcmVjdWVudGVzXCI+PHA+UHJlZ3VudGFzIEZyZWN1ZW50ZXM8L3A+PC9MaW5rPlxyXG4gICAgICAgICAgICAgICAgPC9kaXY+XHJcblxyXG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJDb250YWN0ZW5vc1wiPlxyXG4gICAgICAgICAgICAgICAgICAgIDxoND5Db250YWN0ZW5vczwvaDQ+XHJcbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWN0LWl0ZW1zXCI+XHJcblxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInRlbGVmb25vXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3Bhbj48aSBjbGFzcz1cImZhcyBmYS1waG9uZVwiPjwvaT48L3NwYW4+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9XCJtZWRpb3MtY29udGFjdG9cIj4wMTEgNTU3NCA0NjMyPC9wPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWFpbFwiPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4+IDxpIGNsYXNzPVwiZmFyIGZhLWVudmVsb3BlXCI+PC9pPiA8L3NwYW4+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cCBjbGFzc05hbWU9XCJtZWRpb3MtY29udGFjdG9cIj5ob3NwaXRhbGFyaW8uZmlsaXBwaW5pQGdtYWlsLmNvbTwvcD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcblxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZhY2VcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzcGFuPjxpIGNsYXNzTmFtZT1cImZhYiBmYS1mYWNlYm9vay1mXCI+PC9pPjwvc3Bhbj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT1cIm1lZGlvcy1jb250YWN0b1wiPkZhY2Vib29rLmNvbS9GaWxpcHBpbmlIb3NwaXRhbGFyaW88L3A+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICBcclxuXHJcbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+ICAgIFxyXG4gICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICBcclxuICAgICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgICAgPHN0eWxlIGpzeD5cclxuICAgICAgICAgICAgICAgICAgICB7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGBcclxuXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb290ZXIge1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6IGZsZXg7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6IDgwJTtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6IHNwYWNlLWFyb3VuZDtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwb3NpdGlvbjpyZWxhdGl2ZTtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsZWZ0OiAxNzBweDtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAubG9nbyB7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6IDUlO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsZWZ0OiAtMzBweDtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgLk5hdmVnYWNpb257XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlzcGxheTpmbGV4O1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgLk5hdmVnYWNpb24gcHtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdXJzb3I6IHBvaW50ZXI7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgLkNvbnRhY3Rlbm9zIHtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OmZsZXg7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgIC5jb250YWN0LWl0ZW1zIGRpdiB7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OmZsZXg7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogcm93O1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICBcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgLm1lZGlvcy1jb250YWN0b3tcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBvc2l0aW9uOnJlbGF0aXZlO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGVmdDoyMHB4O1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgIC5mYWNlIHNwYW4ge1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcG9zaXRpb246cmVsYXRpdmU7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBsZWZ0OiA1cHg7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgLmZhY2UgcHtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxlZnQ6IDMwcHg7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBgXHJcbiAgICAgICAgICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICAgICAgICAgIDwvc3R5bGU+XHJcbiAgICAgICAgICAgIDwvZm9vdGVyPlxyXG4gICAgICAgIClcclxuICAgIH1cclxufSJdfQ== */\n/*@ sourceURL=C:\\Users\\Aaron\\Documents\\GitHub\\filippini_hospitalario\\Client\\components\\Footer.js */"));
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["2116259456", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]]) + " " + "medios-contacto"
+      }, "facebook.com/FilippiniHospitalario")))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
+        id: "2116259456",
+        dynamic: [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]
+      }, "footer.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:100%;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:space-around;-webkit-justify-content:space-around;-ms-flex-pack:space-around;justify-content:space-around;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;text-align:center;margin-top:20%;padding-bottom:2%;}.logo.__jsx-style-dynamic-selector{width:8%;position:relative;cursor:pointer;}h4.__jsx-style-dynamic-selector{color:#113F67;}.navegacion.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}.navegacion.__jsx-style-dynamic-selector p.__jsx-style-dynamic-selector{cursor:pointer;font-size:.8em;color:#408AB4;}.contactenos.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}.contact-items.__jsx-style-dynamic-selector div.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;color:#408AB4;}.contact-items.__jsx-style-dynamic-selector p.__jsx-style-dynamic-selector{font-size:0.8em;}.contact-items.__jsx-style-dynamic-selector span.__jsx-style-dynamic-selector{position:relative;left:-10px;}.face.__jsx-style-dynamic-selector span.__jsx-style-dynamic-selector{position:relative;left:-10px;}@media ".concat(_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, "{footer.__jsx-style-dynamic-selector{-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;margin-top:10%;}.logo.__jsx-style-dynamic-selector{width:7%;}.navegacion.__jsx-style-dynamic-selector p.__jsx-style-dynamic-selector{cursor:pointer;font-size:.9em;}.contact-items.__jsx-style-dynamic-selector p.__jsx-style-dynamic-selector{font-size:.9em;}}@media ").concat(_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop, "{.logo.__jsx-style-dynamic-selector{width:6%;position:relative;top:50px;}.navegacion.__jsx-style-dynamic-selector p.__jsx-style-dynamic-selector{cursor:pointer;font-size:1em;}.contact-items.__jsx-style-dynamic-selector p.__jsx-style-dynamic-selector{font-size:1em;}footer.__jsx-style-dynamic-selector{-webkit-align-items:flex-start;-webkit-box-align:flex-start;-ms-flex-align:flex-start;align-items:flex-start;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2Fhcm9uL0RvY3VtZW50b3MvR2l0aHViL2ZpbGlwcGluaV9ob3NwaXRhbGFyaW8vQ2xpZW50L2NvbXBvbmVudHMvRm9vdGVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQTZDd0IsQUFJOEMsQUFXSixBQUtJLEFBSUQsQUFLRyxBQU1ILEFBS0QsQUFRRyxBQUlJLEFBS0YsQUFPTyxBQUtWLEFBSU0sQUFLQSxBQVFQLEFBS08sQUFJRCxBQUdRLFNBbEZSLEFBc0RsQixBQWlCcUIsS0FsRXpCLEFBMkVJLENBbEVjLEFBNENLLEFBS25CLEFBYWtCLENBM0N2QixFQUlnQixBQUtELFNBekNLLEFBdUVILEVBbENoQixBQUtELEFBa0NLLENBN0RMLEFBMkNLLE1BY0EsTUF2RUosRUFjQSx5QkFpQ3NCLEtBNURQLEFBb0JXLEFBV0EsQUFLSixVQXlCbEIsQ0E1RHNCLHdCQTZGdEIsa0NBekRrQixTQWhCdEIsQUFXQSxXQTlCaUMseUVBb0NSLGtEQW5DRixpREFxQ3pCLGNBQUMsOEJBcENzQixrQkFDSCxlQUNHLGtCQUNyQiIsImZpbGUiOiIvaG9tZS9hYXJvbi9Eb2N1bWVudG9zL0dpdGh1Yi9maWxpcHBpbmlfaG9zcGl0YWxhcmlvL0NsaWVudC9jb21wb25lbnRzL0Zvb3Rlci5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAge0xpbmt9ICBmcm9tICcuLi9yb3V0ZXMnO1xuaW1wb3J0IHsgZGV2aWNlIH0gZnJvbSAnLi4vYnJlYWtwb2ludHMnXG5leHBvcnQgZGVmYXVsdCBjbGFzcyBGb290ZXIgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnR7XG4gICAgcmVuZGVyKCl7XG4gICAgICAgIHJldHVybihcbiAgICAgICAgICAgIDxmb290ZXI+XG4gICAgICAgICAgICAgICAgPExpbmsgcm91dGVzPVwiL1wiPjxpbWcgY2xhc3NOYW1lPVwibG9nb1wiIHNyYz1cIi9zdGF0aWMvbG9nby5zdmdcIi8+PC9MaW5rPlxuICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT1cIm5hdmVnYWNpb25cIj4gICAgXG4gICAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cIm5hdmVnYXRpb24tdGl0bGVcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxoND5OYXZlZ2FjacOzbjwvaDQ+XG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICA8TGluayBocmVmPVwiL3Byb2R1Y3Rvc1wiPjxwPlByb2R1Y3RvczwvcD48L0xpbms+XG4gICAgICAgICAgICAgICAgICAgIDxMaW5rIGhyZWY9XCIvY29udGFjdG9cIj48cD5Db250YWN0bzwvcD48L0xpbms+XG4gICAgICAgICAgICAgICAgICAgIDxMaW5rIGhyZWY9XCIvcXVpZW5lcy1zb21vc1wiPjxwPlF1acOpbmVzIFNvbW9zPC9wPjwvTGluaz5cbiAgICAgICAgICAgICAgICAgICAgPExpbmsgaHJlZj1cIi9wcmVndW50YXMtZnJlY3VlbnRlc1wiPjxwPlByZWd1bnRhcyBGcmVjdWVudGVzPC9wPjwvTGluaz5cbiAgICAgICAgICAgICAgICA8L3NlY3Rpb24+XG5cbiAgICAgICAgICAgICAgICA8c2VjdGlvbiBjbGFzc05hbWU9XCJjb250YWN0ZW5vc1wiPlxuICAgICAgICAgICAgICAgICAgICA8aDQ+Q29udMOhY3Rlbm9zPC9oND5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJjb250YWN0LWl0ZW1zXCI+XG5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwidGVsZWZvbm9cIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3Bhbj48aSBjbGFzc05hbWU9XCJmYWIgZmEtd2hhdHNhcHBcIj48L2k+PC9zcGFuPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT1cIm1lZGlvcy1jb250YWN0b1wiPjAxMSA1NTc0IDQ2MzI8L3A+XG4gICAgICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJtYWlsXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHNwYW4+IDxpIGNsYXNzTmFtZT1cImZhciBmYS1lbnZlbG9wZVwiPjwvaT4gPC9zcGFuPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxwIGNsYXNzTmFtZT1cIm1lZGlvcy1jb250YWN0b1wiPmNhcmxvc29zY2FyZmlsaXBwaW5pQHlhaG9vLmNvbS5hcjwvcD5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuXG4gICAgICAgICAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZhY2VcIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8c3Bhbj48aSBjbGFzc05hbWU9XCJmYWIgZmEtZmFjZWJvb2stZlwiPjwvaT48L3NwYW4+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgPHAgY2xhc3NOYW1lPVwibWVkaW9zLWNvbnRhY3RvXCI+ZmFjZWJvb2suY29tL0ZpbGlwcGluaUhvc3BpdGFsYXJpbzwvcD5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvZGl2PlxuICAgICAgICAgICAgICAgICAgICAgICAgXG5cbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+ICAgIFxuICAgICAgICAgICAgICAgIDwvc2VjdGlvbj5cbiAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICA8c3R5bGUganN4PlxuICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICBgXG5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb290ZXIge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogMTAwJTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAganVzdGlmeS1jb250ZW50OiBzcGFjZS1hcm91bmQ7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFsaWduLWl0ZW1zOiBjZW50ZXI7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRleHQtYWxpZ246Y2VudGVyO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW4tdG9wOjIwJTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZy1ib3R0b206MiU7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgLmxvZ28ge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogOCU7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBvc2l0aW9uOiByZWxhdGl2ZTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBoNHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IzExM0Y2NztcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAubmF2ZWdhY2lvbntcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlzcGxheTpmbGV4O1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5uYXZlZ2FjaW9uIHB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOi44ZW07XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiM0MDhBQjRcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuY29udGFjdGVub3Mge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OmZsZXg7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgLmNvbnRhY3QtaXRlbXMgZGl2IHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OmZsZXg7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZmxleC1kaXJlY3Rpb246IHJvdztcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGp1c3RpZnktY29udGVudDpjZW50ZXI7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IzQwOEFCNFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAuY29udGFjdC1pdGVtcyBwIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6MC44ZW07XG4gICAgICAgICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgIC5jb250YWN0LWl0ZW1zIHNwYW4ge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwb3NpdGlvbjogcmVsYXRpdmU7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxlZnQ6IC0xMHB4O1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgLmZhY2Ugc3BhbiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcG9zaXRpb246cmVsYXRpdmU7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbGVmdDogLTEwcHg7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgIEBtZWRpYSAke2RldmljZS50YWJsZXR9e1xuXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvb3RlciB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogcm93O1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luLXRvcDoxMCU7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAubG9nbyB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogNyU7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAubmF2ZWdhY2lvbiBwe1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiAuOWVtO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmNvbnRhY3QtaXRlbXMgcCB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6IC45ZW07XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuXG5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgIEBtZWRpYSAke2RldmljZS5kZXNrdG9wfXtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLmxvZ297XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDo2JTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBvc2l0aW9uOnJlbGF0aXZlO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdG9wOjUwcHg7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgLm5hdmVnYWNpb24gcHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGN1cnNvcjogcG9pbnRlcjtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogMWVtO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5jb250YWN0LWl0ZW1zIHAge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiAxZW07XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9vdGVye1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYWxpZ24taXRlbXM6ZmxleC1zdGFydDtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuXG5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgICAgICAgYFxuICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICA8L3N0eWxlPlxuICAgICAgICAgICAgPC9mb290ZXI+XG4gICAgICAgIClcbiAgICB9XG59Il19 */\n/*@ sourceURL=/home/aaron/Documentos/Github/filippini_hospitalario/Client/components/Footer.js */")));
     }
   }]);
 
@@ -302,20 +156,23 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
 /* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
-/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
-/* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var _breakpoints__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../breakpoints */ "./breakpoints.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/assertThisInitialized */ "./node_modules/@babel/runtime-corejs2/helpers/esm/assertThisInitialized.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/defineProperty */ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_8__);
+/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../routes */ "./routes.js");
+/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(_routes__WEBPACK_IMPORTED_MODULE_9__);
+/* harmony import */ var _breakpoints__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! ../breakpoints */ "./breakpoints.js");
 
 
 
 
 
-var _jsxFileName = "C:\\Users\\Aaron\\Documents\\GitHub\\filippini_hospitalario\\Client\\components\\Header.js";
+
+
 
 
 
@@ -324,112 +181,97 @@ var _jsxFileName = "C:\\Users\\Aaron\\Documents\\GitHub\\filippini_hospitalario\
 var Header =
 /*#__PURE__*/
 function (_React$Component) {
-  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Header, _React$Component);
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_5__["default"])(Header, _React$Component);
 
   function Header() {
+    var _getPrototypeOf2;
+
+    var _this;
+
     Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Header);
 
-    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Header).apply(this, arguments));
+    for (var _len = arguments.length, args = new Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Header)).call.apply(_getPrototypeOf2, [this].concat(args)));
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "state", {
+      isOpened: false,
+      navBarTrasparent: false
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "handlerClickButtonBurguer", function (e) {
+      var currentState = _this.state;
+
+      _this.setState({
+        isOpened: !currentState.isOpened
+      });
+    });
+
+    return _this;
   }
 
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Header, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      var _this2 = this;
+
+      window.onscroll = function () {
+        if (window.pageYOffset >= 100) {
+          _this2.setState({
+            navBarTrasparent: true
+          });
+        } else {
+          _this2.setState({
+            navBarTrasparent: false
+          });
+        }
+      };
+    }
+  }, {
     key: "render",
     value: function render() {
-      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("header", {
-        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["401962819", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet]]]),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 8
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 10
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+      return react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("header", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default.a.dynamic([["1622611947", [_breakpoints__WEBPACK_IMPORTED_MODULE_10__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_10__["device"].tablet]]]) + " " + ((this.state.navBarTrasparent ? "background-navbar" : "") || "")
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_routes__WEBPACK_IMPORTED_MODULE_9__["Link"], {
+        key: "home",
+        route: "/"
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("img", {
         src: "/static/logo.svg",
-        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["401962819", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet]]]) + " " + "logo",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 10
-        },
-        __self: this
-      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("nav", {
-        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["401962819", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet]]]) + " " + "Menu",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 12
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/productos",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 14
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
-        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["401962819", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet]]]),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 14
-        },
-        __self: this
-      }, "Productos")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/contacto",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
-        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["401962819", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet]]]),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 15
-        },
-        __self: this
-      }, "Contacto")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/quienes-somos",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
-        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["401962819", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet]]]),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        },
-        __self: this
-      }, "Quienes Somos")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        href: "/preguntas-frecuentes",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("a", {
-        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["401962819", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet]]]),
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        },
-        __self: this
-      }, "Preguntas Frecuentes"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
-        id: "401962819",
-        dynamic: [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet],
-        __self: this
-      }, "header.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:100%;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:space-around;-webkit-justify-content:space-around;-ms-flex-pack:space-around;justify-content:space-around;position:relative;top:10px;}header.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{margin-left:20px;max-width:3%;Cursor:Pointer;}header.__jsx-style-dynamic-selector nav.__jsx-style-dynamic-selector{display:none;}header.__jsx-style-dynamic-selector nav.__jsx-style-dynamic-selector a.__jsx-style-dynamic-selector{-webkit-text-decoration:none;text-decoration:none;margin:0 20px;color:#113F67;}@media ".concat(_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, "{header.__jsx-style-dynamic-selector nav.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcQWFyb25cXERvY3VtZW50c1xcR2l0SHViXFxmaWxpcHBpbmlfaG9zcGl0YWxhcmlvXFxDbGllbnRcXGNvbXBvbmVudHNcXEhlYWRlci5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUF1QndCLEFBS3lDLEFBU0ksQUFNSixBQUlRLEFBT0osYUFWcEIsSUFOaUIsYUFDRSxlQUNuQixLQVFrQixjQUNELFVBcEJILEFBMEJWLElBTEosT0FwQnNCLHFFQUNBLDZGQUNVLDJIQUNYLGtCQUNULFNBQ1oiLCJmaWxlIjoiQzpcXFVzZXJzXFxBYXJvblxcRG9jdW1lbnRzXFxHaXRIdWJcXGZpbGlwcGluaV9ob3NwaXRhbGFyaW9cXENsaWVudFxcY29tcG9uZW50c1xcSGVhZGVyLmpzIiwic291cmNlc0NvbnRlbnQiOlsiXHJcbmltcG9ydCAgTGluayAgZnJvbSAnbmV4dC9saW5rJztcclxuaW1wb3J0IHsgZGV2aWNlIH0gZnJvbSAnLi4vYnJlYWtwb2ludHMnXHJcblxyXG5leHBvcnQgZGVmYXVsdCBjbGFzcyBIZWFkZXIgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnR7XHJcbiAgICByZW5kZXIoKXtcclxuICAgICAgICByZXR1cm4oXHJcbiAgICAgICAgICAgIDxoZWFkZXI+XHJcbiAgICAgICAgICAgICAgICBcclxuICAgICAgICAgICAgICAgIDxMaW5rIGhyZWY9XCIvXCI+PGltZyBjbGFzc05hbWU9XCJsb2dvXCIgc3JjPVwiL3N0YXRpYy9sb2dvLnN2Z1wiLz48L0xpbms+XHJcblxyXG4gICAgICAgICAgICAgICAgPG5hdiBjbGFzc05hbWU9XCJNZW51XCI+XHJcblxyXG4gICAgICAgICAgICAgICAgICAgIDxMaW5rIGhyZWY9XCIvcHJvZHVjdG9zXCI+PGE+UHJvZHVjdG9zPC9hPjwvTGluaz5cclxuICAgICAgICAgICAgICAgICAgICA8TGluayBocmVmPVwiL2NvbnRhY3RvXCI+PGE+Q29udGFjdG88L2E+PC9MaW5rPlxyXG4gICAgICAgICAgICAgICAgICAgIDxMaW5rIGhyZWY9XCIvcXVpZW5lcy1zb21vc1wiPjxhPlF1aWVuZXMgU29tb3M8L2E+PC9MaW5rPlxyXG4gICAgICAgICAgICAgICAgICAgIDxMaW5rIGhyZWY9XCIvcHJlZ3VudGFzLWZyZWN1ZW50ZXNcIj48YT5QcmVndW50YXMgRnJlY3VlbnRlczwvYT48L0xpbms+XHJcbiAgICAgICAgICAgICAgICAgICAgXHJcblxyXG4gICAgICAgICAgICAgICAgPC9uYXY+XHJcblxyXG4gICAgICAgICAgICAgICAgPHN0eWxlIGpzeD5cclxuICAgICAgICAgICAgICAgICAgICB7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGBcclxuICAgICAgICAgICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgICAgICAgICAgICBoZWFkZXJ7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OmZsZXg7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDoxMDAlO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgZmxleC1kaXJlY3Rpb246cm93O1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYWxpZ24taXRlbXM6Y2VudGVyO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAganVzdGlmeS1jb250ZW50OnNwYWNlLWFyb3VuZDtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBvc2l0aW9uOnJlbGF0aXZlO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgdG9wOjEwcHg7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICAgICAgICAgICAgaGVhZGVyIGltZ3tcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbi1sZWZ0OjIwcHg7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXgtd2lkdGg6IDMlO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgQ3Vyc29yOiBQb2ludGVyO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICAgICAgICAgICAgICBoZWFkZXIgbmF2e1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlzcGxheTpub25lO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICAgICAgICAgICAgICBoZWFkZXIgbmF2IGF7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0LWRlY29yYXRpb246bm9uZTtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbjogMCAyMHB4O1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IzExM0Y2NztcclxuICAgICAgICAgICAgICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICAgICAgICAgICAgICAgICAgQG1lZGlhICR7ZGV2aWNlLnRhYmxldH17XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWFkZXIgbmF2e1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6ZmxleDtcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICAgICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGBcclxuICAgICAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgICAgICA8L3N0eWxlPlxyXG4gICAgICAgICAgICA8L2hlYWRlcj5cclxuICAgICAgICApXHJcbiAgICB9XHJcbn0iXX0= */\n/*@ sourceURL=C:\\Users\\Aaron\\Documents\\GitHub\\filippini_hospitalario\\Client\\components\\Header.js */")));
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default.a.dynamic([["1622611947", [_breakpoints__WEBPACK_IMPORTED_MODULE_10__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_10__["device"].tablet]]]) + " " + "logo"
+      })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        onClick: this.handlerClickButtonBurguer,
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default.a.dynamic([["1622611947", [_breakpoints__WEBPACK_IMPORTED_MODULE_10__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_10__["device"].tablet]]]) + " " + ("hamburguer-icon " + (this.state.isOpened ? "opened" : "") || false)
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default.a.dynamic([["1622611947", [_breakpoints__WEBPACK_IMPORTED_MODULE_10__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_10__["device"].tablet]]]) + " " + "hamburguer-line line1"
+      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default.a.dynamic([["1622611947", [_breakpoints__WEBPACK_IMPORTED_MODULE_10__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_10__["device"].tablet]]]) + " " + "hamburguer-line line2"
+      }), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("div", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default.a.dynamic([["1622611947", [_breakpoints__WEBPACK_IMPORTED_MODULE_10__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_10__["device"].tablet]]]) + " " + "hamburguer-line line3"
+      })), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("nav", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default.a.dynamic([["1622611947", [_breakpoints__WEBPACK_IMPORTED_MODULE_10__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_10__["device"].tablet]]]) + " " + ("menu-navigation " + (this.state.isOpened ? "opened" : "") || false)
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_routes__WEBPACK_IMPORTED_MODULE_9__["Link"], {
+        href: "/"
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default.a.dynamic([["1622611947", [_breakpoints__WEBPACK_IMPORTED_MODULE_10__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_10__["device"].tablet]]])
+      }, "Inicio")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_routes__WEBPACK_IMPORTED_MODULE_9__["Link"], {
+        href: "/productos"
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default.a.dynamic([["1622611947", [_breakpoints__WEBPACK_IMPORTED_MODULE_10__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_10__["device"].tablet]]])
+      }, "Productos")), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(_routes__WEBPACK_IMPORTED_MODULE_9__["Link"], {
+        href: "/Contacto"
+      }, react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement("a", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default.a.dynamic([["1622611947", [_breakpoints__WEBPACK_IMPORTED_MODULE_10__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_10__["device"].tablet]]])
+      }, "Contacto"))), react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_7___default.a, {
+        id: "1622611947",
+        dynamic: [_breakpoints__WEBPACK_IMPORTED_MODULE_10__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_10__["device"].tablet]
+      }, "header.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;width:100%;position:fixed;z-index:100;top:0;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;-webkit-transition:all .3s;transition:all .3s;}.background-navbar.__jsx-style-dynamic-selector{background:white;height:70px;-webkit-transition:all .3s;transition:all .3s;box-shadow:0 3px 6px rgba(0,0,0,0.16),0 3px 6px rgba(0,0,0,0.23);}.background-navbar.__jsx-style-dynamic-selector .logo.__jsx-style-dynamic-selector{max-width:35px;-webkit-transition:all .3s;transition:all .3s;margin:10px;}header.__jsx-style-dynamic-selector .logo.__jsx-style-dynamic-selector{margin:20px;max-width:50px;cursor:pointer;-webkit-transition:all .3s;transition:all .3s;}header.__jsx-style-dynamic-selector .menu-navigation.__jsx-style-dynamic-selector{width:100vw;height:100%;background:rgba(52,105,154,1);background:linear-gradient(to bottom,rgba(52,105,154,1) 0%,rgba(17,63,103,1) 95%,rgba(17,63,103,1) 100%);-webkit-filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#34699a',endColorstr='#113f67',GradientType=0 );filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#34699a',endColorstr='#113f67',GradientType=0 );position:fixed;top:0;display:none;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;z-index:102;-webkit-transition:.3s all;transition:.3s all;}header.__jsx-style-dynamic-selector .menu-navigation.__jsx-style-dynamic-selector a.__jsx-style-dynamic-selector{opacity:0;margin:10px 0;-webkit-text-decoration:none;text-decoration:none;color:#fff;padding:10px 20px;font-size:1.1em;text-transform:uppercase;}header.__jsx-style-dynamic-selector .menu-navigation.opened.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation:fadeIn-__jsx-style-dynamic-selector .5s;animation:fadeIn-__jsx-style-dynamic-selector .5s;}header.__jsx-style-dynamic-selector .menu-navigation.opened.__jsx-style-dynamic-selector a.__jsx-style-dynamic-selector:nth-child(1){-webkit-animation-name:fadeIn-__jsx-style-dynamic-selector;animation-name:fadeIn-__jsx-style-dynamic-selector;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation-duration:.5s;animation-duration:.5s;-webkit-animation-delay:.1s;animation-delay:.1s;}header.__jsx-style-dynamic-selector .menu-navigation.opened.__jsx-style-dynamic-selector a.__jsx-style-dynamic-selector:nth-child(2){-webkit-animation-name:fadeIn-__jsx-style-dynamic-selector;animation-name:fadeIn-__jsx-style-dynamic-selector;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation-duration:.5s;animation-duration:.5s;-webkit-animation-delay:.4s;animation-delay:.4s;}header.__jsx-style-dynamic-selector .menu-navigation.opened.__jsx-style-dynamic-selector a.__jsx-style-dynamic-selector:nth-child(3){-webkit-animation-name:fadeIn-__jsx-style-dynamic-selector;animation-name:fadeIn-__jsx-style-dynamic-selector;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation-duration:.5s;animation-duration:.5s;-webkit-animation-delay:.7s;animation-delay:.7s;}header.__jsx-style-dynamic-selector .menu-navigation.opened.__jsx-style-dynamic-selector a.__jsx-style-dynamic-selector:nth-child(4){-webkit-animation-name:fadeIn-__jsx-style-dynamic-selector;animation-name:fadeIn-__jsx-style-dynamic-selector;-webkit-animation-fill-mode:forwards;animation-fill-mode:forwards;-webkit-animation-duration:.5s;animation-duration:.5s;-webkit-animation-delay:1s;animation-delay:1s;}.hamburguer-icon.__jsx-style-dynamic-selector{position:absolute;right:10px;cursor:pointer;z-index:1000;-webkit-transition:all 0.325s ease;transition:all 0.325s ease;}.hamburguer-icon.__jsx-style-dynamic-selector .hamburguer-line.__jsx-style-dynamic-selector{width:25px;margin:10px;border:2px solid #113F67;-webkit-transition:all 0.325s ease;transition:all 0.325s ease;border-radius:12px;position:relattive;z-index:103;}.hamburguer-icon.opened.__jsx-style-dynamic-selector .hamburguer-line.__jsx-style-dynamic-selector{border:2px solid white;}.hamburguer-icon.opened.__jsx-style-dynamic-selector .line1.__jsx-style-dynamic-selector{-webkit-transform:rotate(45deg) translate(19px);-ms-transform:rotate(45deg) translate(19px);transform:rotate(45deg) translate(19px);}.hamburguer-icon.opened.__jsx-style-dynamic-selector .line2.__jsx-style-dynamic-selector{opacity:0;}.hamburguer-icon.opened.__jsx-style-dynamic-selector .line3.__jsx-style-dynamic-selector{-webkit-transform:rotate(-45deg) translate(20px);-ms-transform:rotate(-45deg) translate(20px);transform:rotate(-45deg) translate(20px);}@-webkit-keyframes fadeIn-__jsx-style-dynamic-selector{0%{opacity:0;}100%{opacity:1;}}@keyframes fadeIn-__jsx-style-dynamic-selector{0%{opacity:0;}100%{opacity:1;}}@media ".concat(_breakpoints__WEBPACK_IMPORTED_MODULE_10__["device"].tablet, "{.hamburguer-icon.__jsx-style-dynamic-selector{display:none;}header.__jsx-style-dynamic-selector{-webkit-align-items:space-between;-webkit-box-align:space-between;-ms-flex-align:space-between;align-items:space-between;-webkit-box-pack:justify;-webkit-justify-content:space-between;-ms-flex-pack:justify;justify-content:space-between;}header.__jsx-style-dynamic-selector .menu-navigation.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;position:relative;background:none;width:auto;height:auto;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;}header.__jsx-style-dynamic-selector .menu-navigation.__jsx-style-dynamic-selector a.__jsx-style-dynamic-selector{opacity:1;color:#113F67;margin:0 10px;padding:0;font-size:1em;text-transform:initial;-webkit-transition:all .4s;transition:all .4s;}header.__jsx-style-dynamic-selector .menu-navigation.__jsx-style-dynamic-selector a.__jsx-style-dynamic-selector:hover{-webkit-transform:scale(1.1);-ms-transform:scale(1.1);transform:scale(1.1);padding:0 5px;}}@media ").concat(_breakpoints__WEBPACK_IMPORTED_MODULE_10__["device"].tablet, "{nav.__jsx-style-dynamic-selector{position:relative;left:-50px;}header.__jsx-style-dynamic-selector .logo.__jsx-style-dynamic-selector{max-width:60px;position:relative;left:50px;}header.__jsx-style-dynamic-selector .menu-navigation.__jsx-style-dynamic-selector{font-size:1.05em;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2Fhcm9uL0RvY3VtZW50b3MvR2l0aHViL2ZpbGlwcGluaV9ob3NwaXRhbGFyaW8vQ2xpZW50L2NvbXBvbmVudHMvSGVhZGVyLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQXdEd0IsQUFJeUMsQUFZSyxBQU9GLEFBTUosQUFPQSxBQWdCRixBQVVHLEFBTVUsQUFTQSxBQVNBLEFBU0EsQUFRTCxBQVVOLEFBV1ksQUFJaUIsQUFJOUIsQUFJK0IsQUFJekIsQUFDQSxBQU9BLEFBSWEsQUFLYixBQVNILEFBV1ksQUFTSixBQUtILEFBS0UsVUEvSU4sQUFnRmxCLEFBT3FCLEFBQ0EsQUEwQkEsQ0FyREwsQ0FwRkcsQUFPSixDQWdIWCxFQTdIbUIsQUF3S0UsRUEvS1YsQUFvTFgsQ0E3RlUsQUFtRkksS0F4RVcsQUFVN0IsQ0F2RmtDLEFBZ0JWLEFBa0hILEdBeklGLEVBYkksQUF1RkwsQUFtRmQsSUFNRCxLQXpCYyxJQXpJTSxDQWtLbkIsQ0F4RlksSUFVZSxBQXNEVCxNQW5JMEYsR0FvRWpGLElBbEZoQixDQWtKZ0IsV0FqSi9CLENBckJjLEFBa0RBLEFBUW1CLEFBK0ZSLENBM0k2QyxBQStKakQsVUE1S0gsQUFrREksQUFvSEssR0EzSTNCLENBa0pJLEdBcEJtQixRQXhKUixHQWtESSxLQXVHRCxFQTNGZSxBQVNBLEFBU0EsQUFTQSxBQXFCVixFQTdHZCxNQUNhLENBaURPLEFBa0Q3QixBQXFEbUIsRUFSa0IsUUFuQ2YsRUE0Q0ssQUFZdkIsQ0E3Q0osR0FRQSxLQXJIQSxBQTRDeUIsSUFMekIsSUE0RGUsV0EvRXlHLENBZ0Z4SCxnQkFsRDJCLEFBU0EsQUFTQSxBQVNBLFdBdkZMLGFBeUpsQiw4QkE1Rm9CLEFBU0EsQUFTQSxBQVNELE1Bd0RuQixZQXpGSiw0QkFtQ0EsRUEzQkEsQUFTQSxBQVNBLEVBaEZpQyxtSEFDVixBQTZCTCxlQUNULE1BQ08sYUFDTSxZQS9CdEIsaUZBZ0MwQixtR0FDQSw4RUFDWCxZQUNPLDhDQUN0QiIsImZpbGUiOiIvaG9tZS9hYXJvbi9Eb2N1bWVudG9zL0dpdGh1Yi9maWxpcHBpbmlfaG9zcGl0YWxhcmlvL0NsaWVudC9jb21wb25lbnRzL0hlYWRlci5qcyIsInNvdXJjZXNDb250ZW50IjpbIlxuaW1wb3J0ICB7IExpbmsgfSAgZnJvbSAnLi4vcm91dGVzJztcbmltcG9ydCB7IGRldmljZSB9IGZyb20gJy4uL2JyZWFrcG9pbnRzJ1xuXG5leHBvcnQgZGVmYXVsdCBjbGFzcyBIZWFkZXIgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnR7XG5cblxuICAgIHN0YXRlID0ge1xuICAgICAgICBpc09wZW5lZDogZmFsc2UsXG4gICAgICAgIG5hdkJhclRyYXNwYXJlbnQgOiBmYWxzZVxuICAgIH1cbiAgICBcblxuXG4gICAgY29tcG9uZW50RGlkTW91bnQoKXtcbiAgICAgICAgd2luZG93Lm9uc2Nyb2xsID0gKCkgPT57XG4gICAgICAgICAgICBpZih3aW5kb3cucGFnZVlPZmZzZXQgPj0xMDApe1xuICAgICAgICAgICAgICAgIHRoaXMuc2V0U3RhdGUoe1xuICAgICAgICAgICAgICAgICAgICBuYXZCYXJUcmFzcGFyZW50IDogdHJ1ZVxuICAgICAgICAgICAgICAgIH0pXG4gICAgICAgICAgICB9ZWxzZXtcbiAgICAgICAgICAgICAgICB0aGlzLnNldFN0YXRlKHtcbiAgICAgICAgICAgICAgICAgICAgbmF2QmFyVHJhc3BhcmVudCA6IGZhbHNlXG4gICAgICAgICAgICAgICAgfSlcbiAgICAgICAgICAgIH1cbiAgICAgICAgfVxuICAgIH1cblxuICAgIGhhbmRsZXJDbGlja0J1dHRvbkJ1cmd1ZXIgPSAoZSkgPT4ge1xuICAgICAgICBsZXQgY3VycmVudFN0YXRlID0gdGhpcy5zdGF0ZVxuICAgICAgICB0aGlzLnNldFN0YXRlKHtcbiAgICAgICAgICAgIGlzT3BlbmVkOiFjdXJyZW50U3RhdGUuaXNPcGVuZWRcbiAgICAgICAgfSlcbiAgICB9XG5cbiAgICByZW5kZXIoKXtcbiAgICAgICAgcmV0dXJuKFxuICAgICAgICAgICAgPGhlYWRlciBjbGFzc05hbWU9eyh0aGlzLnN0YXRlLm5hdkJhclRyYXNwYXJlbnQgPyBcImJhY2tncm91bmQtbmF2YmFyXCIgOiBcIlwiKX0+XG4gICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgPExpbmsga2V5PVwiaG9tZVwiIHJvdXRlPVwiL1wiPjxpbWcgY2xhc3NOYW1lPVwibG9nb1wiIHNyYz1cIi9zdGF0aWMvbG9nby5zdmdcIi8+PC9MaW5rPlxuXG5cbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT17XCJoYW1idXJndWVyLWljb24gXCIgKyAgKHRoaXMuc3RhdGUuaXNPcGVuZWQgPyBcIm9wZW5lZFwiIDogXCJcIikgIH0gb25DbGljaz17dGhpcy5oYW5kbGVyQ2xpY2tCdXR0b25CdXJndWVyfT5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJoYW1idXJndWVyLWxpbmUgbGluZTFcIj48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJoYW1idXJndWVyLWxpbmUgbGluZTJcIj48L2Rpdj5cbiAgICAgICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJoYW1idXJndWVyLWxpbmUgbGluZTNcIj48L2Rpdj5cbiAgICAgICAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgICAgICAgIDxuYXYgY2xhc3NOYW1lPXtcIm1lbnUtbmF2aWdhdGlvbiBcIiArICAodGhpcy5zdGF0ZS5pc09wZW5lZCA/IFwib3BlbmVkXCIgOiBcIlwiKSAgfT5cbiAgICAgICAgICAgICAgICAgICAgPExpbmsgaHJlZj1cIi9cIj48YT5JbmljaW88L2E+PC9MaW5rPlxuICAgICAgICAgICAgICAgICAgICA8TGluayBocmVmPVwiL3Byb2R1Y3Rvc1wiPjxhPlByb2R1Y3RvczwvYT48L0xpbms+XG4gICAgICAgICAgICAgICAgICAgIDxMaW5rIGhyZWY9XCIvQ29udGFjdG9cIj48YT5Db250YWN0bzwvYT48L0xpbms+XG4gICAgICAgICAgICAgICAgPC9uYXY+XG5cbiAgICAgICAgICAgICAgICA8c3R5bGUganN4PlxuICAgICAgICAgICAgICAgICAgICB7XG4gICAgICAgICAgICAgICAgICAgICAgICBgXG4gICAgICAgICAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICAgICAgICAgIGhlYWRlcntcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OmZsZXg7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6MTAwJTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwb3NpdGlvbjpmaXhlZDtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB6LWluZGV4OjEwMDtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0b3A6MDtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmbGV4LWRpcmVjdGlvbjpyb3c7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYWxpZ24taXRlbXM6Y2VudGVyO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGp1c3RpZnktY29udGVudDpzcGFjZS1iZXR3ZWVuO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYW5zaXRpb246IGFsbCAuM3M7XG4gICAgICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgICAgIC5iYWNrZ3JvdW5kLW5hdmJhcntcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiB3aGl0ZTsgIFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlaWdodDo3MHB4O1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYW5zaXRpb246IGFsbCAuM3M7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYm94LXNoYWRvdzogMCAzcHggNnB4IHJnYmEoMCwwLDAsMC4xNiksIDAgM3B4IDZweCByZ2JhKDAsMCwwLDAuMjMpO1xuICAgICAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgICAgICAuYmFja2dyb3VuZC1uYXZiYXIgLmxvZ297XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgbWF4LXdpZHRoOiAzNXB4O1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYW5zaXRpb246IGFsbCAuM3M7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luOjEwcHg7XG4gICAgICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgICAgIGhlYWRlciAubG9nb3tcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW46MjBweDtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXgtd2lkdGg6IDUwcHg7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgY3Vyc29yOiBwb2ludGVyO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYW5zaXRpb246IGFsbCAuM3M7XG4gICAgICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgICAgIGhlYWRlciAubWVudS1uYXZpZ2F0aW9ue1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOjEwMHZ3O1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlaWdodDoxMDAlO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6IHJnYmEoNTIsMTA1LDE1NCwxKTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiBsaW5lYXItZ3JhZGllbnQodG8gYm90dG9tLCByZ2JhKDUyLDEwNSwxNTQsMSkgMCUsIHJnYmEoMTcsNjMsMTAzLDEpIDk1JSwgcmdiYSgxNyw2MywxMDMsMSkgMTAwJSk7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgZmlsdGVyOiBwcm9naWQ6RFhJbWFnZVRyYW5zZm9ybS5NaWNyb3NvZnQuZ3JhZGllbnQoIHN0YXJ0Q29sb3JzdHI9JyMzNDY5OWEnLCBlbmRDb2xvcnN0cj0nIzExM2Y2NycsIEdyYWRpZW50VHlwZT0wICk7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgcG9zaXRpb246Zml4ZWQ7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgdG9wOjA7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlzcGxheTpub25lO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFsaWduLWl0ZW1zOmNlbnRlcjtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6Y2VudGVyO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgei1pbmRleDoxMDI7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJhbnNpdGlvbjouM3MgYWxsO1xuICAgICAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgICAgICBoZWFkZXIgLm1lbnUtbmF2aWdhdGlvbiBhe1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIG9wYWNpdHk6MDtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW46IDEwcHggMDtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0LWRlY29yYXRpb246bm9uZTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjojZmZmO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmc6IDEwcHggMjBweDtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6MS4xZW07XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICAgICAgICAgIGhlYWRlciAubWVudS1uYXZpZ2F0aW9uLm9wZW5lZHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OmZsZXg7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYW5pbWF0aW9uLWZpbGwtbW9kZTogZm9yd2FyZHM7IFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFuaW1hdGlvbjogZmFkZUluIC41cztcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICAgICAgaGVhZGVyIC5tZW51LW5hdmlnYXRpb24ub3BlbmVkIGE6bnRoLWNoaWxkKDEpIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbmltYXRpb24tbmFtZTogZmFkZUluO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFuaW1hdGlvbi1maWxsLW1vZGU6IGZvcndhcmRzOyBcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbmltYXRpb24tZHVyYXRpb246IC41cztcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbmltYXRpb24tZGVsYXk6IC4xcztcblxuICAgICAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICAgICAgICAgIGhlYWRlciAubWVudS1uYXZpZ2F0aW9uLm9wZW5lZCBhOm50aC1jaGlsZCgyKSB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYW5pbWF0aW9uLW5hbWU6IGZhZGVJbjtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbmltYXRpb24tZmlsbC1tb2RlOiBmb3J3YXJkczsgXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYW5pbWF0aW9uLWR1cmF0aW9uOiAuNXM7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYW5pbWF0aW9uLWRlbGF5OiAuNHM7XG5cbiAgICAgICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgICAgICBoZWFkZXIgLm1lbnUtbmF2aWdhdGlvbi5vcGVuZWQgYTpudGgtY2hpbGQoMykge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFuaW1hdGlvbi1uYW1lOiBmYWRlSW47XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYW5pbWF0aW9uLWZpbGwtbW9kZTogZm9yd2FyZHM7IFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFuaW1hdGlvbi1kdXJhdGlvbjogLjVzO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFuaW1hdGlvbi1kZWxheTogLjdzO1xuXG4gICAgICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgICAgICAgaGVhZGVyIC5tZW51LW5hdmlnYXRpb24ub3BlbmVkIGE6bnRoLWNoaWxkKDQpIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbmltYXRpb24tbmFtZTogZmFkZUluO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGFuaW1hdGlvbi1maWxsLW1vZGU6IGZvcndhcmRzOyBcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbmltYXRpb24tZHVyYXRpb246IC41cztcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbmltYXRpb24tZGVsYXk6IDFzO1xuXG4gICAgICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgICAgIC5oYW1idXJndWVyLWljb257XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgcG9zaXRpb246YWJzb2x1dGU7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgcmlnaHQ6MTBweDtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBjdXJzb3I6cG9pbnRlcjtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB6LWluZGV4OjEwMDA7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJhbnNpdGlvbjogYWxsIDAuMzI1cyBlYXNlO1xuICAgICAgICAgICAgICAgICAgICAgICAgfVxuXG5cblxuICAgICAgICAgICAgICAgICAgICAgICAgLmhhbWJ1cmd1ZXItaWNvbiAuaGFtYnVyZ3Vlci1saW5lIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogMjVweDtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW46IDEwcHg7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyOiAycHggc29saWQgIzExM0Y2NztcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cmFuc2l0aW9uOiBhbGwgMC4zMjVzIGVhc2U7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogMTJweDtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwb3NpdGlvbjpyZWxhdHRpdmU7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgei1pbmRleDoxMDM7XG4gICAgICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICBcbiAgICAgICAgICAgICAgICAgICAgICAgIC5oYW1idXJndWVyLWljb24ub3BlbmVkIC5oYW1idXJndWVyLWxpbmUge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlcjogMnB4IHNvbGlkIHdoaXRlO1xuICAgICAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgICAgICAuaGFtYnVyZ3Vlci1pY29uLm9wZW5lZCAubGluZTEge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYW5zZm9ybTogcm90YXRlKDQ1ZGVnKSB0cmFuc2xhdGUoMTlweCk7XG4gICAgICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgICAgIC5oYW1idXJndWVyLWljb24ub3BlbmVkIC5saW5lMiB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgb3BhY2l0eTogMDtcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICAgICAgLmhhbWJ1cmd1ZXItaWNvbi5vcGVuZWQgLmxpbmUzIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cmFuc2Zvcm06IHJvdGF0ZSgtNDVkZWcpIHRyYW5zbGF0ZSgyMHB4KTtcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICAgICAgQGtleWZyYW1lcyBmYWRlSW57XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgMCUgICB7IG9wYWNpdHk6IDA7IH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAxMDAlIHsgb3BhY2l0eTogMTsgfVxuICAgICAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgICAgICBAbWVkaWEgJHtkZXZpY2UudGFibGV0fXtcblxuXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgLmhhbWJ1cmd1ZXItaWNvbntcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlzcGxheTpub25lO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhlYWRlcntcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgYWxpZ24taXRlbXM6c3BhY2UtYmV0d2VlbjtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAganVzdGlmeS1jb250ZW50OnNwYWNlLWJldHdlZW47XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgaGVhZGVyIC5tZW51LW5hdmlnYXRpb257XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6ZmxleDtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcG9zaXRpb246cmVsYXRpdmU7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6bm9uZTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6YXV0bztcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgaGVpZ2h0OmF1dG87XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiByb3c7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgaGVhZGVyIC5tZW51LW5hdmlnYXRpb24gYXtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgb3BhY2l0eToxO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjojMTEzRjY3O1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW46MCAxMHB4O1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOjA7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogMWVtO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0LXRyYW5zZm9ybTogaW5pdGlhbDtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgdHJhbnNpdGlvbjogYWxsIC40czsgXG5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWFkZXIgLm1lbnUtbmF2aWdhdGlvbiBhOmhvdmVye1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICB0cmFuc2Zvcm06IHNjYWxlKDEuMSk7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmc6MCA1cHg7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgICAgIEBtZWRpYSAke2RldmljZS50YWJsZXR9e1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIG5hdntcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcG9zaXRpb246cmVsYXRpdmU7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxlZnQ6LTUwcHg7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgaGVhZGVyIC5sb2dve1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBtYXgtd2lkdGg6NjBweDtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgcG9zaXRpb246cmVsYXRpdmU7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGxlZnQ6IDUwcHhcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgaGVhZGVyIC5tZW51LW5hdmlnYXRpb257XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnQtc2l6ZToxLjA1ZW07XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICAgICAgICAgIGBcbiAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgIDwvc3R5bGU+XG4gICAgICAgICAgICA8L2hlYWRlcj5cbiAgICAgICAgKVxuICAgIH1cbn0iXX0= */\n/*@ sourceURL=/home/aaron/Documentos/Github/filippini_hospitalario/Client/components/Header.js */")));
     }
   }]);
 
   return Header;
-}(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
+}(react__WEBPACK_IMPORTED_MODULE_8___default.a.Component);
 
 
 
@@ -454,14 +296,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next-server/head */ "./node_modules/next-server/head.js");
-/* harmony import */ var next_server_head__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_server_head__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! next/head */ "./node_modules/next-server/dist/lib/head.js");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_7__);
 
 
 
 
 
-var _jsxFileName = "C:\\Users\\Aaron\\Documents\\GitHub\\filippini_hospitalario\\Client\\components\\Layout.js";
 
 
 
@@ -484,47 +325,24 @@ function (_React$Component) {
           children = _this$props.children,
           title = _this$props.title;
       return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("main", {
-        className: "jsx-3144423092",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 8
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_server_head__WEBPACK_IMPORTED_MODULE_7___default.a, {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 10
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("title", {
-        className: "jsx-3144423092",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 11
-        },
-        __self: this
+        className: "jsx-2198137848"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_head__WEBPACK_IMPORTED_MODULE_7___default.a, null, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("title", {
+        className: "jsx-2198137848"
       }, title), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("meta", {
         name: "viewport",
-        content: "width=device-width",
-        className: "jsx-3144423092",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 12
-        },
-        __self: this
+        content: "width=device-width, initial-scale=1.0",
+        className: "jsx-2198137848"
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("link", {
         rel: "stylesheet",
         href: "https://use.fontawesome.com/releases/v5.8.1/css/all.css",
-        className: "jsx-3144423092",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 13
-        },
-        __self: this
+        className: "jsx-2198137848"
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("link", {
+        rel: "stylesheet",
+        href: "https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css",
+        className: "jsx-2198137848"
       })), children, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
-        id: "3144423092",
-        __self: this
-      }, "@font-face{font-family:Roboto-Regular;src:url(../fonts/Roboto-Regular.ttf);}body{margin:0;font-family:Roboto-Regular,sans-serif;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcQWFyb25cXERvY3VtZW50c1xcR2l0SHViXFxmaWxpcHBpbmlfaG9zcGl0YWxhcmlvXFxDbGllbnRcXGNvbXBvbmVudHNcXExheW91dC5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFpQitCLEFBRzhCLEFBS2tCLFNBSlksa0JBS0Ysb0JBSnpDLGlCQUtBIiwiZmlsZSI6IkM6XFxVc2Vyc1xcQWFyb25cXERvY3VtZW50c1xcR2l0SHViXFxmaWxpcHBpbmlfaG9zcGl0YWxhcmlvXFxDbGllbnRcXGNvbXBvbmVudHNcXExheW91dC5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCBIZWFkIGZyb20gJ25leHQvaGVhZCdcclxuXHJcbmV4cG9ydCBkZWZhdWx0IGNsYXNzIGV4dGVuZHMgUmVhY3QuQ29tcG9uZW50e1xyXG4gICAgcmVuZGVyKCkge1xyXG4gICAgICAgIFxyXG4gICAgICAgIGNvbnN0IHsgY2hpbGRyZW4sIHRpdGxlIH0gPSB0aGlzLnByb3BzXHJcbiAgICBcclxuICAgICAgICByZXR1cm4oIDxtYWluPlxyXG4gICAgICAgICAgICBcclxuICAgICAgICAgICAgPEhlYWQ+XHJcbiAgICAgICAgICAgICAgICA8dGl0bGU+eyB0aXRsZSB9PC90aXRsZT5cclxuICAgICAgICAgICAgICAgIDxtZXRhIG5hbWU9XCJ2aWV3cG9ydFwiIGNvbnRlbnQ9XCJ3aWR0aD1kZXZpY2Utd2lkdGhcIi8+XHJcbiAgICAgICAgICAgICAgICA8bGluayByZWw9XCJzdHlsZXNoZWV0XCIgaHJlZj1cImh0dHBzOi8vdXNlLmZvbnRhd2Vzb21lLmNvbS9yZWxlYXNlcy92NS44LjEvY3NzL2FsbC5jc3NcIj48L2xpbms+XHJcbiAgICAgICAgICAgIDwvSGVhZD5cclxuICAgIFxyXG4gICAgICAgICAgICB7IGNoaWxkcmVuIH1cclxuXHJcbiAgICAgICAgICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgXHJcbiAgICAgICAgICAgICAgICBib2R5IHtcclxuICAgICAgICAgICAgICAgICAgICBtYXJnaW46IDA7XHJcbiAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk6IFJvYm90by1SZWd1bGFyLCBzYW5zLXNlcmlmO1xyXG4gICAgICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICAgICAgICAgIEBmb250LWZhY2Uge1xyXG4gICAgICAgICAgICAgICAgICAgIGZvbnQtZmFtaWx5OiBSb2JvdG8tUmVndWxhcjtcclxuICAgICAgICAgICAgICAgICAgICBzcmM6IHVybCguLi9mb250cy9Sb2JvdG8tUmVndWxhci50dGYpO1xyXG4gICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICBgfTwvc3R5bGU+XHJcbiAgICAgICAgPC9tYWluPlxyXG4pXHJcbiAgICB9XHJcbn0iXX0= */\n/*@ sourceURL=C:\\Users\\Aaron\\Documents\\GitHub\\filippini_hospitalario\\Client\\components\\Layout.js */"));
+        id: "2198137848"
+      }, "@font-face{font-family:Roboto-Regular;src:url(static/fonts/Roboto-Regular.ttf);}body{margin:0;font-family:Roboto-Regular,sans-serif;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2Fhcm9uL0RvY3VtZW50b3MvR2l0aHViL2ZpbGlwcGluaV9ob3NwaXRhbGFyaW8vQ2xpZW50L2NvbXBvbmVudHMvTGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQW1CK0IsQUFHOEIsQUFLa0IsU0FKWSxrQkFLRSxvQkFKN0MscUJBS0EiLCJmaWxlIjoiL2hvbWUvYWFyb24vRG9jdW1lbnRvcy9HaXRodWIvZmlsaXBwaW5pX2hvc3BpdGFsYXJpby9DbGllbnQvY29tcG9uZW50cy9MYXlvdXQuanMiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgSGVhZCBmcm9tICduZXh0L2hlYWQnXG5cblxuZXhwb3J0IGRlZmF1bHQgY2xhc3MgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnR7XG4gICAgcmVuZGVyKCkge1xuICAgICAgICBcbiAgICAgICAgY29uc3QgeyBjaGlsZHJlbiwgdGl0bGUgfSA9IHRoaXMucHJvcHNcbiAgICBcbiAgICAgICAgcmV0dXJuKCA8bWFpbj5cbiAgICAgICAgICAgIFxuICAgICAgICAgICAgPEhlYWQ+XG4gICAgICAgICAgICAgICAgPHRpdGxlPnsgdGl0bGUgfTwvdGl0bGU+XG4gICAgICAgICAgICAgICAgPG1ldGEgbmFtZT1cInZpZXdwb3J0XCIgY29udGVudD1cIndpZHRoPWRldmljZS13aWR0aCwgaW5pdGlhbC1zY2FsZT0xLjBcIi8+XG4gICAgICAgICAgICAgICAgPGxpbmsgcmVsPVwic3R5bGVzaGVldFwiIGhyZWY9XCJodHRwczovL3VzZS5mb250YXdlc29tZS5jb20vcmVsZWFzZXMvdjUuOC4xL2Nzcy9hbGwuY3NzXCI+PC9saW5rPlxuICAgICAgICAgICAgICAgIDxsaW5rIHJlbD1cInN0eWxlc2hlZXRcIiBocmVmPVwiaHR0cHM6Ly9jZG5qcy5jbG91ZGZsYXJlLmNvbS9hamF4L2xpYnMvYW5pbWF0ZS5jc3MvMy41LjIvYW5pbWF0ZS5taW4uY3NzXCI+PC9saW5rPlxuICAgICAgICAgICAgPC9IZWFkPlxuICAgIFxuICAgICAgICAgICAgeyBjaGlsZHJlbiB9XG5cbiAgICAgICAgICAgIDxzdHlsZSBqc3ggZ2xvYmFsPntgXG4gICAgICAgICAgICAgICAgYm9keSB7XG4gICAgICAgICAgICAgICAgICAgIG1hcmdpbjogMDtcbiAgICAgICAgICAgICAgICAgICAgZm9udC1mYW1pbHk6IFJvYm90by1SZWd1bGFyLCBzYW5zLXNlcmlmO1xuICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgIEBmb250LWZhY2Uge1xuICAgICAgICAgICAgICAgICAgICBmb250LWZhbWlseTogUm9ib3RvLVJlZ3VsYXI7XG4gICAgICAgICAgICAgICAgICAgIHNyYzogdXJsKHN0YXRpYy9mb250cy9Sb2JvdG8tUmVndWxhci50dGYpO1xuICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgIGB9PC9zdHlsZT5cbiAgICAgICAgPC9tYWluPlxuKVxuICAgIH1cbn1cbiJdfQ== */\n/*@ sourceURL=/home/aaron/Documentos/Github/filippini_hospitalario/Client/components/Layout.js */"));
     }
   }]);
 
@@ -532,6 +350,170 @@ function (_React$Component) {
 }(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
 
 
+
+/***/ }),
+
+/***/ "./components/Producto.js":
+/*!********************************!*\
+  !*** ./components/Producto.js ***!
+  \********************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return Producto; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../routes */ "./routes.js");
+/* harmony import */ var _routes__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(_routes__WEBPACK_IMPORTED_MODULE_7__);
+/* harmony import */ var _breakpoints__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! ../breakpoints */ "./breakpoints.js");
+/* harmony import */ var _helpers_slug__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../helpers/slug */ "./helpers/slug.js");
+
+
+
+
+
+
+
+
+
+
+
+var Producto =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(Producto, _React$Component);
+
+  function Producto() {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, Producto);
+
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(Producto).apply(this, arguments));
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(Producto, [{
+    key: "render",
+    value: function render() {
+      var _this$props = this.props,
+          titulo = _this$props.titulo,
+          precio = _this$props.precio,
+          imagen = _this$props.imagen,
+          id = _this$props.id;
+      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1900763309", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]]) + " " + "producto"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
+        src: imagen,
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1900763309", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]]) + " " + "imagen-producto"
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1900763309", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]])
+      }, titulo), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1900763309", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]])
+      }, precio), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_routes__WEBPACK_IMPORTED_MODULE_7__["Link"], {
+        route: "/producto/",
+        params: {
+          id: id,
+          slug: "slug-generico"
+        }
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("button", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1900763309", [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]]]) + " " + "btn-productos"
+      }, "M\xE1s Detalles")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
+        id: "1900763309",
+        dynamic: [_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop]
+      }, ".producto.__jsx-style-dynamic-selector{width:80%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;height:auto;margin:2%;text-align:center;padding:20px 5px;border:1px solid #eaeaea;border-radius:10px;box-shadow:5px 5px 8px #EFEFEF;}.producto.__jsx-style-dynamic-selector p.__jsx-style-dynamic-selector{color:#34699A;font-weight:550;font-size:0.8em;margin:10px;}.producto.__jsx-style-dynamic-selector .imagen-producto.__jsx-style-dynamic-selector{max-width:90%;}.btn-productos.__jsx-style-dynamic-selector{border:none;width:70%;height:30px;text-align:center;-webkit-text-decoration:none;text-decoration:none;border-radius:15px;cursor:pointer;-webkit-transition:all .3s;transition:all .3s;font-size:80%;color:white;background-color:#34699A;position:relative;box-shadow:0 8px 16px 0 rgba(0,0,0,0.2);}.btn-productos.__jsx-style-dynamic-selector:hover{background-color:#113F67;box-shadow:0 12px 14px 0 rgba(0,0,0,0.30);}@media ".concat(_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].tablet, "{.producto.__jsx-style-dynamic-selector{width:80%;}.btn-productos.__jsx-style-dynamic-selector{width:60%;height:30px;}}@media ").concat(_breakpoints__WEBPACK_IMPORTED_MODULE_8__["device"].desktop, "{.producto.__jsx-style-dynamic-selector{width:70%;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2Fhcm9uL0RvY3VtZW50b3MvR2l0aHViL2ZpbGlwcGluaV9ob3NwaXRhbGFyaW8vQ2xpZW50L2NvbXBvbmVudHMvUHJvZHVjdG8uanMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IkFBbUJxQixBQUtzQyxBQWVLLEFBUUEsQUFJRixBQWtCYSxBQU9aLEFBR0EsQUFRQSxVQTlERCxBQW9EWixBQUdnQixBQVFoQixFQXBDVSxFQVpNLEFBUXBCLFFBS2dCLEFBNEJaLEdBWDBDLEtBN0IxQixJQWFFLFlBWlAsTUFhVSxNQVp6QixTQTRCQSxpQkE3QzBCLGtCQThCSCxtQkFDTCxlQUNLLDhDQUNMLENBaENJLGFBaUNOLFlBQ2EseUJBQ1Isa0JBQ3VCLHlCQW5DbkIsZUFvQ3pCLCtEQW5DZ0IsWUFDRixVQUNRLGtCQUNELGlCQUNRLHlCQUNOLG1CQUNZLCtCQUNuQyIsImZpbGUiOiIvaG9tZS9hYXJvbi9Eb2N1bWVudG9zL0dpdGh1Yi9maWxpcHBpbmlfaG9zcGl0YWxhcmlvL0NsaWVudC9jb21wb25lbnRzL1Byb2R1Y3RvLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0ICB7TGlua30gIGZyb20gJy4uL3JvdXRlcyc7XG5pbXBvcnQgeyBkZXZpY2UgfSBmcm9tICcuLi9icmVha3BvaW50cydcbmltcG9ydCBzbHVnIGZyb20gJy4uL2hlbHBlcnMvc2x1ZydcblxuZXhwb3J0IGRlZmF1bHQgY2xhc3MgUHJvZHVjdG8gZXh0ZW5kcyBSZWFjdC5Db21wb25lbnR7XG4gICAgcmVuZGVyKCl7XG4gICAgICAgIGNvbnN0IHt0aXR1bG8sIHByZWNpbywgaW1hZ2VuLCBpZH0gPSB0aGlzLnByb3BzO1xuICAgICAgICByZXR1cm4oXG4gICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cInByb2R1Y3RvXCI+XG4gICAgICAgICAgICAgICAgPGltZyBjbGFzc05hbWU9XCJpbWFnZW4tcHJvZHVjdG9cIiBzcmM9e2ltYWdlbn0vPlxuICAgICAgICAgICAgICAgIDxwPnt0aXR1bG99PC9wPlxuICAgICAgICAgICAgICAgIDxwPntwcmVjaW99PC9wPlxuICAgICAgICAgICAgICAgIDxMaW5rIHJvdXRlPXtcIi9wcm9kdWN0by9cIn0gcGFyYW1zPXt7XG4gICAgICAgICAgICAgICAgICAgIGlkLFxuICAgICAgICAgICAgICAgICAgICBzbHVnOlwic2x1Zy1nZW5lcmljb1wiXG4gICAgICAgICAgICAgICAgfX0+PGJ1dHRvbiBjbGFzc05hbWU9XCJidG4tcHJvZHVjdG9zXCI+TcOhcyBEZXRhbGxlczwvYnV0dG9uPjwvTGluaz4gICAgXG5cbiAgICAgICAgICAgICAgICA8c3R5bGUganN4PlxuXG4gICAgICAgICAgICAgIHsgICAgICBgXG4gICAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICAgICAgICAgIC5wcm9kdWN0b3tcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDo4MCU7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgZGlzcGxheTpmbGV4O1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGp1c3RpZnktY29udGVudDpjZW50ZXI7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYWxpZ24taXRlbXM6Y2VudGVyO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOmNvbHVtbjtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IGF1dG87XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luOiAyJTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgcGFkZGluZzogMjBweCA1cHg7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyOiAxcHggc29saWQgI2VhZWFlYTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXItcmFkaXVzOiAxMHB4O1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJveC1zaGFkb3c6IDVweCA1cHggOHB4ICNFRkVGRUY7XG4gICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgICAgICAgLnByb2R1Y3RvIHB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6ICMzNDY5OUE7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6IDU1MDtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6IDAuOGVtO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbjoxMHB4OyAgICAgICAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgICAgICAgfVxuXG5cbiAgICAgICAgICAgICAgICAgICAgICAgIC5wcm9kdWN0byAuaW1hZ2VuLXByb2R1Y3Rve1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIG1heC13aWR0aDogOTAlO1xuICAgICAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgICAgICAuYnRuLXByb2R1Y3Rvc3tcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6IDcwJTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDMwcHg7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBib3JkZXItcmFkaXVzOiAxNXB4O1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGN1cnNvcjpwb2ludGVyO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHRyYW5zaXRpb246IGFsbCAuM3M7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiA4MCU7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IHdoaXRlO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICMzNDY5OUE7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgcG9zaXRpb246cmVsYXRpdmU7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYm94LXNoYWRvdzogMCA4cHggMTZweCAwIHJnYmEoMCwwLDAsMC4yKTtcbiAgICAgICAgICAgICAgICAgICAgICAgIH0gICBcblxuXG5cbiAgICAgICAgICAgICAgICAgICAgICAgIC5idG4tcHJvZHVjdG9zOmhvdmVye1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICMxMTNGNjc7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYm94LXNoYWRvdzogMCAxMnB4IDE0cHggMCByZ2JhKDAsMCwwLDAuMzApO1xuICAgICAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgICAgICBAbWVkaWEgJHtkZXZpY2UudGFibGV0fXtcblxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIC5wcm9kdWN0b3tcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6ODAlO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAuYnRuLXByb2R1Y3Rvc3tcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6NjAlO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDMwcHg7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgICAgICBAbWVkaWEgJHtkZXZpY2UuZGVza3RvcH17XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgLnByb2R1Y3RvIHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6NzAlO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgIH0gXG5cbiAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgICBgfVxuXG5cblxuICAgICAgICAgICAgICAgIDwvc3R5bGU+XG4gICAgICAgICAgICA8L2Rpdj5cbiAgICAgICAgKVxuXG4gICAgfVxufSJdfQ== */\n/*@ sourceURL=/home/aaron/Documentos/Github/filippini_hospitalario/Client/components/Producto.js */")));
+    }
+  }]);
+
+  return Producto;
+}(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
+
+
+
+/***/ }),
+
+/***/ "./components/ProductosLayout.js":
+/*!***************************************!*\
+  !*** ./components/ProductosLayout.js ***!
+  \***************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return ProductosLayout; });
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/esm/classCallCheck.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/createClass */ "./node_modules/@babel/runtime-corejs2/helpers/esm/createClass.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/possibleConstructorReturn */ "./node_modules/@babel/runtime-corejs2/helpers/esm/possibleConstructorReturn.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/getPrototypeOf */ "./node_modules/@babel/runtime-corejs2/helpers/esm/getPrototypeOf.js");
+/* harmony import */ var _babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/esm/inherits.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! styled-jsx/style */ "./node_modules/styled-jsx/style.js");
+/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! react */ "./node_modules/react/index.js");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_6__);
+/* harmony import */ var _breakpoints__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(/*! ../breakpoints */ "./breakpoints.js");
+
+
+
+
+
+
+
+
+
+var ProductosLayout =
+/*#__PURE__*/
+function (_React$Component) {
+  Object(_babel_runtime_corejs2_helpers_esm_inherits__WEBPACK_IMPORTED_MODULE_4__["default"])(ProductosLayout, _React$Component);
+
+  function ProductosLayout() {
+    Object(_babel_runtime_corejs2_helpers_esm_classCallCheck__WEBPACK_IMPORTED_MODULE_0__["default"])(this, ProductosLayout);
+
+    return Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(ProductosLayout).apply(this, arguments));
+  }
+
+  Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(ProductosLayout, [{
+    key: "render",
+    value: function render() {
+      var children = this.props.children;
+      return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("section", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["2001585700", [_breakpoints__WEBPACK_IMPORTED_MODULE_7__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_7__["device"].desktop]]]) + " " + "productos"
+      }, children, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
+        id: "2001585700",
+        dynamic: [_breakpoints__WEBPACK_IMPORTED_MODULE_7__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_7__["device"].desktop]
+      }, ".productos.__jsx-style-dynamic-selector{width:90%;display:grid;grid-template-columns:1fr 1fr;grid-gap:10px;padding:0 5%;justify-items:center;}@media ".concat(_breakpoints__WEBPACK_IMPORTED_MODULE_7__["device"].tablet, "{.productos.__jsx-style-dynamic-selector{grid-template-columns:1fr 1fr 1fr;grid-gap:0px;}}@media ").concat(_breakpoints__WEBPACK_IMPORTED_MODULE_7__["device"].desktop, "{.productos.__jsx-style-dynamic-selector{grid-template-columns:1fr 1fr 1fr 1fr;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2Fhcm9uL0RvY3VtZW50b3MvR2l0aHViL2ZpbGlwcGluaV9ob3NwaXRhbGFyaW8vQ2xpZW50L2NvbXBvbmVudHMvUHJvZHVjdG9zTGF5b3V0LmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWNvQixBQUltQyxBQVU0QixBQU9JLFVBaEI5QixhQUNrQixXQVNiLElBT2pCLFNBTkEsTUFUYyxjQUNELGFBQ08scUJBQ3hCIiwiZmlsZSI6Ii9ob21lL2Fhcm9uL0RvY3VtZW50b3MvR2l0aHViL2ZpbGlwcGluaV9ob3NwaXRhbGFyaW8vQ2xpZW50L2NvbXBvbmVudHMvUHJvZHVjdG9zTGF5b3V0LmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IHsgZGV2aWNlIH0gZnJvbSAnLi4vYnJlYWtwb2ludHMnXG5cbmV4cG9ydCBkZWZhdWx0IGNsYXNzIFByb2R1Y3Rvc0xheW91dCBleHRlbmRzIFJlYWN0LkNvbXBvbmVudHtcbiAgICByZW5kZXIoKXtcbiAgICAgICAgY29uc3Qge2NoaWxkcmVufSA9IHRoaXMucHJvcHNcbiAgICAgICAgcmV0dXJuKFxuICAgICAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPVwicHJvZHVjdG9zXCI+XG4gICAgICAgICAgICBcbiAgICAgICAgICAgIHtjaGlsZHJlbn1cblxuXG4gICAgICAgICAgICA8c3R5bGUganN4PlxuXG4gICAgICAgICAgICAgICAge1xuICAgICAgICAgICAgICAgICAgICBgXG4gICAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgICAgICAucHJvZHVjdG9zIHtcbiAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiA5MCU7XG4gICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OmdyaWQ7XG4gICAgICAgICAgICAgICAgICAgICAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDFmciAxZnI7XG4gICAgICAgICAgICAgICAgICAgICAgICBncmlkLWdhcDogMTBweDtcbiAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmc6IDAgNSU7XG4gICAgICAgICAgICAgICAgICAgICAgICBqdXN0aWZ5LWl0ZW1zOmNlbnRlcjtcbiAgICAgICAgICAgICAgICAgICAgfSAgIFxuXG4gICAgICAgICAgICAgICAgICAgIEBtZWRpYSAke2RldmljZS50YWJsZXR9e1xuICAgICAgICAgICAgICAgICAgICAgICAgLnByb2R1Y3RvcyB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgZ3JpZC10ZW1wbGF0ZS1jb2x1bW5zOiAxZnIgMWZyIDFmcjtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBncmlkLWdhcDogMHB4O1xuICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgQG1lZGlhICR7ZGV2aWNlLmRlc2t0b3B9e1xuICAgICAgICAgICAgICAgICAgICAgICAgLnByb2R1Y3Rvc3tcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBncmlkLXRlbXBsYXRlLWNvbHVtbnM6IDFmciAxZnIgMWZyIDFmcjtcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICBgXG4gICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgPC9zdHlsZT4gXG4gICAgICAgICAgICA8L3NlY3Rpb24+XG4gICAgICAgIClcbiAgICB9XG59Il19 */\n/*@ sourceURL=/home/aaron/Documentos/Github/filippini_hospitalario/Client/components/ProductosLayout.js */")));
+    }
+  }]);
+
+  return ProductosLayout;
+}(react__WEBPACK_IMPORTED_MODULE_6___default.a.Component);
+
+
+
+/***/ }),
+
+/***/ "./helpers/slug.js":
+/*!*************************!*\
+  !*** ./helpers/slug.js ***!
+  \*************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var slugify__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! slugify */ "./node_modules/slugify/index.js");
+/* harmony import */ var slugify__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(slugify__WEBPACK_IMPORTED_MODULE_0__);
+
+/* harmony default export */ __webpack_exports__["default"] = (function (name) {
+  return slugify__WEBPACK_IMPORTED_MODULE_0___default()(name, {
+    lower: true
+  }).replace(/[^\w\-]+/g, '');
+});
 
 /***/ }),
 
@@ -985,6 +967,36 @@ function _createClass(Constructor, protoProps, staticProps) {
   if (protoProps) _defineProperties(Constructor.prototype, protoProps);
   if (staticProps) _defineProperties(Constructor, staticProps);
   return Constructor;
+}
+
+/***/ }),
+
+/***/ "./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js":
+/*!***************************************************************************!*\
+  !*** ./node_modules/@babel/runtime-corejs2/helpers/esm/defineProperty.js ***!
+  \***************************************************************************/
+/*! exports provided: default */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return _defineProperty; });
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js");
+/* harmony import */ var _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0__);
+
+function _defineProperty(obj, key, value) {
+  if (key in obj) {
+    _core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(obj, key, {
+      value: value,
+      enumerable: true,
+      configurable: true,
+      writable: true
+    });
+  } else {
+    obj[key] = value;
+  }
+
+  return obj;
 }
 
 /***/ }),
@@ -5300,99 +5312,416 @@ module.exports = bind.call(Function.call, Object.prototype.hasOwnProperty);
 
 /***/ }),
 
-/***/ "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js":
-/*!**********************************************************************************!*\
-  !*** ./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js ***!
-  \**********************************************************************************/
+/***/ "./node_modules/next-routes/dist/index.js":
+/*!************************************************!*\
+  !*** ./node_modules/next-routes/dist/index.js ***!
+  \************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-/**
- * Copyright 2015, Yahoo! Inc.
- * Copyrights licensed under the New BSD License. See the accompanying LICENSE file for terms.
- */
-var ReactIs = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js");
-var REACT_STATICS = {
-    childContextTypes: true,
-    contextType: true,
-    contextTypes: true,
-    defaultProps: true,
-    displayName: true,
-    getDefaultProps: true,
-    getDerivedStateFromError: true,
-    getDerivedStateFromProps: true,
-    mixins: true,
-    propTypes: true,
-    type: true
+var _pathToRegexp = _interopRequireDefault(__webpack_require__(/*! path-to-regexp */ "./node_modules/path-to-regexp/index.js"));
+
+var _react = _interopRequireDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var _url = __webpack_require__(/*! url */ "./node_modules/url/url.js");
+
+var _link = _interopRequireDefault(__webpack_require__(/*! next/link */ "./node_modules/next/link.js"));
+
+var _router = _interopRequireDefault(__webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js"));
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _objectWithoutProperties(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } if (Object.getOwnPropertySymbols) { var sourceSymbolKeys = Object.getOwnPropertySymbols(source); for (i = 0; i < sourceSymbolKeys.length; i++) { key = sourceSymbolKeys[i]; if (excluded.indexOf(key) >= 0) continue; if (!Object.prototype.propertyIsEnumerable.call(source, key)) continue; target[key] = source[key]; } } return target; }
+
+function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; var ownKeys = Object.keys(source); if (typeof Object.getOwnPropertySymbols === 'function') { ownKeys = ownKeys.concat(Object.getOwnPropertySymbols(source).filter(function (sym) { return Object.getOwnPropertyDescriptor(source, sym).enumerable; })); } ownKeys.forEach(function (key) { _defineProperty(target, key, source[key]); }); } return target; }
+
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+
+function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
+
+module.exports = function (opts) {
+  return new Routes(opts);
 };
 
-var KNOWN_STATICS = {
-    name: true,
-    length: true,
-    prototype: true,
-    caller: true,
-    callee: true,
-    arguments: true,
-    arity: true
-};
+var Routes =
+/*#__PURE__*/
+function () {
+  function Routes() {
+    var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
+        _ref$Link = _ref.Link,
+        Link = _ref$Link === void 0 ? _link.default : _ref$Link,
+        _ref$Router = _ref.Router,
+        Router = _ref$Router === void 0 ? _router.default : _ref$Router;
 
-var FORWARD_REF_STATICS = {
-    '$$typeof': true,
-    render: true
-};
+    _classCallCheck(this, Routes);
 
-var TYPE_STATICS = {};
-TYPE_STATICS[ReactIs.ForwardRef] = FORWARD_REF_STATICS;
+    this.routes = [];
+    this.Link = this.getLink(Link);
+    this.Router = this.getRouter(Router);
+  }
 
-var defineProperty = Object.defineProperty;
-var getOwnPropertyNames = Object.getOwnPropertyNames;
-var getOwnPropertySymbols = Object.getOwnPropertySymbols;
-var getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
-var getPrototypeOf = Object.getPrototypeOf;
-var objectPrototype = Object.prototype;
+  _createClass(Routes, [{
+    key: "add",
+    value: function add(name, pattern, page) {
+      var options;
 
-function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
-    if (typeof sourceComponent !== 'string') {
-        // don't hoist over string (html) components
-
-        if (objectPrototype) {
-            var inheritedComponent = getPrototypeOf(sourceComponent);
-            if (inheritedComponent && inheritedComponent !== objectPrototype) {
-                hoistNonReactStatics(targetComponent, inheritedComponent, blacklist);
-            }
+      if (name instanceof Object) {
+        options = name;
+        name = options.name;
+      } else {
+        if (name[0] === '/') {
+          page = pattern;
+          pattern = name;
+          name = null;
         }
 
-        var keys = getOwnPropertyNames(sourceComponent);
+        options = {
+          name: name,
+          pattern: pattern,
+          page: page
+        };
+      }
 
-        if (getOwnPropertySymbols) {
-            keys = keys.concat(getOwnPropertySymbols(sourceComponent));
+      if (this.findByName(name)) {
+        throw new Error("Route \"".concat(name, "\" already exists"));
+      }
+
+      this.routes.push(new Route(options));
+      return this;
+    }
+  }, {
+    key: "findByName",
+    value: function findByName(name) {
+      if (name) {
+        return this.routes.filter(function (route) {
+          return route.name === name;
+        })[0];
+      }
+    }
+  }, {
+    key: "match",
+    value: function match(url) {
+      var parsedUrl = (0, _url.parse)(url, true);
+      var pathname = parsedUrl.pathname,
+          query = parsedUrl.query;
+      return this.routes.reduce(function (result, route) {
+        if (result.route) return result;
+        var params = route.match(pathname);
+        if (!params) return result;
+        return _objectSpread({}, result, {
+          route: route,
+          params: params,
+          query: _objectSpread({}, query, params)
+        });
+      }, {
+        query: query,
+        parsedUrl: parsedUrl
+      });
+    }
+  }, {
+    key: "findAndGetUrls",
+    value: function findAndGetUrls(nameOrUrl, params) {
+      var route = this.findByName(nameOrUrl);
+
+      if (route) {
+        return {
+          route: route,
+          urls: route.getUrls(params),
+          byName: true
+        };
+      } else {
+        var _this$match = this.match(nameOrUrl),
+            _route = _this$match.route,
+            query = _this$match.query;
+
+        var href = _route ? _route.getHref(query) : nameOrUrl;
+        var urls = {
+          href: href,
+          as: nameOrUrl
+        };
+        return {
+          route: _route,
+          urls: urls
+        };
+      }
+    }
+  }, {
+    key: "getRequestHandler",
+    value: function getRequestHandler(app, customHandler) {
+      var _this = this;
+
+      var nextHandler = app.getRequestHandler();
+      return function (req, res) {
+        var _this$match2 = _this.match(req.url),
+            route = _this$match2.route,
+            query = _this$match2.query,
+            parsedUrl = _this$match2.parsedUrl;
+
+        if (route) {
+          if (customHandler) {
+            customHandler({
+              req: req,
+              res: res,
+              route: route,
+              query: query
+            });
+          } else {
+            app.render(req, res, route.page, query);
+          }
+        } else {
+          nextHandler(req, res, parsedUrl);
+        }
+      };
+    }
+  }, {
+    key: "getLink",
+    value: function getLink(Link) {
+      var _this2 = this;
+
+      var LinkRoutes = function LinkRoutes(props) {
+        var route = props.route,
+            params = props.params,
+            to = props.to,
+            newProps = _objectWithoutProperties(props, ["route", "params", "to"]);
+
+        var nameOrUrl = route || to;
+
+        if (nameOrUrl) {
+          Object.assign(newProps, _this2.findAndGetUrls(nameOrUrl, params).urls);
         }
 
-        var targetStatics = TYPE_STATICS[targetComponent['$$typeof']] || REACT_STATICS;
-        var sourceStatics = TYPE_STATICS[sourceComponent['$$typeof']] || REACT_STATICS;
+        return _react.default.createElement(Link, newProps);
+      };
 
-        for (var i = 0; i < keys.length; ++i) {
-            var key = keys[i];
-            if (!KNOWN_STATICS[key] && !(blacklist && blacklist[key]) && !(sourceStatics && sourceStatics[key]) && !(targetStatics && targetStatics[key])) {
-                var descriptor = getOwnPropertyDescriptor(sourceComponent, key);
-                try {
-                    // Avoid failures from read-only properties
-                    defineProperty(targetComponent, key, descriptor);
-                } catch (e) {}
-            }
-        }
+      return LinkRoutes;
+    }
+  }, {
+    key: "getRouter",
+    value: function getRouter(Router) {
+      var _this3 = this;
 
-        return targetComponent;
+      var wrap = function wrap(method) {
+        return function (route, params, options) {
+          var _this3$findAndGetUrls = _this3.findAndGetUrls(route, params),
+              byName = _this3$findAndGetUrls.byName,
+              _this3$findAndGetUrls2 = _this3$findAndGetUrls.urls,
+              as = _this3$findAndGetUrls2.as,
+              href = _this3$findAndGetUrls2.href;
+
+          return Router[method](href, as, byName ? options : params);
+        };
+      };
+
+      Router.pushRoute = wrap('push');
+      Router.replaceRoute = wrap('replace');
+      Router.prefetchRoute = wrap('prefetch');
+      return Router;
+    }
+  }]);
+
+  return Routes;
+}();
+
+var Route =
+/*#__PURE__*/
+function () {
+  function Route(_ref2) {
+    var name = _ref2.name,
+        pattern = _ref2.pattern,
+        _ref2$page = _ref2.page,
+        page = _ref2$page === void 0 ? name : _ref2$page;
+
+    _classCallCheck(this, Route);
+
+    if (!name && !page) {
+      throw new Error("Missing page to render for route \"".concat(pattern, "\""));
     }
 
-    return targetComponent;
+    this.name = name;
+    this.pattern = pattern || "/".concat(name);
+    this.page = page.replace(/(^|\/)index$/, '').replace(/^\/?/, '/');
+    this.regex = (0, _pathToRegexp.default)(this.pattern, this.keys = []);
+    this.keyNames = this.keys.map(function (key) {
+      return key.name;
+    });
+    this.toPath = _pathToRegexp.default.compile(this.pattern);
+  }
+
+  _createClass(Route, [{
+    key: "match",
+    value: function match(path) {
+      var values = this.regex.exec(path);
+
+      if (values) {
+        return this.valuesToParams(values.slice(1));
+      }
+    }
+  }, {
+    key: "valuesToParams",
+    value: function valuesToParams(values) {
+      var _this4 = this;
+
+      return values.reduce(function (params, val, i) {
+        if (val === undefined) return params;
+        return Object.assign(params, _defineProperty({}, _this4.keys[i].name, decodeURIComponent(val)));
+      }, {});
+    }
+  }, {
+    key: "getHref",
+    value: function getHref() {
+      var params = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+      return "".concat(this.page, "?").concat(toQuerystring(params));
+    }
+  }, {
+    key: "getAs",
+    value: function getAs() {
+      var _this5 = this;
+
+      var params = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+      var as = this.toPath(params) || '/';
+      var keys = Object.keys(params);
+      var qsKeys = keys.filter(function (key) {
+        return _this5.keyNames.indexOf(key) === -1;
+      });
+      if (!qsKeys.length) return as;
+      var qsParams = qsKeys.reduce(function (qs, key) {
+        return Object.assign(qs, _defineProperty({}, key, params[key]));
+      }, {});
+      return "".concat(as, "?").concat(toQuerystring(qsParams));
+    }
+  }, {
+    key: "getUrls",
+    value: function getUrls(params) {
+      var as = this.getAs(params);
+      var href = this.getHref(params);
+      return {
+        as: as,
+        href: href
+      };
+    }
+  }]);
+
+  return Route;
+}();
+
+var toQuerystring = function toQuerystring(obj) {
+  return Object.keys(obj).filter(function (key) {
+    return obj[key] !== null && obj[key] !== undefined;
+  }).map(function (key) {
+    var value = obj[key];
+
+    if (Array.isArray(value)) {
+      value = value.join('/');
+    }
+
+    return [encodeURIComponent(key), encodeURIComponent(value)].join('=');
+  }).join('&');
+};
+
+/***/ }),
+
+/***/ "./node_modules/next-server/dist/lib/amp.js":
+/*!**************************************************!*\
+  !*** ./node_modules/next-server/dist/lib/amp.js ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var __importDefault = void 0 && (void 0).__importDefault || function (mod) {
+  return mod && mod.__esModule ? mod : {
+    "default": mod
+  };
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+var amphtml_context_1 = __webpack_require__(/*! ./amphtml-context */ "./node_modules/next-server/dist/lib/amphtml-context.js");
+
+function isAmp() {
+  var _ref = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {},
+      _ref$enabled = _ref.enabled,
+      enabled = _ref$enabled === void 0 ? false : _ref$enabled,
+      _ref$hybrid = _ref.hybrid,
+      hybrid = _ref$hybrid === void 0 ? false : _ref$hybrid,
+      _ref$hasQuery = _ref.hasQuery,
+      hasQuery = _ref$hasQuery === void 0 ? false : _ref$hasQuery;
+
+  return enabled && (!hybrid || hybrid && hasQuery);
 }
 
-module.exports = hoistNonReactStatics;
+exports.isAmp = isAmp;
 
+function useAmp() {
+  var ampMode = react_1.default.useContext(amphtml_context_1.AmpModeContext); // un-comment below to not be considered AMP in dirty mode
+
+  return isAmp(ampMode); // && ampMode.hasQuery
+}
+
+exports.useAmp = useAmp;
+
+function withAmp(Component) {
+  var _ref2 = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {},
+      _ref2$hybrid = _ref2.hybrid,
+      hybrid = _ref2$hybrid === void 0 ? false : _ref2$hybrid;
+
+  function WithAmpWrapper() {
+    var props = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+    var ampMode = react_1.default.useContext(amphtml_context_1.AmpModeContext);
+    ampMode.enabled = true;
+    ampMode.hybrid = hybrid;
+    return react_1.default.createElement(Component, props);
+  }
+
+  WithAmpWrapper.__nextAmpOnly = !hybrid;
+  WithAmpWrapper.getInitialProps = Component.getInitialProps;
+  return WithAmpWrapper;
+}
+
+exports.withAmp = withAmp;
+
+/***/ }),
+
+/***/ "./node_modules/next-server/dist/lib/amphtml-context.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/next-server/dist/lib/amphtml-context.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var __importStar = void 0 && (void 0).__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
+  }
+  result["default"] = mod;
+  return result;
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+exports.AmpModeContext = React.createContext({});
 
 /***/ }),
 
@@ -5454,15 +5783,31 @@ var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/r
 
 var side_effect_1 = __importDefault(__webpack_require__(/*! ./side-effect */ "./node_modules/next-server/dist/lib/side-effect.js"));
 
+var amphtml_context_1 = __webpack_require__(/*! ./amphtml-context */ "./node_modules/next-server/dist/lib/amphtml-context.js");
+
 var head_manager_context_1 = __webpack_require__(/*! ./head-manager-context */ "./node_modules/next-server/dist/lib/head-manager-context.js");
+
+var amp_1 = __webpack_require__(/*! ./amp */ "./node_modules/next-server/dist/lib/amp.js");
 
 function defaultHead() {
   var className = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : 'next-head';
-  return [react_1.default.createElement("meta", {
+  var isAmp = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;
+  var head = [react_1.default.createElement("meta", {
     key: "charSet",
     charSet: "utf-8",
     className: className
   })];
+
+  if (!isAmp) {
+    head.push(react_1.default.createElement("meta", {
+      key: "viewport",
+      name: "viewport",
+      content: "width=device-width,minimum-scale=1,initial-scale=1",
+      className: className
+    }));
+  }
+
+  return head;
 }
 
 exports.defaultHead = defaultHead;
@@ -5487,7 +5832,7 @@ function onlyReactElement(list, child) {
   return list.concat(child);
 }
 
-var METATYPES = ["name", "httpEquiv", "charSet", "itemProp"];
+var METATYPES = ["name", "httpEquiv", "charSet", "viewport", "itemProp"];
 /*
  returns a function for filtering head child elements
  which shouldn't be duplicated, like <title/>
@@ -5518,7 +5863,7 @@ function unique() {
           var metatype = METATYPES[i];
           if (!h.props.hasOwnProperty(metatype)) continue;
 
-          if (metatype === "charSet") {
+          if (metatype === "charSet" || metatype === "viewport") {
             if (metaTypes.has(metatype)) return false;
             metaTypes.add(metatype);
           } else {
@@ -5542,11 +5887,11 @@ function unique() {
  */
 
 
-function reduceComponents(headElements) {
+function reduceComponents(headElements, props) {
   return headElements.reduce(function (list, headElement) {
     var headElementChildren = react_1.default.Children.toArray(headElement.props.children);
     return list.concat(headElementChildren);
-  }, []).reduce(onlyReactElement, []).reverse().concat(defaultHead('')).filter(unique()).reverse().map(function (c, i) {
+  }, []).reduce(onlyReactElement, []).reverse().concat(defaultHead('', props.isAmp)).filter(unique()).reverse().map(function (c, i) {
     var className = (c.props && c.props.className ? c.props.className + " " : "") + "next-head";
     var key = c.key || i;
     return react_1.default.cloneElement(c, {
@@ -5560,11 +5905,14 @@ var Effect = side_effect_1.default();
 
 function Head(_ref) {
   var children = _ref.children;
-  return react_1.default.createElement(head_manager_context_1.HeadManagerContext.Consumer, null, function (updateHead) {
-    return react_1.default.createElement(Effect, {
-      reduceComponentsToState: reduceComponents,
-      handleStateChange: updateHead
-    }, children);
+  return react_1.default.createElement(amphtml_context_1.AmpModeContext.Consumer, null, function (ampMode) {
+    return react_1.default.createElement(head_manager_context_1.HeadManagerContext.Consumer, null, function (updateHead) {
+      return react_1.default.createElement(Effect, {
+        reduceComponentsToState: reduceComponents,
+        handleStateChange: updateHead,
+        isAmp: amp_1.isAmp(ampMode)
+      }, children);
+    });
   });
 }
 
@@ -5630,6 +5978,66 @@ exports.default = mitt;
 
 /***/ }),
 
+/***/ "./node_modules/next-server/dist/lib/request-context.js":
+/*!**************************************************************!*\
+  !*** ./node_modules/next-server/dist/lib/request-context.js ***!
+  \**************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var __importStar = void 0 && (void 0).__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
+  }
+  result["default"] = mod;
+  return result;
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+exports.RequestContext = React.createContext(null);
+
+/***/ }),
+
+/***/ "./node_modules/next-server/dist/lib/router-context.js":
+/*!*************************************************************!*\
+  !*** ./node_modules/next-server/dist/lib/router-context.js ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var __importStar = void 0 && (void 0).__importStar || function (mod) {
+  if (mod && mod.__esModule) return mod;
+  var result = {};
+  if (mod != null) for (var k in mod) {
+    if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
+  }
+  result["default"] = mod;
+  return result;
+};
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var React = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
+exports.RouterContext = React.createContext(null);
+
+/***/ }),
+
 /***/ "./node_modules/next-server/dist/lib/router/router.js":
 /*!************************************************************!*\
   !*** ./node_modules/next-server/dist/lib/router/router.js ***!
@@ -5639,17 +6047,16 @@ exports.default = mitt;
 
 "use strict";
 
-/* global __NEXT_DATA__ */
 
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
-
-var _slicedToArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js"));
-
-var _typeof2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/typeof */ "./node_modules/@babel/runtime-corejs2/helpers/esm/typeof.js"));
 
 var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/regenerator */ "./node_modules/@babel/runtime-corejs2/regenerator/index.js"));
 
 var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js"));
+
+var _slicedToArray2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/slicedToArray */ "./node_modules/@babel/runtime-corejs2/helpers/esm/slicedToArray.js"));
+
+var _promise = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/promise */ "./node_modules/@babel/runtime-corejs2/core-js/promise.js"));
 
 var _assign = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/assign */ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js"));
 
@@ -5673,23 +6080,23 @@ var url_1 = __webpack_require__(/*! url */ "./node_modules/url/url.js");
 
 var mitt_1 = __importDefault(__webpack_require__(/*! ../mitt */ "./node_modules/next-server/dist/lib/mitt.js"));
 
-var shallow_equals_1 = __importDefault(__webpack_require__(/*! ./shallow-equals */ "./node_modules/next-server/dist/lib/router/shallow-equals.js"));
-
 var utils_1 = __webpack_require__(/*! ../utils */ "./node_modules/next-server/dist/lib/utils.js");
+
+function toRoute(path) {
+  return path.replace(/\/$/, '') || '/';
+}
 
 var Router =
 /*#__PURE__*/
 function () {
-  function Router(pathname, query, as) {
+  function Router(pathname, query, as, _ref) {
     var _this = this;
 
-    var _ref = arguments.length > 3 && arguments[3] !== undefined ? arguments[3] : {},
-        initialProps = _ref.initialProps,
+    var initialProps = _ref.initialProps,
         pageLoader = _ref.pageLoader,
         App = _ref.App,
         Component = _ref.Component,
         err = _ref.err;
-
     (0, _classCallCheck2.default)(this, Router);
 
     this.onPopState = function (e) {
@@ -5712,11 +6119,17 @@ function () {
         }), utils_1.getURL());
 
         return;
+      } // Make sure we don't re-render on initial load,
+      // can be caused by navigating back from an external site
+
+
+      if (e.state.options && e.state.options.fromExternal) {
+        return;
       } // If the downstream application returns falsy, return.
       // They will then be responsible for handling the event.
 
 
-      if (!_this._beforePopState(e.state)) {
+      if (_this._bps && !_this._bps(e.state)) {
         return;
       }
 
@@ -5753,6 +6166,7 @@ function () {
       Component: App
     }; // Backwards compat for Router.router.events
     // TODO: Should be remove the following major version as it was never documented
+    // @ts-ignore backwards compatibility
 
     this.events = Router.events;
     this.pageLoader = pageLoader;
@@ -5762,10 +6176,6 @@ function () {
     this.subscriptions = new _set.default();
     this.componentLoadCancel = null;
 
-    this._beforePopState = function () {
-      return true;
-    };
-
     if (typeof window !== 'undefined') {
       // in order for `e.state` to work on the `onpopstate` event
       // we have to register the initial route upon initialization
@@ -5774,6 +6184,20 @@ function () {
         query: query
       }), as);
       window.addEventListener('popstate', this.onPopState);
+      window.addEventListener('unload', function () {
+        // Workaround for popstate firing on initial page load when
+        // navigating back from an external site
+        if (history.state) {
+          var _history$state = history.state,
+              url = _history$state.url,
+              _as2 = _history$state.as,
+              options = _history$state.options;
+
+          _this.changeState('replaceState', url, _as2, (0, _assign.default)({}, options, {
+            fromExternal: true
+          }));
+        }
+      });
     }
   }
 
@@ -5802,73 +6226,43 @@ function () {
     }
   }, {
     key: "reload",
-    value: function () {
-      var _reload = (0, _asyncToGenerator2.default)(
-      /*#__PURE__*/
-      _regenerator.default.mark(function _callee(route) {
-        var pathname, query, url, as, routeInfo, error;
-        return _regenerator.default.wrap(function _callee$(_context) {
-          while (1) {
-            switch (_context.prev = _context.next) {
-              case 0:
-                delete this.components[route];
-                this.pageLoader.clearCache(route);
+    value: function reload(route) {
+      var _this2 = this;
 
-                if (!(route !== this.route)) {
-                  _context.next = 4;
-                  break;
-                }
+      return new _promise.default(function (resolve, reject) {
+        delete _this2.components[route];
 
-                return _context.abrupt("return");
+        _this2.pageLoader.clearCache(route);
 
-              case 4:
-                pathname = this.pathname, query = this.query;
-                url = window.location.href; // This makes sure we only use pathname + query + hash, to mirror `asPath` coming from the server.
+        if (route !== _this2.route) {
+          return resolve();
+        }
 
-                as = window.location.pathname + window.location.search + window.location.hash;
-                Router.events.emit('routeChangeStart', url);
-                _context.next = 10;
-                return this.getRouteInfo(route, pathname, query, as);
+        var pathname = _this2.pathname,
+            query = _this2.query;
+        var url = window.location.href; // This makes sure we only use pathname + query + hash, to mirror `asPath` coming from the server.
 
-              case 10:
-                routeInfo = _context.sent;
-                error = routeInfo.error;
+        var as = window.location.pathname + window.location.search + window.location.hash;
+        Router.events.emit('routeChangeStart', url);
 
-                if (!(error && error.cancelled)) {
-                  _context.next = 14;
-                  break;
-                }
+        _this2.getRouteInfo(route, pathname, query, as).then(function (routeInfo) {
+          var error = routeInfo.error;
 
-                return _context.abrupt("return");
-
-              case 14:
-                this.notify(routeInfo);
-
-                if (!error) {
-                  _context.next = 18;
-                  break;
-                }
-
-                Router.events.emit('routeChangeError', error, url);
-                throw error;
-
-              case 18:
-                Router.events.emit('routeChangeComplete', url);
-
-              case 19:
-              case "end":
-                return _context.stop();
-            }
+          if (error && error.cancelled) {
+            return resolve();
           }
-        }, _callee, this);
-      }));
 
-      function reload(_x) {
-        return _reload.apply(this, arguments);
-      }
+          _this2.notify(routeInfo);
 
-      return reload;
-    }()
+          if (error) {
+            Router.events.emit('routeChangeError', error, url);
+            return reject(error);
+          }
+
+          Router.events.emit('routeChangeComplete', url);
+        });
+      });
+    }
   }, {
     key: "back",
     value: function back() {
@@ -5890,118 +6284,85 @@ function () {
     }
   }, {
     key: "change",
-    value: function () {
-      var _change = (0, _asyncToGenerator2.default)(
-      /*#__PURE__*/
-      _regenerator.default.mark(function _callee2(method, _url, _as, options) {
-        var url, as, _url_1$parse, pathname, query, route, _options$shallow, shallow, routeInfo, _routeInfo, error, hash;
+    value: function change(method, _url, _as, options) {
+      var _this3 = this;
 
-        return _regenerator.default.wrap(function _callee2$(_context2) {
-          while (1) {
-            switch (_context2.prev = _context2.next) {
-              case 0:
-                // If url and as provided as an object representation,
-                // we'll format them into the string version here.
-                url = (0, _typeof2.default)(_url) === 'object' ? utils_1.formatWithValidation(_url) : _url;
-                as = (0, _typeof2.default)(_as) === 'object' ? utils_1.formatWithValidation(_as) : _as; // Add the ending slash to the paths. So, we can serve the
-                // "<page>/index.html" directly for the SSR page.
+      return new _promise.default(function (resolve, reject) {
+        // If url and as provided as an object representation,
+        // we'll format them into the string version here.
+        var url = typeof _url === 'object' ? utils_1.formatWithValidation(_url) : _url;
+        var as = typeof _as === 'object' ? utils_1.formatWithValidation(_as) : _as; // Add the ending slash to the paths. So, we can serve the
+        // "<page>/index.html" directly for the SSR page.
 
-                if (__NEXT_DATA__.nextExport) {
-                  as = Router._rewriteUrlForNextExport(as);
-                }
-
-                this.abortComponentLoad(as); // If the url change is only related to a hash change
-                // We should not proceed. We should only change the state.
-
-                if (!this.onlyAHashChange(as)) {
-                  _context2.next = 10;
-                  break;
-                }
-
-                Router.events.emit('hashChangeStart', as);
-                this.changeState(method, url, as);
-                this.scrollToHash(as);
-                Router.events.emit('hashChangeComplete', as);
-                return _context2.abrupt("return", true);
-
-              case 10:
-                _url_1$parse = url_1.parse(url, true), pathname = _url_1$parse.pathname, query = _url_1$parse.query; // If asked to change the current URL we should reload the current page
-                // (not location.reload() but reload getInitialProps and other Next.js stuffs)
-                // We also need to set the method = replaceState always
-                // as this should not go into the history (That's how browsers work)
-                // We should compare the new asPath to the current asPath, not the url
-
-                if (!this.urlIsNew(as)) {
-                  method = 'replaceState';
-                }
-
-                route = toRoute(pathname);
-                _options$shallow = options.shallow, shallow = _options$shallow === void 0 ? false : _options$shallow;
-                routeInfo = null;
-                Router.events.emit('routeChangeStart', as); // If shallow === false and other conditions met, we reuse the
-                // existing routeInfo for this route.
-                // Because of this, getInitialProps would not run.
-
-                if (!(shallow && this.isShallowRoutingPossible(route))) {
-                  _context2.next = 20;
-                  break;
-                }
-
-                routeInfo = this.components[route];
-                _context2.next = 23;
-                break;
-
-              case 20:
-                _context2.next = 22;
-                return this.getRouteInfo(route, pathname, query, as);
-
-              case 22:
-                routeInfo = _context2.sent;
-
-              case 23:
-                _routeInfo = routeInfo, error = _routeInfo.error;
-
-                if (!(error && error.cancelled)) {
-                  _context2.next = 26;
-                  break;
-                }
-
-                return _context2.abrupt("return", false);
-
-              case 26:
-                Router.events.emit('beforeHistoryChange', as);
-                this.changeState(method, url, as, options);
-                hash = window.location.hash.substring(1);
-                this.set(route, pathname, query, as, (0, _assign.default)({}, routeInfo, {
-                  hash: hash
-                }));
-
-                if (!error) {
-                  _context2.next = 33;
-                  break;
-                }
-
-                Router.events.emit('routeChangeError', error, as);
-                throw error;
-
-              case 33:
-                Router.events.emit('routeChangeComplete', as);
-                return _context2.abrupt("return", true);
-
-              case 35:
-              case "end":
-                return _context2.stop();
-            }
+        if (true) {
+          // @ts-ignore this is temporarily global (attached to window)
+          if (__NEXT_DATA__.nextExport) {
+            as = Router._rewriteUrlForNextExport(as);
           }
-        }, _callee2, this);
-      }));
+        }
 
-      function change(_x2, _x3, _x4, _x5) {
-        return _change.apply(this, arguments);
-      }
+        _this3.abortComponentLoad(as); // If the url change is only related to a hash change
+        // We should not proceed. We should only change the state.
 
-      return change;
-    }()
+
+        if (_this3.onlyAHashChange(as)) {
+          Router.events.emit('hashChangeStart', as);
+
+          _this3.changeState(method, url, as);
+
+          _this3.scrollToHash(as);
+
+          Router.events.emit('hashChangeComplete', as);
+          return true;
+        }
+
+        var _url_1$parse = url_1.parse(url, true),
+            pathname = _url_1$parse.pathname,
+            query = _url_1$parse.query; // If asked to change the current URL we should reload the current page
+        // (not location.reload() but reload getInitialProps and other Next.js stuffs)
+        // We also need to set the method = replaceState always
+        // as this should not go into the history (That's how browsers work)
+        // We should compare the new asPath to the current asPath, not the url
+
+
+        if (!_this3.urlIsNew(as)) {
+          method = 'replaceState';
+        } // @ts-ignore pathname is always a string
+
+
+        var route = toRoute(pathname);
+        var _options$shallow = options.shallow,
+            shallow = _options$shallow === void 0 ? false : _options$shallow;
+        Router.events.emit('routeChangeStart', as); // If shallow is true and the route exists in the router cache we reuse the previous result
+        // @ts-ignore pathname is always a string
+
+        _this3.getRouteInfo(route, pathname, query, as, shallow).then(function (routeInfo) {
+          var error = routeInfo.error;
+
+          if (error && error.cancelled) {
+            return resolve(false);
+          }
+
+          Router.events.emit('beforeHistoryChange', as);
+
+          _this3.changeState(method, url, as, options);
+
+          var hash = window.location.hash.substring(1); // @ts-ignore pathname is always defined
+
+          _this3.set(route, pathname, query, as, (0, _assign.default)({}, routeInfo, {
+            hash: hash
+          }));
+
+          if (error) {
+            Router.events.emit('routeChangeError', error, as);
+            throw error;
+          }
+
+          Router.events.emit('routeChangeComplete', as);
+          return resolve(true);
+        }, reject);
+      });
+    }
   }, {
     key: "changeState",
     value: function changeState(method, url, as) {
@@ -6011,7 +6372,8 @@ function () {
         if (typeof window.history === 'undefined') {
           console.error("Warning: window.history is not available.");
           return;
-        }
+        } // @ts-ignore method should always exist on history
+
 
         if (typeof window.history[method] === 'undefined') {
           console.error("Warning: window.history.".concat(method, " is not available"));
@@ -6020,6 +6382,7 @@ function () {
       }
 
       if (method !== 'pushState' || utils_1.getURL() !== as) {
+        // @ts-ignore method should always exist on history
         window.history[method]({
           url: url,
           as: as,
@@ -6029,145 +6392,103 @@ function () {
     }
   }, {
     key: "getRouteInfo",
-    value: function () {
-      var _getRouteInfo = (0, _asyncToGenerator2.default)(
-      /*#__PURE__*/
-      _regenerator.default.mark(function _callee3(route, pathname, query, as) {
-        var routeInfo, _routeInfo2, Component, _require, isValidElementType, ctx, _Component, _ctx;
+    value: function getRouteInfo(route, pathname, query, as) {
+      var _this4 = this;
 
-        return _regenerator.default.wrap(function _callee3$(_context3) {
-          while (1) {
-            switch (_context3.prev = _context3.next) {
-              case 0:
-                routeInfo = null;
-                _context3.prev = 1;
-                routeInfo = this.components[route];
+      var shallow = arguments.length > 4 && arguments[4] !== undefined ? arguments[4] : false;
+      var cachedRouteInfo = this.components[route]; // If there is a shallow route transition possible
+      // If the route is already rendered on the screen.
 
-                if (routeInfo) {
-                  _context3.next = 8;
-                  break;
-                }
-
-                _context3.next = 6;
-                return this.fetchComponent(route, as);
-
-              case 6:
-                _context3.t0 = _context3.sent;
-                routeInfo = {
-                  Component: _context3.t0
-                };
-
-              case 8:
-                _routeInfo2 = routeInfo, Component = _routeInfo2.Component;
-
-                if (false) {}
-
-                _require = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js"), isValidElementType = _require.isValidElementType;
-
-                if (isValidElementType(Component)) {
-                  _context3.next = 13;
-                  break;
-                }
-
-                throw new Error("The default export is not a React Component in page: \"".concat(pathname, "\""));
-
-              case 13:
-                ctx = {
-                  pathname: pathname,
-                  query: query,
-                  asPath: as
-                };
-                _context3.next = 16;
-                return this.getInitialProps(Component, ctx);
-
-              case 16:
-                routeInfo.props = _context3.sent;
-                this.components[route] = routeInfo;
-                _context3.next = 44;
-                break;
-
-              case 20:
-                _context3.prev = 20;
-                _context3.t1 = _context3["catch"](1);
-
-                if (!(_context3.t1.code === 'PAGE_LOAD_ERROR')) {
-                  _context3.next = 26;
-                  break;
-                }
-
-                // If we can't load the page it could be one of following reasons
-                //  1. Page doesn't exists
-                //  2. Page does exist in a different zone
-                //  3. Internal error while loading the page
-                // So, doing a hard reload is the proper way to deal with this.
-                window.location.href = as; // Changing the URL doesn't block executing the current code path.
-                // So, we need to mark it as a cancelled error and stop the routing logic.
-
-                _context3.t1.cancelled = true;
-                return _context3.abrupt("return", {
-                  error: _context3.t1
-                });
-
-              case 26:
-                if (!_context3.t1.cancelled) {
-                  _context3.next = 28;
-                  break;
-                }
-
-                return _context3.abrupt("return", {
-                  error: _context3.t1
-                });
-
-              case 28:
-                _context3.next = 30;
-                return this.fetchComponent('/_error');
-
-              case 30:
-                _Component = _context3.sent;
-                routeInfo = {
-                  Component: _Component,
-                  err: _context3.t1
-                };
-                _ctx = {
-                  err: _context3.t1,
-                  pathname: pathname,
-                  query: query
-                };
-                _context3.prev = 33;
-                _context3.next = 36;
-                return this.getInitialProps(_Component, _ctx);
-
-              case 36:
-                routeInfo.props = _context3.sent;
-                _context3.next = 43;
-                break;
-
-              case 39:
-                _context3.prev = 39;
-                _context3.t2 = _context3["catch"](33);
-                console.error('Error in error page `getInitialProps`: ', _context3.t2);
-                routeInfo.props = {};
-
-              case 43:
-                routeInfo.error = _context3.t1;
-
-              case 44:
-                return _context3.abrupt("return", routeInfo);
-
-              case 45:
-              case "end":
-                return _context3.stop();
-            }
-          }
-        }, _callee3, this, [[1, 20], [33, 39]]);
-      }));
-
-      function getRouteInfo(_x6, _x7, _x8, _x9) {
-        return _getRouteInfo.apply(this, arguments);
+      if (shallow && cachedRouteInfo && this.route === route) {
+        return _promise.default.resolve(cachedRouteInfo);
       }
 
-      return getRouteInfo;
-    }()
+      return new _promise.default(function (resolve, reject) {
+        if (cachedRouteInfo) {
+          return resolve(cachedRouteInfo);
+        }
+
+        _this4.fetchComponent(route).then(function (Component) {
+          return resolve({
+            Component: Component
+          });
+        }, reject);
+      }).then(function (routeInfo) {
+        var Component = routeInfo.Component;
+
+        if (true) {
+          var _require = __webpack_require__(/*! react-is */ "./node_modules/react-is/index.js"),
+              isValidElementType = _require.isValidElementType;
+
+          if (!isValidElementType(Component)) {
+            throw new Error("The default export is not a React Component in page: \"".concat(pathname, "\""));
+          }
+        }
+
+        return new _promise.default(function (resolve, reject) {
+          var ctx = {
+            pathname: pathname,
+            query: query,
+            asPath: as
+          };
+
+          _this4.getInitialProps(Component, ctx).then(function (props) {
+            routeInfo.props = props;
+            _this4.components[route] = routeInfo;
+            resolve(routeInfo);
+          }, reject);
+        });
+      }).catch(function (err) {
+        return new _promise.default(function (resolve) {
+          if (err.code === 'PAGE_LOAD_ERROR') {
+            // If we can't load the page it could be one of following reasons
+            //  1. Page doesn't exists
+            //  2. Page does exist in a different zone
+            //  3. Internal error while loading the page
+            // So, doing a hard reload is the proper way to deal with this.
+            window.location.href = as; // Changing the URL doesn't block executing the current code path.
+            // So, we need to mark it as a cancelled error and stop the routing logic.
+
+            err.cancelled = true; // @ts-ignore TODO: fix the control flow here
+
+            return resolve({
+              error: err
+            });
+          }
+
+          if (err.cancelled) {
+            // @ts-ignore TODO: fix the control flow here
+            return resolve({
+              error: err
+            });
+          }
+
+          resolve(_this4.fetchComponent('/_error').then(function (Component) {
+            var routeInfo = {
+              Component: Component,
+              err: err
+            };
+            var ctx = {
+              err: err,
+              pathname: pathname,
+              query: query
+            };
+            return new _promise.default(function (resolve) {
+              _this4.getInitialProps(Component, ctx).then(function (props) {
+                routeInfo.props = props;
+                routeInfo.error = err;
+                resolve(routeInfo);
+              }, function (gipErr) {
+                console.error('Error in error page `getInitialProps`: ', gipErr);
+                routeInfo.error = err;
+                routeInfo.props = {};
+                resolve(routeInfo);
+              });
+            });
+          }));
+        });
+      });
+    }
   }, {
     key: "set",
     value: function set(route, pathname, query, as, data) {
@@ -6180,7 +6501,7 @@ function () {
   }, {
     key: "beforePopState",
     value: function beforePopState(cb) {
-      this._beforePopState = cb;
+      this._bps = cb;
     }
   }, {
     key: "onlyAHashChange",
@@ -6245,68 +6566,36 @@ function () {
   }, {
     key: "urlIsNew",
     value: function urlIsNew(asPath) {
-      var _url_1$parse2 = url_1.parse(asPath, true),
-          pathname = _url_1$parse2.pathname,
-          query = _url_1$parse2.query;
-
-      var _url_1$parse3 = url_1.parse(this.asPath, true),
-          curPathname = _url_1$parse3.pathname;
-
-      return curPathname !== pathname || !shallow_equals_1.default(query, this.query);
-    }
-  }, {
-    key: "isShallowRoutingPossible",
-    value: function isShallowRoutingPossible(route) {
-      return (// If there's cached routeInfo for the route.
-        Boolean(this.components[route]) && // If the route is already rendered on the screen.
-        this.route === route
-      );
+      return this.asPath !== asPath;
     }
   }, {
     key: "prefetch",
-    value: function () {
-      var _prefetch = (0, _asyncToGenerator2.default)(
-      /*#__PURE__*/
-      _regenerator.default.mark(function _callee4(url) {
-        var _url_1$parse4, pathname, route;
+    value: function prefetch(url) {
+      var _this5 = this;
 
-        return _regenerator.default.wrap(function _callee4$(_context4) {
-          while (1) {
-            switch (_context4.prev = _context4.next) {
-              case 0:
-                if (false) {}
+      return new _promise.default(function (resolve, reject) {
+        // Prefetch is not supported in development mode because it would trigger on-demand-entries
+        if (true) return;
 
-                return _context4.abrupt("return");
+        var _url_1$parse2 = url_1.parse(url),
+            pathname = _url_1$parse2.pathname; // @ts-ignore pathname is always defined
 
-              case 2:
-                _url_1$parse4 = url_1.parse(url), pathname = _url_1$parse4.pathname;
-                route = toRoute(pathname);
-                return _context4.abrupt("return", this.pageLoader.prefetch(route));
 
-              case 5:
-              case "end":
-                return _context4.stop();
-            }
-          }
-        }, _callee4, this);
-      }));
+        var route = toRoute(pathname);
 
-      function prefetch(_x10) {
-        return _prefetch.apply(this, arguments);
-      }
-
-      return prefetch;
-    }()
+        _this5.pageLoader.prefetch(route).then(resolve, reject);
+      });
+    }
   }, {
     key: "fetchComponent",
     value: function () {
       var _fetchComponent = (0, _asyncToGenerator2.default)(
       /*#__PURE__*/
-      _regenerator.default.mark(function _callee5(route, as) {
+      _regenerator.default.mark(function _callee(route) {
         var cancelled, cancel, Component, error;
-        return _regenerator.default.wrap(function _callee5$(_context5) {
+        return _regenerator.default.wrap(function _callee$(_context) {
           while (1) {
-            switch (_context5.prev = _context5.next) {
+            switch (_context.prev = _context.next) {
               case 0:
                 cancelled = false;
 
@@ -6314,14 +6603,14 @@ function () {
                   cancelled = true;
                 };
 
-                _context5.next = 4;
-                return this.fetchRoute(route);
+                _context.next = 4;
+                return this.pageLoader.loadPage(route);
 
               case 4:
-                Component = _context5.sent;
+                Component = _context.sent;
 
                 if (!cancelled) {
-                  _context5.next = 9;
+                  _context.next = 9;
                   break;
                 }
 
@@ -6334,17 +6623,17 @@ function () {
                   this.componentLoadCancel = null;
                 }
 
-                return _context5.abrupt("return", Component);
+                return _context.abrupt("return", Component);
 
               case 11:
               case "end":
-                return _context5.stop();
+                return _context.stop();
             }
           }
-        }, _callee5, this);
+        }, _callee, this);
       }));
 
-      function fetchComponent(_x11, _x12) {
+      function fetchComponent(_x) {
         return _fetchComponent.apply(this, arguments);
       }
 
@@ -6355,11 +6644,11 @@ function () {
     value: function () {
       var _getInitialProps = (0, _asyncToGenerator2.default)(
       /*#__PURE__*/
-      _regenerator.default.mark(function _callee6(Component, ctx) {
+      _regenerator.default.mark(function _callee2(Component, ctx) {
         var cancelled, cancel, App, props, err;
-        return _regenerator.default.wrap(function _callee6$(_context6) {
+        return _regenerator.default.wrap(function _callee2$(_context2) {
           while (1) {
-            switch (_context6.prev = _context6.next) {
+            switch (_context2.prev = _context2.next) {
               case 0:
                 cancelled = false;
 
@@ -6369,7 +6658,7 @@ function () {
 
                 this.componentLoadCancel = cancel;
                 App = this.components['/_app'].Component;
-                _context6.next = 6;
+                _context2.next = 6;
                 return utils_1.loadGetInitialProps(App, {
                   Component: Component,
                   router: this,
@@ -6377,14 +6666,14 @@ function () {
                 });
 
               case 6:
-                props = _context6.sent;
+                props = _context2.sent;
 
                 if (cancel === this.componentLoadCancel) {
                   this.componentLoadCancel = null;
                 }
 
                 if (!cancelled) {
-                  _context6.next = 12;
+                  _context2.next = 12;
                   break;
                 }
 
@@ -6393,47 +6682,21 @@ function () {
                 throw err;
 
               case 12:
-                return _context6.abrupt("return", props);
+                return _context2.abrupt("return", props);
 
               case 13:
               case "end":
-                return _context6.stop();
+                return _context2.stop();
             }
           }
-        }, _callee6, this);
+        }, _callee2, this);
       }));
 
-      function getInitialProps(_x13, _x14) {
+      function getInitialProps(_x2, _x3) {
         return _getInitialProps.apply(this, arguments);
       }
 
       return getInitialProps;
-    }()
-  }, {
-    key: "fetchRoute",
-    value: function () {
-      var _fetchRoute = (0, _asyncToGenerator2.default)(
-      /*#__PURE__*/
-      _regenerator.default.mark(function _callee7(route) {
-        return _regenerator.default.wrap(function _callee7$(_context7) {
-          while (1) {
-            switch (_context7.prev = _context7.next) {
-              case 0:
-                return _context7.abrupt("return", this.pageLoader.loadPage(route));
-
-              case 1:
-              case "end":
-                return _context7.stop();
-            }
-          }
-        }, _callee7, this);
-      }));
-
-      function fetchRoute(_x15) {
-        return _fetchRoute.apply(this, arguments);
-      }
-
-      return fetchRoute;
     }()
   }, {
     key: "abortComponentLoad",
@@ -6457,11 +6720,11 @@ function () {
   }, {
     key: "subscribe",
     value: function subscribe(fn) {
-      var _this2 = this;
+      var _this6 = this;
 
       this.subscriptions.add(fn);
       return function () {
-        return _this2.subscriptions.delete(fn);
+        return _this6.subscriptions.delete(fn);
       };
     }
   }], [{
@@ -6469,31 +6732,21 @@ function () {
     value: function _rewriteUrlForNextExport(url) {
       var _url$split = url.split('#'),
           _url$split2 = (0, _slicedToArray2.default)(_url$split, 2),
-          hash = _url$split2[1];
+          pathname = _url$split2[0],
+          hash = _url$split2[1]; // tslint:disable-next-line
 
-      url = url.replace(/#.*/, '');
 
-      var _url$split3 = url.split('?'),
-          _url$split4 = (0, _slicedToArray2.default)(_url$split3, 2),
-          path = _url$split4[0],
-          qs = _url$split4[1];
+      var _pathname$split = pathname.split('?'),
+          _pathname$split2 = (0, _slicedToArray2.default)(_pathname$split, 2),
+          path = _pathname$split2[0],
+          qs = _pathname$split2[1];
 
-      path = path.replace(/\/$/, '');
-      var newPath = path; // Append a trailing slash if this path does not have an extension
+      path = path.replace(/\/$/, ''); // Append a trailing slash if this path does not have an extension
 
-      if (!/\.[^/]+\/?$/.test(path)) {
-        newPath = "".concat(path, "/");
-      }
-
-      if (qs) {
-        newPath = "".concat(newPath, "?").concat(qs);
-      }
-
-      if (hash) {
-        newPath = "".concat(newPath, "#").concat(hash);
-      }
-
-      return newPath;
+      if (!/\.[^/]+\/?$/.test(path)) path += "/";
+      if (qs) path += '?' + qs;
+      if (hash) path += '#' + hash;
+      return path;
     }
   }]);
   return Router;
@@ -6501,40 +6754,6 @@ function () {
 
 Router.events = mitt_1.default();
 exports.default = Router;
-
-function toRoute(path) {
-  return path.replace(/\/$/, '') || '/';
-}
-
-/***/ }),
-
-/***/ "./node_modules/next-server/dist/lib/router/shallow-equals.js":
-/*!********************************************************************!*\
-  !*** ./node_modules/next-server/dist/lib/router/shallow-equals.js ***!
-  \********************************************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-
-function shallowEquals(a, b) {
-  for (var i in a) {
-    if (b[i] !== a[i]) return false;
-  }
-
-  for (var _i in b) {
-    if (b[_i] !== a[_i]) return false;
-  }
-
-  return true;
-}
-
-exports.default = shallowEquals;
 
 /***/ }),
 
@@ -6579,7 +6798,7 @@ function withSideEffect() {
   var state;
 
   function emitChange(component) {
-    state = component.props.reduceComponentsToState((0, _toConsumableArray2.default)(mountedInstances));
+    state = component.props.reduceComponentsToState((0, _toConsumableArray2.default)(mountedInstances), component.props);
 
     if (component.props.handleStateChange) {
       component.props.handleStateChange(state);
@@ -6664,8 +6883,6 @@ var _regenerator = _interopRequireDefault(__webpack_require__(/*! @babel/runtime
 
 var _keys = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/keys */ "./node_modules/@babel/runtime-corejs2/core-js/object/keys.js"));
 
-var _typeof2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/typeof */ "./node_modules/@babel/runtime-corejs2/helpers/esm/typeof.js"));
-
 var _asyncToGenerator2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/esm/asyncToGenerator */ "./node_modules/@babel/runtime-corejs2/helpers/esm/asyncToGenerator.js"));
 
 Object.defineProperty(exports, "__esModule", {
@@ -6712,11 +6929,7 @@ function getURL() {
 exports.getURL = getURL;
 
 function getDisplayName(Component) {
-  if (typeof Component === 'string') {
-    return Component;
-  }
-
-  return Component.displayName || Component.name || 'Unknown';
+  return typeof Component === 'string' ? Component : Component.displayName || Component.name || 'Unknown';
 }
 
 exports.getDisplayName = getDisplayName;
@@ -6800,9 +7013,9 @@ exports.urlObjectKeys = ['auth', 'hash', 'host', 'hostname', 'href', 'path', 'pa
 
 function formatWithValidation(url, options) {
   if (true) {
-    if (url !== null && (0, _typeof2.default)(url) === 'object') {
+    if (url !== null && typeof url === 'object') {
       (0, _keys.default)(url).forEach(function (key) {
-        if (!exports.urlObjectKeys.includes(key)) {
+        if (exports.urlObjectKeys.indexOf(key) === -1) {
           console.warn("Unknown key passed via urlObject into url.format: ".concat(key));
         }
       });
@@ -6816,22 +7029,10 @@ exports.formatWithValidation = formatWithValidation;
 
 /***/ }),
 
-/***/ "./node_modules/next-server/head.js":
-/*!******************************************!*\
-  !*** ./node_modules/next-server/head.js ***!
-  \******************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! ./dist/lib/head */ "./node_modules/next-server/dist/lib/head.js")
-
-
-/***/ }),
-
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fproducto&absolutePagePath=C%3A%5CUsers%5CAaron%5CDocuments%5CGitHub%5Cfilippini_hospitalario%5CClient%5Cpages%5Cproducto.js!./":
-/*!**********************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fproducto&absolutePagePath=C%3A%5CUsers%5CAaron%5CDocuments%5CGitHub%5Cfilippini_hospitalario%5CClient%5Cpages%5Cproducto.js ***!
-  \**********************************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fproducto&absolutePagePath=%2Fhome%2Faaron%2FDocumentos%2FGithub%2Ffilippini_hospitalario%2FClient%2Fpages%2Fproducto.js!./":
+/*!******************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fproducto&absolutePagePath=%2Fhome%2Faaron%2FDocumentos%2FGithub%2Ffilippini_hospitalario%2FClient%2Fpages%2Fproducto.js ***!
+  \******************************************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -6865,8 +7066,6 @@ module.exports = __webpack_require__(/*! ./dist/lib/head */ "./node_modules/next
 var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/helpers/interopRequireDefault */ "./node_modules/@babel/runtime-corejs2/helpers/interopRequireDefault.js");
 
 var _stringify = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/json/stringify */ "./node_modules/@babel/runtime-corejs2/core-js/json/stringify.js"));
-
-var _typeof2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/typeof */ "./node_modules/@babel/runtime-corejs2/helpers/typeof.js"));
 
 var _classCallCheck2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/classCallCheck */ "./node_modules/@babel/runtime-corejs2/helpers/classCallCheck.js"));
 
@@ -6904,7 +7103,7 @@ var react_1 = __importStar(__webpack_require__(/*! react */ "./node_modules/reac
 
 var prop_types_1 = __importDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
 
-var router_1 = __importStar(__webpack_require__(/*! next/router */ "./node_modules/next/router.js"));
+var router_1 = __importStar(__webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js"));
 
 var utils_1 = __webpack_require__(/*! next-server/dist/lib/utils */ "./node_modules/next-server/dist/lib/utils.js");
 
@@ -6914,7 +7113,7 @@ function isLocal(href) {
   return !url.host || url.protocol === origin.protocol && url.host === origin.host;
 }
 
-function memoizedFormatUrl(formatUrl) {
+function memoizedFormatUrl(formatFunc) {
   var lastHref = null;
   var lastAs = null;
   var lastResult = null;
@@ -6923,12 +7122,16 @@ function memoizedFormatUrl(formatUrl) {
       return lastResult;
     }
 
-    var result = formatUrl(href, as);
+    var result = formatFunc(href, as);
     lastHref = href;
     lastAs = as;
     lastResult = result;
     return result;
   };
+}
+
+function formatUrl(url) {
+  return url && typeof url === 'object' ? utils_1.formatWithValidation(url) : url;
 }
 
 var Link =
@@ -6945,8 +7148,8 @@ function (_react_1$Component) {
 
     _this.formatUrls = memoizedFormatUrl(function (href, asHref) {
       return {
-        href: href && (0, _typeof2.default)(href) === 'object' ? utils_1.formatWithValidation(href) : href,
-        as: asHref && (0, _typeof2.default)(asHref) === 'object' ? utils_1.formatWithValidation(asHref) : asHref
+        href: formatUrl(href),
+        as: formatUrl(asHref, true)
       };
     });
 
@@ -7061,8 +7264,10 @@ function (_react_1$Component) {
       // "<page>/index.html" directly.
 
 
-      if (props.href && typeof __NEXT_DATA__ !== 'undefined' && __NEXT_DATA__.nextExport) {
-        props.href = router_1.Router._rewriteUrlForNextExport(props.href);
+      if (true) {
+        if (props.href && typeof __NEXT_DATA__ !== 'undefined' && __NEXT_DATA__.nextExport) {
+          props.href = router_1.Router._rewriteUrlForNextExport(props.href);
+        }
       }
 
       return react_1.default.cloneElement(child, props);
@@ -7114,8 +7319,6 @@ var _interopRequireDefault = __webpack_require__(/*! @babel/runtime-corejs2/help
 
 var _assign = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/assign */ "./node_modules/@babel/runtime-corejs2/core-js/object/assign.js"));
 
-var _typeof2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/typeof */ "./node_modules/@babel/runtime-corejs2/helpers/typeof.js"));
-
 var _construct2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/construct */ "./node_modules/@babel/runtime-corejs2/helpers/construct.js"));
 
 var _defineProperty = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/core-js/object/define-property */ "./node_modules/@babel/runtime-corejs2/core-js/object/define-property.js"));
@@ -7131,7 +7334,15 @@ Object.defineProperty(exports, "__esModule", {
 });
 /* global window */
 
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+
 var router_1 = __importDefault(__webpack_require__(/*! next-server/dist/lib/router/router */ "./node_modules/next-server/dist/lib/router/router.js"));
+
+exports.Router = router_1.default;
+
+var router_context_1 = __webpack_require__(/*! next-server/dist/lib/router-context */ "./node_modules/next-server/dist/lib/router-context.js");
+
+var request_context_1 = __webpack_require__(/*! next-server/dist/lib/request-context */ "./node_modules/next-server/dist/lib/request-context.js");
 
 var SingletonRouter = {
   router: null,
@@ -7143,7 +7354,8 @@ var SingletonRouter = {
       this.readyCallbacks.push(cb);
     }
   }
-}; // Create public properties and methods of the router in the SingletonRouter
+}; // const x = SingletonRouter as IRealRouter
+// Create public properties and methods of the router in the SingletonRouter
 
 var urlPropertyFields = ['pathname', 'route', 'query', 'asPath'];
 var propertyFields = ['components'];
@@ -7162,29 +7374,31 @@ propertyFields.concat(urlPropertyFields).forEach(function (field) {
   // proper way to access it
   (0, _defineProperty.default)(SingletonRouter, field, {
     get: function get() {
-      throwIfNoRouter();
-      return SingletonRouter.router[field];
+      var router = getRouter();
+      return router[field];
     }
   });
 });
 coreMethodFields.forEach(function (field) {
+  // We don't really know the types here, so we add them later instead
   SingletonRouter[field] = function () {
-    var _SingletonRouter$rout;
-
-    throwIfNoRouter();
-    return (_SingletonRouter$rout = SingletonRouter.router)[field].apply(_SingletonRouter$rout, arguments);
+    var router = getRouter();
+    return router[field].apply(router, arguments);
   };
 });
 routerEvents.forEach(function (event) {
   SingletonRouter.ready(function () {
     router_1.default.events.on(event, function () {
       var eventField = "on".concat(event.charAt(0).toUpperCase()).concat(event.substring(1));
+      var singletonRouter = SingletonRouter;
 
-      if (SingletonRouter[eventField]) {
+      if (singletonRouter[eventField]) {
         try {
-          SingletonRouter[eventField].apply(SingletonRouter, arguments);
+          singletonRouter[eventField].apply(singletonRouter, arguments);
         } catch (err) {
-          console.error("Error when running the Router event: ".concat(eventField));
+          // tslint:disable-next-line:no-console
+          console.error("Error when running the Router event: ".concat(eventField)); // tslint:disable-next-line:no-console
+
           console.error("".concat(err.message, "\n").concat(err.stack));
         }
       }
@@ -7192,11 +7406,13 @@ routerEvents.forEach(function (event) {
   });
 });
 
-function throwIfNoRouter() {
+function getRouter() {
   if (!SingletonRouter.router) {
     var message = 'No router instance found.\n' + 'You should only use "next/router" inside the client side of your app.\n';
     throw new Error(message);
   }
+
+  return SingletonRouter.router;
 } // Export the SingletonRouter and this is the public API.
 
 
@@ -7204,7 +7420,19 @@ exports.default = SingletonRouter; // Reexport the withRoute HOC
 
 var with_router_1 = __webpack_require__(/*! ./with-router */ "./node_modules/next/dist/client/with-router.js");
 
-exports.withRouter = with_router_1.default; // INTERNAL APIS
+exports.withRouter = with_router_1.default;
+
+function useRouter() {
+  return react_1.default.useContext(router_context_1.RouterContext);
+}
+
+exports.useRouter = useRouter;
+
+function useRequest() {
+  return react_1.default.useContext(request_context_1.RequestContext);
+}
+
+exports.useRequest = useRequest; // INTERNAL APIS
 // -------------
 // (do not use following exports inside the app)
 // Create a router and assign it as the singleton instance.
@@ -7222,24 +7450,23 @@ exports.createRouter = function () {
   });
   SingletonRouter.readyCallbacks = [];
   return SingletonRouter.router;
-}; // Export the actual Router class, which is usually used inside the server
+}; // This function is used to create the `withRouter` router instance
 
-
-exports.Router = router_1.default; // This function is used to create the `withRouter` router instance
 
 function makePublicRouterInstance(router) {
+  var _router = router;
   var instance = {};
 
   for (var _i = 0; _i < urlPropertyFields.length; _i++) {
     var property = urlPropertyFields[_i];
 
-    if ((0, _typeof2.default)(router[property]) === 'object') {
-      instance[property] = (0, _assign.default)({}, router[property]); // makes sure query is not stateful
+    if (typeof _router[property] === 'object') {
+      instance[property] = (0, _assign.default)({}, _router[property]); // makes sure query is not stateful
 
       continue;
     }
 
-    instance[property] = router[property];
+    instance[property] = _router[property];
   } // Events is a static property on the router, the router doesn't have to be initialized to use it
 
 
@@ -7251,13 +7478,13 @@ function makePublicRouterInstance(router) {
     // proper way to access it
     (0, _defineProperty.default)(instance, field, {
       get: function get() {
-        return router[field];
+        return _router[field];
       }
     });
   });
   coreMethodFields.forEach(function (field) {
     instance[field] = function () {
-      return router[field].apply(router, arguments);
+      return _router[field].apply(_router, arguments);
     };
   });
   return instance;
@@ -7291,16 +7518,6 @@ var _getPrototypeOf2 = _interopRequireDefault(__webpack_require__(/*! @babel/run
 
 var _inherits2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime-corejs2/helpers/inherits */ "./node_modules/@babel/runtime-corejs2/helpers/inherits.js"));
 
-var __importStar = void 0 && (void 0).__importStar || function (mod) {
-  if (mod && mod.__esModule) return mod;
-  var result = {};
-  if (mod != null) for (var k in mod) {
-    if (Object.hasOwnProperty.call(mod, k)) result[k] = mod[k];
-  }
-  result["default"] = mod;
-  return result;
-};
-
 var __importDefault = void 0 && (void 0).__importDefault || function (mod) {
   return mod && mod.__esModule ? mod : {
     "default": mod
@@ -7311,21 +7528,15 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
-var react_1 = __importStar(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
+var react_1 = __importDefault(__webpack_require__(/*! react */ "./node_modules/react/index.js"));
 
 var prop_types_1 = __importDefault(__webpack_require__(/*! prop-types */ "./node_modules/prop-types/index.js"));
 
-var hoist_non_react_statics_1 = __importDefault(__webpack_require__(/*! hoist-non-react-statics */ "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js"));
-
-var utils_1 = __webpack_require__(/*! next-server/dist/lib/utils */ "./node_modules/next-server/dist/lib/utils.js");
-
 function withRouter(ComposedComponent) {
-  var displayName = utils_1.getDisplayName(ComposedComponent);
-
   var WithRouteWrapper =
   /*#__PURE__*/
-  function (_react_1$Component) {
-    (0, _inherits2.default)(WithRouteWrapper, _react_1$Component);
+  function (_react_1$default$Comp) {
+    (0, _inherits2.default)(WithRouteWrapper, _react_1$default$Comp);
 
     function WithRouteWrapper() {
       (0, _classCallCheck2.default)(this, WithRouteWrapper);
@@ -7341,13 +7552,19 @@ function withRouter(ComposedComponent) {
       }
     }]);
     return WithRouteWrapper;
-  }(react_1.Component);
+  }(react_1.default.Component);
 
   WithRouteWrapper.contextTypes = {
     router: prop_types_1.default.object
   };
-  WithRouteWrapper.displayName = "withRouter(".concat(displayName, ")");
-  return hoist_non_react_statics_1.default(WithRouteWrapper, ComposedComponent);
+  WithRouteWrapper.getInitialProps = ComposedComponent.getInitialProps;
+
+  if (true) {
+    var name = ComposedComponent.displayName || ComposedComponent.name || 'Unknown';
+    WithRouteWrapper.displayName = "withRouter(".concat(name, ")");
+  }
+
+  return WithRouteWrapper;
 }
 
 exports.default = withRouter;
@@ -7366,26 +7583,14 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./node_modules/next/router.js":
-/*!*************************************!*\
-  !*** ./node_modules/next/router.js ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__(/*! ./dist/client/router */ "./node_modules/next/dist/client/router.js")
-
-
-/***/ }),
-
 /***/ "./node_modules/object-assign/index.js":
 /*!***************************************************************************************************!*\
-  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_4d62ad301d4c9a40eec7 ***!
+  !*** delegated ./node_modules/object-assign/index.js from dll-reference dll_1aef2d0bbc0d334d831c ***!
   \***************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_4d62ad301d4c9a40eec7 */ "dll-reference dll_4d62ad301d4c9a40eec7"))("./node_modules/object-assign/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_1aef2d0bbc0d334d831c */ "dll-reference dll_1aef2d0bbc0d334d831c"))("./node_modules/object-assign/index.js");
 
 /***/ }),
 
@@ -7430,6 +7635,8 @@ if (!Object.keys) {
 		$frames: true,
 		$innerHeight: true,
 		$innerWidth: true,
+		$onmozfullscreenchange: true,
+		$onmozfullscreenerror: true,
 		$outerHeight: true,
 		$outerWidth: true,
 		$pageXOffset: true,
@@ -7765,6 +7972,388 @@ module.exports = function shimAssign() {
 
 /***/ }),
 
+/***/ "./node_modules/path-to-regexp/index.js":
+/*!**********************************************!*\
+  !*** ./node_modules/path-to-regexp/index.js ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+/**
+ * Expose `pathToRegexp`.
+ */
+module.exports = pathToRegexp
+module.exports.parse = parse
+module.exports.compile = compile
+module.exports.tokensToFunction = tokensToFunction
+module.exports.tokensToRegExp = tokensToRegExp
+
+/**
+ * Default configs.
+ */
+var DEFAULT_DELIMITER = '/'
+var DEFAULT_DELIMITERS = './'
+
+/**
+ * The main path matching regexp utility.
+ *
+ * @type {RegExp}
+ */
+var PATH_REGEXP = new RegExp([
+  // Match escaped characters that would otherwise appear in future matches.
+  // This allows the user to escape special characters that won't transform.
+  '(\\\\.)',
+  // Match Express-style parameters and un-named parameters with a prefix
+  // and optional suffixes. Matches appear as:
+  //
+  // "/:test(\\d+)?" => ["/", "test", "\d+", undefined, "?"]
+  // "/route(\\d+)"  => [undefined, undefined, undefined, "\d+", undefined]
+  '(?:\\:(\\w+)(?:\\(((?:\\\\.|[^\\\\()])+)\\))?|\\(((?:\\\\.|[^\\\\()])+)\\))([+*?])?'
+].join('|'), 'g')
+
+/**
+ * Parse a string for the raw tokens.
+ *
+ * @param  {string}  str
+ * @param  {Object=} options
+ * @return {!Array}
+ */
+function parse (str, options) {
+  var tokens = []
+  var key = 0
+  var index = 0
+  var path = ''
+  var defaultDelimiter = (options && options.delimiter) || DEFAULT_DELIMITER
+  var delimiters = (options && options.delimiters) || DEFAULT_DELIMITERS
+  var pathEscaped = false
+  var res
+
+  while ((res = PATH_REGEXP.exec(str)) !== null) {
+    var m = res[0]
+    var escaped = res[1]
+    var offset = res.index
+    path += str.slice(index, offset)
+    index = offset + m.length
+
+    // Ignore already escaped sequences.
+    if (escaped) {
+      path += escaped[1]
+      pathEscaped = true
+      continue
+    }
+
+    var prev = ''
+    var next = str[index]
+    var name = res[2]
+    var capture = res[3]
+    var group = res[4]
+    var modifier = res[5]
+
+    if (!pathEscaped && path.length) {
+      var k = path.length - 1
+
+      if (delimiters.indexOf(path[k]) > -1) {
+        prev = path[k]
+        path = path.slice(0, k)
+      }
+    }
+
+    // Push the current path onto the tokens.
+    if (path) {
+      tokens.push(path)
+      path = ''
+      pathEscaped = false
+    }
+
+    var partial = prev !== '' && next !== undefined && next !== prev
+    var repeat = modifier === '+' || modifier === '*'
+    var optional = modifier === '?' || modifier === '*'
+    var delimiter = prev || defaultDelimiter
+    var pattern = capture || group
+
+    tokens.push({
+      name: name || key++,
+      prefix: prev,
+      delimiter: delimiter,
+      optional: optional,
+      repeat: repeat,
+      partial: partial,
+      pattern: pattern ? escapeGroup(pattern) : '[^' + escapeString(delimiter) + ']+?'
+    })
+  }
+
+  // Push any remaining characters.
+  if (path || index < str.length) {
+    tokens.push(path + str.substr(index))
+  }
+
+  return tokens
+}
+
+/**
+ * Compile a string to a template function for the path.
+ *
+ * @param  {string}             str
+ * @param  {Object=}            options
+ * @return {!function(Object=, Object=)}
+ */
+function compile (str, options) {
+  return tokensToFunction(parse(str, options))
+}
+
+/**
+ * Expose a method for transforming tokens into the path function.
+ */
+function tokensToFunction (tokens) {
+  // Compile all the tokens into regexps.
+  var matches = new Array(tokens.length)
+
+  // Compile all the patterns before compilation.
+  for (var i = 0; i < tokens.length; i++) {
+    if (typeof tokens[i] === 'object') {
+      matches[i] = new RegExp('^(?:' + tokens[i].pattern + ')$')
+    }
+  }
+
+  return function (data, options) {
+    var path = ''
+    var encode = (options && options.encode) || encodeURIComponent
+
+    for (var i = 0; i < tokens.length; i++) {
+      var token = tokens[i]
+
+      if (typeof token === 'string') {
+        path += token
+        continue
+      }
+
+      var value = data ? data[token.name] : undefined
+      var segment
+
+      if (Array.isArray(value)) {
+        if (!token.repeat) {
+          throw new TypeError('Expected "' + token.name + '" to not repeat, but got array')
+        }
+
+        if (value.length === 0) {
+          if (token.optional) continue
+
+          throw new TypeError('Expected "' + token.name + '" to not be empty')
+        }
+
+        for (var j = 0; j < value.length; j++) {
+          segment = encode(value[j])
+
+          if (!matches[i].test(segment)) {
+            throw new TypeError('Expected all "' + token.name + '" to match "' + token.pattern + '"')
+          }
+
+          path += (j === 0 ? token.prefix : token.delimiter) + segment
+        }
+
+        continue
+      }
+
+      if (typeof value === 'string' || typeof value === 'number' || typeof value === 'boolean') {
+        segment = encode(String(value))
+
+        if (!matches[i].test(segment)) {
+          throw new TypeError('Expected "' + token.name + '" to match "' + token.pattern + '", but got "' + segment + '"')
+        }
+
+        path += token.prefix + segment
+        continue
+      }
+
+      if (token.optional) {
+        // Prepend partial segment prefixes.
+        if (token.partial) path += token.prefix
+
+        continue
+      }
+
+      throw new TypeError('Expected "' + token.name + '" to be ' + (token.repeat ? 'an array' : 'a string'))
+    }
+
+    return path
+  }
+}
+
+/**
+ * Escape a regular expression string.
+ *
+ * @param  {string} str
+ * @return {string}
+ */
+function escapeString (str) {
+  return str.replace(/([.+*?=^!:${}()[\]|/\\])/g, '\\$1')
+}
+
+/**
+ * Escape the capturing group by escaping special characters and meaning.
+ *
+ * @param  {string} group
+ * @return {string}
+ */
+function escapeGroup (group) {
+  return group.replace(/([=!:$/()])/g, '\\$1')
+}
+
+/**
+ * Get the flags for a regexp from the options.
+ *
+ * @param  {Object} options
+ * @return {string}
+ */
+function flags (options) {
+  return options && options.sensitive ? '' : 'i'
+}
+
+/**
+ * Pull out keys from a regexp.
+ *
+ * @param  {!RegExp} path
+ * @param  {Array=}  keys
+ * @return {!RegExp}
+ */
+function regexpToRegexp (path, keys) {
+  if (!keys) return path
+
+  // Use a negative lookahead to match only capturing groups.
+  var groups = path.source.match(/\((?!\?)/g)
+
+  if (groups) {
+    for (var i = 0; i < groups.length; i++) {
+      keys.push({
+        name: i,
+        prefix: null,
+        delimiter: null,
+        optional: false,
+        repeat: false,
+        partial: false,
+        pattern: null
+      })
+    }
+  }
+
+  return path
+}
+
+/**
+ * Transform an array into a regexp.
+ *
+ * @param  {!Array}  path
+ * @param  {Array=}  keys
+ * @param  {Object=} options
+ * @return {!RegExp}
+ */
+function arrayToRegexp (path, keys, options) {
+  var parts = []
+
+  for (var i = 0; i < path.length; i++) {
+    parts.push(pathToRegexp(path[i], keys, options).source)
+  }
+
+  return new RegExp('(?:' + parts.join('|') + ')', flags(options))
+}
+
+/**
+ * Create a path regexp from string input.
+ *
+ * @param  {string}  path
+ * @param  {Array=}  keys
+ * @param  {Object=} options
+ * @return {!RegExp}
+ */
+function stringToRegexp (path, keys, options) {
+  return tokensToRegExp(parse(path, options), keys, options)
+}
+
+/**
+ * Expose a function for taking tokens and returning a RegExp.
+ *
+ * @param  {!Array}  tokens
+ * @param  {Array=}  keys
+ * @param  {Object=} options
+ * @return {!RegExp}
+ */
+function tokensToRegExp (tokens, keys, options) {
+  options = options || {}
+
+  var strict = options.strict
+  var end = options.end !== false
+  var delimiter = escapeString(options.delimiter || DEFAULT_DELIMITER)
+  var delimiters = options.delimiters || DEFAULT_DELIMITERS
+  var endsWith = [].concat(options.endsWith || []).map(escapeString).concat('$').join('|')
+  var route = ''
+  var isEndDelimited = false
+
+  // Iterate over the tokens and create our regexp string.
+  for (var i = 0; i < tokens.length; i++) {
+    var token = tokens[i]
+
+    if (typeof token === 'string') {
+      route += escapeString(token)
+      isEndDelimited = i === tokens.length - 1 && delimiters.indexOf(token[token.length - 1]) > -1
+    } else {
+      var prefix = escapeString(token.prefix)
+      var capture = token.repeat
+        ? '(?:' + token.pattern + ')(?:' + prefix + '(?:' + token.pattern + '))*'
+        : token.pattern
+
+      if (keys) keys.push(token)
+
+      if (token.optional) {
+        if (token.partial) {
+          route += prefix + '(' + capture + ')?'
+        } else {
+          route += '(?:' + prefix + '(' + capture + '))?'
+        }
+      } else {
+        route += prefix + '(' + capture + ')'
+      }
+    }
+  }
+
+  if (end) {
+    if (!strict) route += '(?:' + delimiter + ')?'
+
+    route += endsWith === '$' ? '$' : '(?=' + endsWith + ')'
+  } else {
+    if (!strict) route += '(?:' + delimiter + '(?=' + endsWith + '))?'
+    if (!isEndDelimited) route += '(?=' + delimiter + '|' + endsWith + ')'
+  }
+
+  return new RegExp('^' + route, flags(options))
+}
+
+/**
+ * Normalize the given path string, returning a regular expression.
+ *
+ * An empty array can be passed in for the keys, which will hold the
+ * placeholder key descriptions. For example, using `/user/:id`, `keys` will
+ * contain `[{ name: 'id', delimiter: '/', optional: false, repeat: false }]`.
+ *
+ * @param  {(string|RegExp|Array)} path
+ * @param  {Array=}                keys
+ * @param  {Object=}               options
+ * @return {!RegExp}
+ */
+function pathToRegexp (path, keys, options) {
+  if (path instanceof RegExp) {
+    return regexpToRegexp(path, keys)
+  }
+
+  if (Array.isArray(path)) {
+    return arrayToRegexp(/** @type {!Array} */ (path), keys, options)
+  }
+
+  return stringToRegexp(/** @type {string} */ (path), keys, options)
+}
+
+
+/***/ }),
+
 /***/ "./node_modules/process/browser.js":
 /*!*****************************************!*\
   !*** ./node_modules/process/browser.js ***!
@@ -8051,12 +8640,12 @@ module.exports = exports['default'];
 
 /***/ "./node_modules/prop-types/checkPropTypes.js":
 /*!*********************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_4d62ad301d4c9a40eec7 ***!
+  !*** delegated ./node_modules/prop-types/checkPropTypes.js from dll-reference dll_1aef2d0bbc0d334d831c ***!
   \*********************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_4d62ad301d4c9a40eec7 */ "dll-reference dll_4d62ad301d4c9a40eec7"))("./node_modules/prop-types/checkPropTypes.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_1aef2d0bbc0d334d831c */ "dll-reference dll_1aef2d0bbc0d334d831c"))("./node_modules/prop-types/checkPropTypes.js");
 
 /***/ }),
 
@@ -8664,12 +9253,12 @@ if (true) {
 
 /***/ "./node_modules/prop-types/lib/ReactPropTypesSecret.js":
 /*!*******************************************************************************************************************!*\
-  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_4d62ad301d4c9a40eec7 ***!
+  !*** delegated ./node_modules/prop-types/lib/ReactPropTypesSecret.js from dll-reference dll_1aef2d0bbc0d334d831c ***!
   \*******************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_4d62ad301d4c9a40eec7 */ "dll-reference dll_4d62ad301d4c9a40eec7"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_1aef2d0bbc0d334d831c */ "dll-reference dll_1aef2d0bbc0d334d831c"))("./node_modules/prop-types/lib/ReactPropTypesSecret.js");
 
 /***/ }),
 
@@ -9421,7 +10010,7 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
-/** @license React v16.6.1
+/** @license React v16.8.6
  * react-is.development.js
  *
  * Copyright (c) Facebook, Inc. and its affiliates.
@@ -9520,7 +10109,6 @@ var lowPriorityWarning$1 = lowPriorityWarning;
 function typeOf(object) {
   if (typeof object === 'object' && object !== null) {
     var $$typeof = object.$$typeof;
-
     switch ($$typeof) {
       case REACT_ELEMENT_TYPE:
         var type = object.type;
@@ -9531,6 +10119,7 @@ function typeOf(object) {
           case REACT_FRAGMENT_TYPE:
           case REACT_PROFILER_TYPE:
           case REACT_STRICT_MODE_TYPE:
+          case REACT_SUSPENSE_TYPE:
             return type;
           default:
             var $$typeofType = type && type.$$typeof;
@@ -9544,6 +10133,8 @@ function typeOf(object) {
                 return $$typeof;
             }
         }
+      case REACT_LAZY_TYPE:
+      case REACT_MEMO_TYPE:
       case REACT_PORTAL_TYPE:
         return $$typeof;
     }
@@ -9560,9 +10151,12 @@ var ContextProvider = REACT_PROVIDER_TYPE;
 var Element = REACT_ELEMENT_TYPE;
 var ForwardRef = REACT_FORWARD_REF_TYPE;
 var Fragment = REACT_FRAGMENT_TYPE;
-var Profiler = REACT_PROFILER_TYPE;
+var Lazy = REACT_LAZY_TYPE;
+var Memo = REACT_MEMO_TYPE;
 var Portal = REACT_PORTAL_TYPE;
+var Profiler = REACT_PROFILER_TYPE;
 var StrictMode = REACT_STRICT_MODE_TYPE;
+var Suspense = REACT_SUSPENSE_TYPE;
 
 var hasWarnedAboutDeprecatedIsAsyncMode = false;
 
@@ -9594,14 +10188,23 @@ function isForwardRef(object) {
 function isFragment(object) {
   return typeOf(object) === REACT_FRAGMENT_TYPE;
 }
-function isProfiler(object) {
-  return typeOf(object) === REACT_PROFILER_TYPE;
+function isLazy(object) {
+  return typeOf(object) === REACT_LAZY_TYPE;
+}
+function isMemo(object) {
+  return typeOf(object) === REACT_MEMO_TYPE;
 }
 function isPortal(object) {
   return typeOf(object) === REACT_PORTAL_TYPE;
 }
+function isProfiler(object) {
+  return typeOf(object) === REACT_PROFILER_TYPE;
+}
 function isStrictMode(object) {
   return typeOf(object) === REACT_STRICT_MODE_TYPE;
+}
+function isSuspense(object) {
+  return typeOf(object) === REACT_SUSPENSE_TYPE;
 }
 
 exports.typeOf = typeOf;
@@ -9612,9 +10215,12 @@ exports.ContextProvider = ContextProvider;
 exports.Element = Element;
 exports.ForwardRef = ForwardRef;
 exports.Fragment = Fragment;
-exports.Profiler = Profiler;
+exports.Lazy = Lazy;
+exports.Memo = Memo;
 exports.Portal = Portal;
+exports.Profiler = Profiler;
 exports.StrictMode = StrictMode;
+exports.Suspense = Suspense;
 exports.isValidElementType = isValidElementType;
 exports.isAsyncMode = isAsyncMode;
 exports.isConcurrentMode = isConcurrentMode;
@@ -9623,9 +10229,12 @@ exports.isContextProvider = isContextProvider;
 exports.isElement = isElement;
 exports.isForwardRef = isForwardRef;
 exports.isFragment = isFragment;
-exports.isProfiler = isProfiler;
+exports.isLazy = isLazy;
+exports.isMemo = isMemo;
 exports.isPortal = isPortal;
+exports.isProfiler = isProfiler;
 exports.isStrictMode = isStrictMode;
+exports.isSuspense = isSuspense;
   })();
 }
 
@@ -9651,12 +10260,12 @@ if (false) {} else {
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_4d62ad301d4c9a40eec7 ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_1aef2d0bbc0d334d831c ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_4d62ad301d4c9a40eec7 */ "dll-reference dll_4d62ad301d4c9a40eec7"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_1aef2d0bbc0d334d831c */ "dll-reference dll_1aef2d0bbc0d334d831c"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -10436,6 +11045,61 @@ if (hadRuntime) {
     return this || (typeof self === "object" && self);
   })() || Function("return this")()
 );
+
+
+/***/ }),
+
+/***/ "./node_modules/slugify/index.js":
+/*!***************************************!*\
+  !*** ./node_modules/slugify/index.js ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+;(function (name, root, factory) {
+  if (true) {
+    module.exports = factory()
+    module.exports['default'] = factory()
+  }
+  /* istanbul ignore next */
+  else {}
+}('slugify', this, function () {
+  /* eslint-disable */
+  var charMap = JSON.parse('{"$":"dollar","%":"percent","&":"and","<":"less",">":"greater","|":"or","¢":"cent","£":"pound","¤":"currency","¥":"yen","©":"(c)","ª":"a","®":"(r)","º":"o","À":"A","Á":"A","Â":"A","Ã":"A","Ä":"A","Å":"A","Æ":"AE","Ç":"C","È":"E","É":"E","Ê":"E","Ë":"E","Ì":"I","Í":"I","Î":"I","Ï":"I","Ð":"D","Ñ":"N","Ò":"O","Ó":"O","Ô":"O","Õ":"O","Ö":"O","Ø":"O","Ù":"U","Ú":"U","Û":"U","Ü":"U","Ý":"Y","Þ":"TH","ß":"ss","à":"a","á":"a","â":"a","ã":"a","ä":"a","å":"a","æ":"ae","ç":"c","è":"e","é":"e","ê":"e","ë":"e","ì":"i","í":"i","î":"i","ï":"i","ð":"d","ñ":"n","ò":"o","ó":"o","ô":"o","õ":"o","ö":"o","ø":"o","ù":"u","ú":"u","û":"u","ü":"u","ý":"y","þ":"th","ÿ":"y","Ā":"A","ā":"a","Ă":"A","ă":"a","Ą":"A","ą":"a","Ć":"C","ć":"c","Č":"C","č":"c","Ď":"D","ď":"d","Đ":"DJ","đ":"dj","Ē":"E","ē":"e","Ė":"E","ė":"e","Ę":"e","ę":"e","Ě":"E","ě":"e","Ğ":"G","ğ":"g","Ģ":"G","ģ":"g","Ĩ":"I","ĩ":"i","Ī":"i","ī":"i","Į":"I","į":"i","İ":"I","ı":"i","Ķ":"k","ķ":"k","Ļ":"L","ļ":"l","Ľ":"L","ľ":"l","Ł":"L","ł":"l","Ń":"N","ń":"n","Ņ":"N","ņ":"n","Ň":"N","ň":"n","Ő":"O","ő":"o","Œ":"OE","œ":"oe","Ŕ":"R","ŕ":"r","Ř":"R","ř":"r","Ś":"S","ś":"s","Ş":"S","ş":"s","Š":"S","š":"s","Ţ":"T","ţ":"t","Ť":"T","ť":"t","Ũ":"U","ũ":"u","Ū":"u","ū":"u","Ů":"U","ů":"u","Ű":"U","ű":"u","Ų":"U","ų":"u","Ź":"Z","ź":"z","Ż":"Z","ż":"z","Ž":"Z","ž":"z","ƒ":"f","Ơ":"O","ơ":"o","Ư":"U","ư":"u","ǈ":"LJ","ǉ":"lj","ǋ":"NJ","ǌ":"nj","Ș":"S","ș":"s","Ț":"T","ț":"t","˚":"o","Ά":"A","Έ":"E","Ή":"H","Ί":"I","Ό":"O","Ύ":"Y","Ώ":"W","ΐ":"i","Α":"A","Β":"B","Γ":"G","Δ":"D","Ε":"E","Ζ":"Z","Η":"H","Θ":"8","Ι":"I","Κ":"K","Λ":"L","Μ":"M","Ν":"N","Ξ":"3","Ο":"O","Π":"P","Ρ":"R","Σ":"S","Τ":"T","Υ":"Y","Φ":"F","Χ":"X","Ψ":"PS","Ω":"W","Ϊ":"I","Ϋ":"Y","ά":"a","έ":"e","ή":"h","ί":"i","ΰ":"y","α":"a","β":"b","γ":"g","δ":"d","ε":"e","ζ":"z","η":"h","θ":"8","ι":"i","κ":"k","λ":"l","μ":"m","ν":"n","ξ":"3","ο":"o","π":"p","ρ":"r","ς":"s","σ":"s","τ":"t","υ":"y","φ":"f","χ":"x","ψ":"ps","ω":"w","ϊ":"i","ϋ":"y","ό":"o","ύ":"y","ώ":"w","Ё":"Yo","Ђ":"DJ","Є":"Ye","І":"I","Ї":"Yi","Ј":"J","Љ":"LJ","Њ":"NJ","Ћ":"C","Џ":"DZ","А":"A","Б":"B","В":"V","Г":"G","Д":"D","Е":"E","Ж":"Zh","З":"Z","И":"I","Й":"J","К":"K","Л":"L","М":"M","Н":"N","О":"O","П":"P","Р":"R","С":"S","Т":"T","У":"U","Ф":"F","Х":"H","Ц":"C","Ч":"Ch","Ш":"Sh","Щ":"Sh","Ъ":"U","Ы":"Y","Ь":"","Э":"E","Ю":"Yu","Я":"Ya","а":"a","б":"b","в":"v","г":"g","д":"d","е":"e","ж":"zh","з":"z","и":"i","й":"j","к":"k","л":"l","м":"m","н":"n","о":"o","п":"p","р":"r","с":"s","т":"t","у":"u","ф":"f","х":"h","ц":"c","ч":"ch","ш":"sh","щ":"sh","ъ":"u","ы":"y","ь":"","э":"e","ю":"yu","я":"ya","ё":"yo","ђ":"dj","є":"ye","і":"i","ї":"yi","ј":"j","љ":"lj","њ":"nj","ћ":"c","џ":"dz","Ґ":"G","ґ":"g","฿":"baht","ა":"a","ბ":"b","გ":"g","დ":"d","ე":"e","ვ":"v","ზ":"z","თ":"t","ი":"i","კ":"k","ლ":"l","მ":"m","ნ":"n","ო":"o","პ":"p","ჟ":"zh","რ":"r","ს":"s","ტ":"t","უ":"u","ფ":"f","ქ":"k","ღ":"gh","ყ":"q","შ":"sh","ჩ":"ch","ც":"ts","ძ":"dz","წ":"ts","ჭ":"ch","ხ":"kh","ჯ":"j","ჰ":"h","ẞ":"SS","Ạ":"A","ạ":"a","Ả":"A","ả":"a","Ấ":"A","ấ":"a","Ầ":"A","ầ":"a","Ẩ":"A","ẩ":"a","Ẫ":"A","ẫ":"a","Ậ":"A","ậ":"a","Ắ":"A","ắ":"a","Ằ":"A","ằ":"a","Ẳ":"A","ẳ":"a","Ẵ":"A","ẵ":"a","Ặ":"A","ặ":"a","Ẹ":"E","ẹ":"e","Ẻ":"E","ẻ":"e","Ẽ":"E","ẽ":"e","Ế":"E","ế":"e","Ề":"E","ề":"e","Ể":"E","ể":"e","Ễ":"E","ễ":"e","Ệ":"E","ệ":"e","Ỉ":"I","ỉ":"i","Ị":"I","ị":"i","Ọ":"O","ọ":"o","Ỏ":"O","ỏ":"o","Ố":"O","ố":"o","Ồ":"O","ồ":"o","Ổ":"O","ổ":"o","Ỗ":"O","ỗ":"o","Ộ":"O","ộ":"o","Ớ":"O","ớ":"o","Ờ":"O","ờ":"o","Ở":"O","ở":"o","Ỡ":"O","ỡ":"o","Ợ":"O","ợ":"o","Ụ":"U","ụ":"u","Ủ":"U","ủ":"u","Ứ":"U","ứ":"u","Ừ":"U","ừ":"u","Ử":"U","ử":"u","Ữ":"U","ữ":"u","Ự":"U","ự":"u","Ỳ":"Y","ỳ":"y","Ỵ":"Y","ỵ":"y","Ỷ":"Y","ỷ":"y","Ỹ":"Y","ỹ":"y","‘":"\'","’":"\'","“":"\\\"","”":"\\\"","†":"+","•":"*","…":"...","₠":"ecu","₢":"cruzeiro","₣":"french franc","₤":"lira","₥":"mill","₦":"naira","₧":"peseta","₨":"rupee","₩":"won","₪":"new shequel","₫":"dong","€":"euro","₭":"kip","₮":"tugrik","₯":"drachma","₰":"penny","₱":"peso","₲":"guarani","₳":"austral","₴":"hryvnia","₵":"cedi","₹":"indian rupee","₽":"russian ruble","₿":"bitcoin","℠":"sm","™":"tm","∂":"d","∆":"delta","∑":"sum","∞":"infinity","♥":"love","元":"yuan","円":"yen","﷼":"rial"}')
+  /* eslint-enable */
+
+  function replace (string, options) {
+    if (typeof string !== 'string') {
+      throw new Error('slugify: string argument expected')
+    }
+
+    options = (typeof options === 'string')
+      ? {replacement: options}
+      : options || {}
+
+    var slug = string.split('')
+      .reduce(function (result, ch) {
+        return result + (charMap[ch] || ch)
+          // allowed
+          .replace(options.remove || /[^\w\s$*_+~.()'"!\-:@]/g, '')
+      }, '')
+      // trim leading/trailing spaces
+      .trim()
+      // convert spaces
+      .replace(/[-\s]+/g, options.replacement || '-')
+
+    return options.lower ? slug.toLowerCase() : slug
+  }
+
+  replace.extend = function (customMap) {
+    for (var key in customMap) {
+      charMap[key] = customMap[key]
+    }
+  }
+
+  return replace
+}))
 
 
 /***/ }),
@@ -11962,12 +12626,12 @@ module.exports = {
 
 /***/ "./node_modules/webpack/buildin/global.js":
 /*!******************************************************************************************************!*\
-  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_4d62ad301d4c9a40eec7 ***!
+  !*** delegated ./node_modules/webpack/buildin/global.js from dll-reference dll_1aef2d0bbc0d334d831c ***!
   \******************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_4d62ad301d4c9a40eec7 */ "dll-reference dll_4d62ad301d4c9a40eec7"))("./node_modules/webpack/buildin/global.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_1aef2d0bbc0d334d831c */ "dll-reference dll_1aef2d0bbc0d334d831c"))("./node_modules/webpack/buildin/global.js");
 
 /***/ }),
 
@@ -12028,12 +12692,17 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _components_Header__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../components/Header */ "./components/Header.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var _breakpoints__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../breakpoints */ "./breakpoints.js");
+/* harmony import */ var _components_ProductosLayout__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! ../components/ProductosLayout */ "./components/ProductosLayout.js");
+/* harmony import */ var _components_Producto__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../components/Producto */ "./components/Producto.js");
 
 
 
 
 
-var _jsxFileName = "C:\\Users\\Aaron\\Documents\\GitHub\\filippini_hospitalario\\Client\\pages\\producto.js";
+
+
+
 
 
 
@@ -12056,401 +12725,104 @@ function (_React$Component) {
     key: "render",
     value: function render() {
       return react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_7__["default"], {
-        title: "Producto - Filippini",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 10
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_9__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 12
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("section", {
-        className: "jsx-3286521214" + " " + "descripcion",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 14
-        },
-        __self: this
+        title: "Producto - Filippini"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_components_Header__WEBPACK_IMPORTED_MODULE_9__["default"], null), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("section", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]]) + " " + "descripcion"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h3", {
-        className: "jsx-3286521214" + " " + "nombre-producto",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 16
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]]) + " " + "nombre-producto"
       }, "Nombre del Producto"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-3286521214" + " " + "img-y-descripcion",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 17
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]]) + " " + "img-y-descripcion"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
-        src: "static/camilla.png",
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 18
-        },
-        __self: this
+        src: "/static/camilla.png",
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]])
       }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 19
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]])
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h3", {
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 20
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]])
       }, "Descripcion:"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 21
-        },
-        __self: this
-      }, "Lorem ipsum dolor sit amet consectetur, adipiscing elit felis rhoncus sapien, per at scelerisque vivamus. Congue co mmodo netus egestas rutrum primis porttitor cubilia id aliquam felis per, neque vestibulum inceptos etiam molestie iaculis habitant orci cras curae sollicitudin, facilisi eros varius torquent semper di pharetra eget ridiculus aptent. Porta lectus facilisis dignissim leo eget qua pretium integer dapibus, morbi cursus rutrum duis nibh cum maecenas tristique hac, etiam varius fames tortor aenean aliquam convallis pellentesque."), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("button", {
-        className: "jsx-3286521214" + " " + "btn-descripcion",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 31
-        },
-        __self: this
-      }, "Contactar")))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("section", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]])
+      }, "Lorem ipsum dolor sit amet consectetur, adipiscing elit felis rhoncus sapien, per at scelerisque vivamus. Congue co mmodo netus egestas rutrum primis porttitor cubilia id aliquam felis per, neque vestibulum inceptos etiam molestie iaculis habitant orci cras curae sollicitudin, facilisi eros varius torquent semper di pharetra eget ridiculus aptent. Porta lectus facilisis dignissim leo eget qua pretium integer dapibus, morbi cursus rutrum duis nibh cum maecenas tristique hac, etiam varius fames tortor aenean aliquam convallis pellentesque."), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("section", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]]) + " " + "precio-btn"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("button", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]]) + " " + "btn-descripcion"
+      }, "Contactar"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("section", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]]) + " " + "precio"
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]])
+      }, "$199,99")))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("section", {
         role: "main",
-        className: "jsx-3286521214" + " " + "titulo-productos",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 36
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]]) + " " + "contenedor-titulo-rayita"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h3", {
-        className: "jsx-3286521214" + " " + "titulo-rayita",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 38
-        },
-        __self: this
-      }, "Otros Productos")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("section", {
-        className: "jsx-3286521214" + " " + "Productos",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 42
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-3286521214" + " " + "fila",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 44
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
-        src: "static/camilla.png",
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 46
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 47
-        },
-        __self: this
-      }, "Nombre del Producto"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 48
-        },
-        __self: this
-      }, "$199,99"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
-        href: "/producto",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 49
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("button", {
-        className: "jsx-3286521214" + " " + "btn",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 49
-        },
-        __self: this
-      }, "Mas Detalles"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 51
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
-        src: "static/camilla.png",
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 52
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 53
-        },
-        __self: this
-      }, "Nombre del Producto"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 54
-        },
-        __self: this
-      }, "$199,99"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
-        href: "/producto",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 55
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("button", {
-        className: "jsx-3286521214" + " " + "btn",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 55
-        },
-        __self: this
-      }, "Mas Detalles"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 57
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
-        src: "static/camilla.png",
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 58
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 59
-        },
-        __self: this
-      }, "Nombre del Producto"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 60
-        },
-        __self: this
-      }, "$199,99"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
-        href: "/producto",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 61
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("button", {
-        className: "jsx-3286521214" + " " + "btn",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 61
-        },
-        __self: this
-      }, "Mas Detalles"))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 63
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("img", {
-        src: "static/camilla.png",
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 64
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 65
-        },
-        __self: this
-      }, "Nombre del Producto"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("p", {
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 66
-        },
-        __self: this
-      }, "$199,99"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
-        href: "/producto",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 67
-        },
-        __self: this
-      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("button", {
-        className: "jsx-3286521214" + " " + "btn",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 67
-        },
-        __self: this
-      }, "Mas Detalles"))))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("section", {
-        className: "jsx-3286521214" + " " + "titulo-productos",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 72
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]]) + " " + "titulo-rayita"
+      }, "Otros Productos")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_components_ProductosLayout__WEBPACK_IMPORTED_MODULE_12__["default"], null, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_components_Producto__WEBPACK_IMPORTED_MODULE_13__["default"], {
+        title: "Nombre del Producto",
+        precio: "$199,99",
+        imagen: "/static/camilla.png",
+        id: "1"
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_components_Producto__WEBPACK_IMPORTED_MODULE_13__["default"], {
+        title: "Nombre del Producto",
+        precio: "$199,99",
+        imagen: "/static/camilla.png",
+        id: "1"
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_components_Producto__WEBPACK_IMPORTED_MODULE_13__["default"], {
+        title: "Nombre del Producto",
+        precio: "$199,99",
+        imagen: "/static/camilla.png",
+        id: "1"
+      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_components_Producto__WEBPACK_IMPORTED_MODULE_13__["default"], {
+        title: "Nombre del Producto",
+        precio: "$199,99",
+        imagen: "/static/camilla.png",
+        id: "1"
+      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("section", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]]) + " " + "contenedor-titulo-rayita"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("h3", {
-        className: "jsx-3286521214" + " " + "titulo-rayita",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 74
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]]) + " " + "titulo-rayita"
       }, "Contactanos")), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("section", {
-        className: "jsx-3286521214" + " " + "formulario",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 78
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]]) + " " + "formulario"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-3286521214" + " " + "form-control",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 79
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]]) + " " + "form-control"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("label", {
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 80
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]])
       }, "Nombre y Apellido"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("input", {
         type: "text",
         name: "nombre",
-        autocomplete: "on",
+        autoComplete: "on",
         required: true,
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 81
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]])
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-3286521214" + " " + "form-control",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 84
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]]) + " " + "form-control"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("label", {
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 85
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]])
       }, "Email"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("input", {
         type: "email",
         name: "Email",
-        autocomplete: "on",
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 86
-        },
-        __self: this
+        autoComplete: "on",
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]])
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-3286521214" + " " + "form-control",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 89
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]]) + " " + "form-control"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("label", {
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 90
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]])
       }, "Telefono"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("input", {
         type: "tel",
         name: "Telefono",
-        autocomplete: "on",
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 91
-        },
-        __self: this
+        autoComplete: "on",
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]])
       })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
-        className: "jsx-3286521214" + " " + "form-control",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 94
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]]) + " " + "form-control"
       }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("label", {
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 95
-        },
-        __self: this
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]])
       }, "Mensaje"), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("textarea", {
-        className: "jsx-3286521214",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 96
-        },
-        __self: this
-      }))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_8__["default"], {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 101
-        },
-        __self: this
-      }), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
-        id: "3286521214",
-        __self: this
-      }, ".nombre-producto.jsx-3286521214{width:100%;font-size:2em;text-align:center;color:#113F67;margin-top:5%;}.descripcion.jsx-3286521214{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}.img-y-descripcion.jsx-3286521214{width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.img-y-descripcion.jsx-3286521214 div.jsx-3286521214{width:30%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin:3%;}.img-y-descripcion.jsx-3286521214 h3.jsx-3286521214{font-size:1.2em;color:#113F67;}.descripcion.jsx-3286521214 img.jsx-3286521214{width:30%;margin:3%;}.descripcion.jsx-3286521214 p.jsx-3286521214{width:100%;font-size:1em;font-weight:bold;text-align:left;color:#113F67;}.btn-descripcion.jsx-3286521214{border:none;width:30%;height:30px;text-align:center;-webkit-text-decoration:none;text-decoration:none;border-radius:5px;cursor:pointer;-webkit-transition:all .3s;transition:all .3s;font-size:80%;color:white;background-color:#34699A;position:relative;top:25px;box-shadow:0 8px 16px 0 rgba(0,0,0,0.2);}.btn-descripcion.jsx-3286521214:hover{background-color:#113F67;box-shadow:0 12px 14px 0 rgba(0,0,0,0.30);}.titulo-productos.jsx-3286521214{width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-size:2em;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;color:#408AB4;font-weight:600;margin-top:70px;}.titulo-rayita.jsx-3286521214{position:relative;}.titulo-rayita.jsx-3286521214:after,.titulo-rayita.jsx-3286521214:before{content:\" \";width:80%;height:1px;color:#000;background:#408AB4;position:absolute;z-index:100;top:25px;}.titulo-rayita.jsx-3286521214:after{left:120%;}.titulo-rayita.jsx-3286521214:before{left:-100%;}.Productos.jsx-3286521214{width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}.Productos.jsx-3286521214 p.jsx-3286521214{color:#34699A;font-weight:550;font-size:0.8em;position:relative;top:5px;}.Productos.jsx-3286521214 div.jsx-3286521214{width:70%;height:270px;margin:2%;text-align:center;}.Productos.jsx-3286521214 div.jsx-3286521214 img.jsx-3286521214{width:90%;}.fila.jsx-3286521214{width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;position:relative;left:180px;}.fila.jsx-3286521214 div.jsx-3286521214{padding:5px;border:1px solid #eaeaea;border-radius:10px;box-shadow:5px 5px 8px #EFEFEF;}.btn.jsx-3286521214{border:none;width:70%;height:30px;text-align:center;-webkit-text-decoration:none;text-decoration:none;border-radius:15px;cursor:pointer;-webkit-transition:all .3s;transition:all .3s;font-size:80%;color:white;background-color:#34699A;position:relative;top:25px;box-shadow:0 8px 16px 0 rgba(0,0,0,0.2);}.btn.jsx-3286521214:hover{background-color:#113F67;box-shadow:0 12px 14px 0 rgba(0,0,0,0.30);}.formulario.jsx-3286521214{width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}.formulario.jsx-3286521214 .form-control.jsx-3286521214{min-width:70%;max-width:500px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin:10px 0;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}.formulario.jsx-3286521214 label.jsx-3286521214{color:#34699A;font-weight:bold;}.formulario.jsx-3286521214 .form-control.jsx-3286521214 input.jsx-3286521214{height:25px;border:solid 1px #34699A;background:#E9EFF4;border-radius:5px;}.formulario.jsx-3286521214 textarea.jsx-3286521214{height:180px;border:solid 1px #34699A;background:#E9EFF4;border-radius:5px;resize:none;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkM6XFxVc2Vyc1xcQWFyb25cXERvY3VtZW50c1xcR2l0SHViXFxmaWxpcHBpbmlfaG9zcGl0YWxhcmlvXFxDbGllbnRcXHBhZ2VzXFxwcm9kdWN0by5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUEwR29CLEFBS29DLEFBUUMsQUFLRCxBQVFGLEFBT08sQUFLTixBQUtDLEFBUUMsQUFpQmEsQUFLZCxBQVVNLEFBS0wsQUFXSCxBQUlDLEFBTUMsQUFNRyxBQVFKLEFBT0EsQUFJQyxBQVFDLEFBT0EsQUFpQmEsQUFLZixBQVFHLEFBU0EsQUFLRCxBQU9DLFVBN0tELEFBWUgsQUE2RGIsQUF3QmlCLEFBT2pCLENBN0hrQixBQWFELEFBeUJDLEFBOEJGLEFBOEJoQixBQU1pQixBQXlCQSxBQXFDRCxDQXhIRixBQXFDRCxBQXNEZ0IsQUFPZixBQTRDZSxDQU9BLENBckZULEFBZ0VELEFBU0UsRUEzSkgsRUFrRGxCLEVBNUNBLEVBYWdCLEFBcUNELEFBNkRDLENBMUJGLEVBdEhRLEFBc0NGLEFBd0IwQixBQWtHQSxLQXBJOUMsQUFrRm9CLEFBZ0VKLENBVWhCLEVBcEdjLEFBbUNRLENBeEVBLEFBa0dBLEdBUkMsQUFtREQsQ0FPQSxJQTVKRixDQXRDRixDQW9GSSxFQTBCRCxLQVNyQixDQXhFeUIsQUFrR0EsSUFSVSxBQW1EYixDQTNMTCxBQWtNSyxDQTVKSixLQThDRyxDQTBCVCxHQWpEWixBQWtHQSxJQTlKQSxDQXNDQSxBQXdFQSxFQTFHeUIsQUF1THpCLENBT2dCLE1BOUdELEdBbEVXLENBUkgsQUF1REwsQUFvQ1EsQUF5QkgsQUFxQ0csRUEzQjFCLEFBMkRBLE1BOUdZLE1BbkJjLEdBcEJKLEFBd0N0QixBQTBEdUIsRUE0QkcsZ0JBN0hSLENBa0dBLGNBakdLLENBa0dBLGdCQTdJdkIsRUFNMEIsQUFvSEwsUUE1R1IsQ0FtRmIsQUE4RHNCLFNBaEp0QixBQTRHZSxTQS9FRyxDQWtHQSxBQTBCRCxDQTVDakIsWUEvRWdCLENBa0dBLEFBMEJVLEVBM0dSLFNBaEJXLENBa0dBLElBakZULGdCQUNBLElBakJDLENBa0dBLFdBaEZyQixNQWpCWSxDQWtHQSxFQTNJVyxHQXlKRyxHQS9Ha0IsQ0FrR0EsbUNBdUI1QyxJQXhIQSxDQWtHQSw4Q0E1SUEsU0F5SkEiLCJmaWxlIjoiQzpcXFVzZXJzXFxBYXJvblxcRG9jdW1lbnRzXFxHaXRIdWJcXGZpbGlwcGluaV9ob3NwaXRhbGFyaW9cXENsaWVudFxccGFnZXNcXHByb2R1Y3RvLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExheW91dCBmcm9tICcuLi9jb21wb25lbnRzL0xheW91dCc7XHJcbmltcG9ydCBGb290ZXIgZnJvbSAnLi4vY29tcG9uZW50cy9Gb290ZXInO1xyXG5pbXBvcnQgSGVhZGVyIGZyb20gJy4uL2NvbXBvbmVudHMvSGVhZGVyJztcclxuaW1wb3J0ICBMaW5rICBmcm9tICduZXh0L2xpbmsnO1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgY2xhc3MgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnR7XHJcbiAgICByZW5kZXIoKXtcclxuICAgICAgICByZXR1cm4oXHJcblxyXG4gICAgICAgICAgICA8TGF5b3V0IHRpdGxlPVwiUHJvZHVjdG8gLSBGaWxpcHBpbmlcIj5cclxuXHJcbiAgICAgICAgICAgIDxIZWFkZXI+PC9IZWFkZXI+XHJcblxyXG4gICAgICAgICAgICA8c2VjdGlvbiBjbGFzc05hbWU9XCJkZXNjcmlwY2lvblwiPlxyXG5cclxuICAgICAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9XCJub21icmUtcHJvZHVjdG9cIj5Ob21icmUgZGVsIFByb2R1Y3RvPC9oMz5cclxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiaW1nLXktZGVzY3JpcGNpb25cIj5cclxuICAgICAgICAgICAgICAgICAgICA8aW1nIHNyYz1cInN0YXRpYy9jYW1pbGxhLnBuZ1wiLz5cclxuICAgICAgICAgICAgICAgICAgICA8ZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8aDM+RGVzY3JpcGNpb246PC9oMz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPHA+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBMb3JlbSBpcHN1bSBkb2xvciBzaXQgYW1ldCBjb25zZWN0ZXR1ciwgYWRpcGlzY2luZyBlbGl0IGZlbGlzIHJob25jdXMgc2FwaWVuLFxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgcGVyIGF0IHNjZWxlcmlzcXVlIHZpdmFtdXMuIENvbmd1ZSBjb1xyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgbW1vZG8gbmV0dXMgZWdlc3RhcyBydXRydW0gcHJpbWlzIHBvcnR0aXRvclxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgY3ViaWxpYSBpZCBhbGlxdWFtIGZlbGlzIHBlciwgbmVxdWUgdmVzdGlidWx1bSBpbmNlcHRvcyBldGlhbSBtb2xlc3RpZSBpYWN1bGlzXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBoYWJpdGFudCBvcmNpIGNyYXMgY3VyYWUgc29sbGljaXR1ZGluLCBmYWNpbGlzaSBlcm9zIHZhcml1cyB0b3JxdWVudCBzZW1wZXIgZGlcclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBoYXJldHJhIGVnZXQgcmlkaWN1bHVzIGFwdGVudC4gUG9ydGEgbGVjdHVzIGZhY2lsaXNpcyBkaWduaXNzaW0gbGVvIGVnZXQgcXVhXHJcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwcmV0aXVtIGludGVnZXIgZGFwaWJ1cywgbW9yYmkgY3Vyc3VzIHJ1dHJ1bSBkdWlzIG5pYmggY3VtIG1hZWNlbmFzIHRyaXN0aXF1ZVxyXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgaGFjLCBldGlhbSB2YXJpdXMgZmFtZXMgdG9ydG9yIGFlbmVhbiBhbGlxdWFtIGNvbnZhbGxpcyBwZWxsZW50ZXNxdWUuXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDwvcD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPGJ1dHRvbiBjbGFzc05hbWU9XCJidG4tZGVzY3JpcGNpb25cIj5Db250YWN0YXI8L2J1dHRvbj5cclxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICA8L3NlY3Rpb24+XHJcblxyXG4gICAgICAgICAgICA8c2VjdGlvbiBjbGFzc05hbWU9XCJ0aXR1bG8tcHJvZHVjdG9zXCIgcm9sZT1cIm1haW5cIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPVwidGl0dWxvLXJheWl0YVwiPk90cm9zIFByb2R1Y3RvczwvaDM+XHJcblxyXG4gICAgICAgICAgICA8L3NlY3Rpb24+XHJcblxyXG4gICAgICAgICAgICA8c2VjdGlvbiBjbGFzc05hbWU9XCJQcm9kdWN0b3NcIj5cclxuXHJcbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZpbGFcIj5cclxuICAgICAgICAgICAgICAgICAgICA8ZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8aW1nIHNyYz1cInN0YXRpYy9jYW1pbGxhLnBuZ1wiLz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPHA+Tm9tYnJlIGRlbCBQcm9kdWN0bzwvcD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPHA+JDE5OSw5OTwvcD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPExpbmsgaHJlZj1cIi9wcm9kdWN0b1wiPjxidXR0b24gY2xhc3NOYW1lPVwiYnRuXCI+TWFzIERldGFsbGVzPC9idXR0b24+PC9MaW5rPlxyXG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgIDxkaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPVwic3RhdGljL2NhbWlsbGEucG5nXCIvPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8cD5Ob21icmUgZGVsIFByb2R1Y3RvPC9wPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8cD4kMTk5LDk5PC9wPlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8TGluayBocmVmPVwiL3Byb2R1Y3RvXCI+PGJ1dHRvbiBjbGFzc05hbWU9XCJidG5cIj5NYXMgRGV0YWxsZXM8L2J1dHRvbj48L0xpbms+XHJcbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgICAgICAgICAgPGRpdj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPGltZyBzcmM9XCJzdGF0aWMvY2FtaWxsYS5wbmdcIi8+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxwPk5vbWJyZSBkZWwgUHJvZHVjdG88L3A+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxwPiQxOTksOTk8L3A+XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIDxMaW5rIGhyZWY9XCIvcHJvZHVjdG9cIj48YnV0dG9uIGNsYXNzTmFtZT1cImJ0blwiPk1hcyBEZXRhbGxlczwvYnV0dG9uPjwvTGluaz5cclxuICAgICAgICAgICAgICAgICAgICA8L2Rpdj5cclxuICAgICAgICAgICAgICAgICAgICA8ZGl2PlxyXG4gICAgICAgICAgICAgICAgICAgICAgICA8aW1nIHNyYz1cInN0YXRpYy9jYW1pbGxhLnBuZ1wiLz5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPHA+Tm9tYnJlIGRlbCBQcm9kdWN0bzwvcD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPHA+JDE5OSw5OTwvcD5cclxuICAgICAgICAgICAgICAgICAgICAgICAgPExpbmsgaHJlZj1cIi9wcm9kdWN0b1wiPjxidXR0b24gY2xhc3NOYW1lPVwiYnRuXCI+TWFzIERldGFsbGVzPC9idXR0b24+PC9MaW5rPlxyXG4gICAgICAgICAgICAgICAgICAgIDwvZGl2PlxyXG4gICAgICAgICAgICAgICAgPC9kaXY+XHJcbiAgICAgICAgICAgIDwvc2VjdGlvbj5cclxuICAgICAgICAgICAgXHJcbiAgICAgICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT1cInRpdHVsby1wcm9kdWN0b3NcIj5cclxuICAgICAgICAgICAgICAgICAgICAgICAgXHJcbiAgICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPVwidGl0dWxvLXJheWl0YVwiPkNvbnRhY3Rhbm9zPC9oMz5cclxuXHJcbiAgICAgICAgICAgIDwvc2VjdGlvbj5cclxuXHJcbiAgICAgICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT1cImZvcm11bGFyaW9cIj5cclxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZm9ybS1jb250cm9sXCI+XHJcbiAgICAgICAgICAgICAgICAgICAgPGxhYmVsPk5vbWJyZSB5IEFwZWxsaWRvPC9sYWJlbD5cclxuICAgICAgICAgICAgICAgICAgICA8aW5wdXQgdHlwZT1cInRleHRcIiBuYW1lPVwibm9tYnJlXCIgYXV0b2NvbXBsZXRlPVwib25cIiByZXF1aXJlZD48L2lucHV0PlxyXG4gICAgICAgICAgICAgICAgPC9kaXY+XHJcblxyXG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJmb3JtLWNvbnRyb2xcIj5cclxuICAgICAgICAgICAgICAgICAgICA8bGFiZWw+RW1haWw8L2xhYmVsPlxyXG4gICAgICAgICAgICAgICAgICAgIDxpbnB1dCB0eXBlPVwiZW1haWxcIiBuYW1lPVwiRW1haWxcIiBhdXRvY29tcGxldGU9XCJvblwiPjwvaW5wdXQ+XHJcbiAgICAgICAgICAgICAgICA8L2Rpdj5cclxuXHJcbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZvcm0tY29udHJvbFwiPlxyXG4gICAgICAgICAgICAgICAgICAgIDxsYWJlbD5UZWxlZm9ubzwvbGFiZWw+XHJcbiAgICAgICAgICAgICAgICAgICAgPGlucHV0IHR5cGU9XCJ0ZWxcIiBuYW1lPVwiVGVsZWZvbm9cIiBhdXRvY29tcGxldGU9XCJvblwiPjwvaW5wdXQ+XHJcbiAgICAgICAgICAgICAgICA8L2Rpdj5cclxuXHJcbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZvcm0tY29udHJvbFwiPlxyXG4gICAgICAgICAgICAgICAgICAgIDxsYWJlbD5NZW5zYWplPC9sYWJlbD5cclxuICAgICAgICAgICAgICAgICAgICA8dGV4dGFyZWE+PC90ZXh0YXJlYT5cclxuICAgICAgICAgICAgICAgIDwvZGl2PlxyXG5cclxuICAgICAgICAgICAgPC9zZWN0aW9uPlxyXG4gICAgICAgICAgICBcclxuICAgICAgICAgICAgPEZvb3Rlci8+XHJcbiAgICAgICAgICAgICAgICBcclxuXHJcblxyXG4gICAgICAgICAgICA8c3R5bGUganN4PlxyXG4gICAgICAgICAgICAgICAge1xyXG4gICAgICAgICAgICAgICAgICAgIGBcclxuXHJcbiAgICAgICAgICAgICAgICAgICAgLm5vbWJyZS1wcm9kdWN0byB7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogMTAwJTtcclxuICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiAyZW07XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6ICMxMTNGNjc7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbi10b3A6NSU7XHJcbiAgICAgICAgICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICAgICAgICAgICAgICAuZGVzY3JpcGNpb257XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6ZmxleDtcclxuICAgICAgICAgICAgICAgICAgICAgICAgZmxleC1kaXJlY3Rpb246Y29sdW1uO1xyXG4gICAgICAgICAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgLmltZy15LWRlc2NyaXBjaW9ue1xyXG4gICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogMTAwJTtcclxuICAgICAgICAgICAgICAgICAgICAgICAgZGlzcGxheTogZmxleDtcclxuICAgICAgICAgICAgICAgICAgICAgICAgZmxleC1kaXJlY3Rpb246IHJvdztcclxuICAgICAgICAgICAgICAgICAgICAgICAganVzdGlmeS1jb250ZW50OmNlbnRlcjtcclxuICAgICAgICAgICAgICAgICAgICAgICAgYWxpZ24taXRlbXM6IGNlbnRlcjtcclxuICAgICAgICAgICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICAgICAgICAgIC5pbWcteS1kZXNjcmlwY2lvbiBkaXZ7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOjMwJTtcclxuICAgICAgICAgICAgICAgICAgICAgICAgZGlzcGxheTpmbGV4O1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW46MyU7XHJcbiAgICAgICAgICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICAgICAgICAgICAgICAuaW1nLXktZGVzY3JpcGNpb24gaDN7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogMS4yZW07XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiAjMTEzRjY3O1xyXG4gICAgICAgICAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgLmRlc2NyaXBjaW9uIGltZyB7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiAzMCU7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbjozJTtcclxuICAgICAgICAgICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICAgICAgICAgIC5kZXNjcmlwY2lvbiBwIHtcclxuICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6IDEwMCU7O1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6IDFlbTtcclxuICAgICAgICAgICAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6Ym9sZDtcclxuICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogbGVmdDtcclxuICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6ICMxMTNGNjc7XHJcbiAgICAgICAgICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICAgICAgICAgICAgICAuYnRuLWRlc2NyaXBjaW9uIHtcclxuICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyOiBub25lO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogMzAlO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDMwcHg7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcclxuICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBib3JkZXItcmFkaXVzOiA1cHg7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGN1cnNvcjpwb2ludGVyO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICB0cmFuc2l0aW9uOiBhbGwgLjNzO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6IDgwJTtcclxuICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IHdoaXRlO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMzQ2OTlBO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBwb3NpdGlvbjpyZWxhdGl2ZTtcclxuICAgICAgICAgICAgICAgICAgICAgICAgdG9wOjI1cHg7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGJveC1zaGFkb3c6IDAgOHB4IDE2cHggMCByZ2JhKDAsMCwwLDAuMik7XHJcbiAgICAgICAgICAgICAgICAgICAgfSAgIFxyXG5cclxuICAgICAgICAgICAgICAgICAgICAuYnRuLWRlc2NyaXBjaW9uOmhvdmVye1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTEzRjY3O1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBib3gtc2hhZG93OiAwIDEycHggMTRweCAwIHJnYmEoMCwwLDAsMC4zMCk7XHJcbiAgICAgICAgICAgICAgICAgICAgfVxyXG4gICAgICAgICAgICAgICAgICAgIFxyXG4gICAgICAgICAgICAgICAgICAgIC50aXR1bG8tcHJvZHVjdG9zIHtcclxuICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6IDEwMCU7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6ZmxleDtcclxuICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiAyZW07XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGp1c3RpZnktY29udGVudDpjZW50ZXI7ICAgXHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiAjNDA4QUI0O1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBmb250LXdlaWdodDogNjAwO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW4tdG9wOiA3MHB4O1xyXG4gICAgICAgICAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgLnRpdHVsby1yYXlpdGF7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHBvc2l0aW9uOnJlbGF0aXZlO1xyXG4gICAgICAgICAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgLnRpdHVsby1yYXlpdGE6YWZ0ZXIsXHJcbiAgICAgICAgICAgICAgICAgICAgLnRpdHVsby1yYXlpdGE6YmVmb3Jle1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBjb250ZW50OiBcIiBcIjtcclxuICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6ODAlO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDFweDtcclxuICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IzAwMDtcclxuICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDojNDA4QUI0O1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBwb3NpdGlvbjphYnNvbHV0ZTtcclxuICAgICAgICAgICAgICAgICAgICAgICAgei1pbmRleDoxMDA7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHRvcDoyNXB4O1xyXG4gICAgICAgICAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgLnRpdHVsby1yYXlpdGE6YWZ0ZXJ7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGxlZnQ6MTIwJTtcclxuICAgICAgICAgICAgICAgICAgICB9XHJcblxyXG4gICAgICAgICAgICAgICAgICAgIC50aXR1bG8tcmF5aXRhOmJlZm9yZXtcclxuICAgICAgICAgICAgICAgICAgICAgICAgbGVmdDotMTAwJTtcclxuICAgICAgICAgICAgICAgICAgICB9XHJcblxyXG5cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgLlByb2R1Y3RvcyB7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xyXG4gICAgICAgICAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgLlByb2R1Y3RvcyBwe1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogIzM0Njk5QTtcclxuICAgICAgICAgICAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6IDU1MDtcclxuICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiAwLjhlbTtcclxuICAgICAgICAgICAgICAgICAgICAgICAgcG9zaXRpb246cmVsYXRpdmU7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHRvcDogNXB4O1xyXG4gICAgICAgICAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgLlByb2R1Y3RvcyBkaXYge1xyXG4gICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogNzAlO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDI3MHB4O1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW46IDIlO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XHJcbiAgICAgICAgICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICAgICAgICAgICAgICAuUHJvZHVjdG9zIGRpdiBpbWd7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiA5MCU7XHJcbiAgICAgICAgICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICAgICAgICAgICAgICAuZmlsYSB7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogcm93O1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBwb3NpdGlvbjpyZWxhdGl2ZTtcclxuICAgICAgICAgICAgICAgICAgICAgICAgbGVmdDogMTgwcHg7XHJcbiAgICAgICAgICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICAgICAgICAgICAgICAuZmlsYSBkaXYge1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nOiA1cHg7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlcjogMXB4IHNvbGlkICNlYWVhZWE7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDEwcHg7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGJveC1zaGFkb3c6IDVweCA1cHggOHB4ICNFRkVGRUY7XHJcbiAgICAgICAgICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICAgICAgICAgICAgICAuYnRue1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBib3JkZXI6IG5vbmU7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiA3MCU7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGhlaWdodDogMzBweDtcclxuICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDE1cHg7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGN1cnNvcjpwb2ludGVyO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICB0cmFuc2l0aW9uOiBhbGwgLjNzO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6IDgwJTtcclxuICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IHdoaXRlO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMzQ2OTlBO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBwb3NpdGlvbjpyZWxhdGl2ZTtcclxuICAgICAgICAgICAgICAgICAgICAgICAgdG9wOjI1cHg7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGJveC1zaGFkb3c6IDAgOHB4IDE2cHggMCByZ2JhKDAsMCwwLDAuMik7XHJcbiAgICAgICAgICAgICAgICAgICAgfSAgIFxyXG5cclxuICAgICAgICAgICAgICAgICAgICAuYnRuOmhvdmVye1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTEzRjY3O1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBib3gtc2hhZG93OiAwIDEycHggMTRweCAwIHJnYmEoMCwwLDAsMC4zMCk7XHJcbiAgICAgICAgICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICAgICAgICAgICAgICAuZm9ybXVsYXJpbyB7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOjEwMCU7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6ZmxleDtcclxuICAgICAgICAgICAgICAgICAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcclxuICAgICAgICAgICAgICAgICAgICAgICAgYWxpZ24taXRlbXM6Y2VudGVyO1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6Y2VudGVyO1xyXG4gICAgICAgICAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgLmZvcm11bGFyaW8gLmZvcm0tY29udHJvbHtcclxuICAgICAgICAgICAgICAgICAgICAgICAgbWluLXdpZHRoOjcwJTtcclxuICAgICAgICAgICAgICAgICAgICAgICAgbWF4LXdpZHRoOjUwMHB4O1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OmZsZXg7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbjoxMHB4IDA7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGp1c3RpZnktY29udGVudDpjZW50ZXI7XHJcbiAgICAgICAgICAgICAgICAgICAgfVxyXG5cclxuICAgICAgICAgICAgICAgICAgICAuZm9ybXVsYXJpbyBsYWJlbHtcclxuICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IzM0Njk5QTtcclxuICAgICAgICAgICAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6IGJvbGQ7XHJcblxyXG4gICAgICAgICAgICAgICAgICAgIH1cclxuICAgICAgICAgICAgICAgICAgICAuZm9ybXVsYXJpbyAuZm9ybS1jb250cm9sIGlucHV0e1xyXG4gICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDI1cHg7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlcjogc29saWQgMXB4ICMzNDY5OUE7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6I0U5RUZGNDtcclxuICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gICAgICAgICAgICAgICAgICAgIH1cclxuXHJcbiAgICAgICAgICAgICAgICAgICAgLmZvcm11bGFyaW8gdGV4dGFyZWF7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGhlaWdodDogMTgwcHg7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlcjogc29saWQgMXB4ICMzNDY5OUE7XHJcbiAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQ6I0U5RUZGNDtcclxuICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogNXB4O1xyXG4gICAgICAgICAgICAgICAgICAgICAgICByZXNpemU6IG5vbmU7XHJcbiAgICAgICAgICAgICAgICAgICAgfVxyXG5cclxuIFxyXG5cclxuICAgICAgICAgICAgICAgICAgICBgXHJcbiAgICAgICAgICAgICAgICB9XHJcbiAgICAgICAgICAgIDwvc3R5bGU+XHJcblxyXG4gICAgICAgICAgICA8L0xheW91dD5cclxuICAgICAgICApXHJcblxyXG4gICAgfVxyXG59XHJcbiJdfQ== */\n/*@ sourceURL=C:\\Users\\Aaron\\Documents\\GitHub\\filippini_hospitalario\\Client\\pages\\producto.js */"));
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]])
+      })), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("div", {
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]])
+      }, react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement("button", {
+        type: "button",
+        className: styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a.dynamic([["1534746341", [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]]]) + " " + "btn-enviar"
+      }, " Enviar "))), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(_components_Footer__WEBPACK_IMPORTED_MODULE_8__["default"], null), react__WEBPACK_IMPORTED_MODULE_6___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_5___default.a, {
+        id: "1534746341",
+        dynamic: [_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, _breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop]
+      }, ".nombre-producto.__jsx-style-dynamic-selector{width:100%;padding-top:20%;font-size:1.5em;text-align:center;color:#113F67;margin-top:5%;}.descripcion.__jsx-style-dynamic-selector{display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;}.img-y-descripcion.__jsx-style-dynamic-selector{width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.img-y-descripcion.__jsx-style-dynamic-selector div.__jsx-style-dynamic-selector{width:80%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin:3%;text-align:center;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}.img-y-descripcion.__jsx-style-dynamic-selector h3.__jsx-style-dynamic-selector{font-size:1.2em;color:#113F67;}.descripcion.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:50%;margin:3%;}.descripcion.__jsx-style-dynamic-selector p.__jsx-style-dynamic-selector{width:100%;font-size:1em;font-weight:bold;text-align:center;color:#113F67;margin:0px;}.precio-btn.__jsx-style-dynamic-selector{width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column-reverse;-ms-flex-direction:column-reverse;flex-direction:column-reverse;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}.btn-descripcion.__jsx-style-dynamic-selector{border:none;width:70%;height:50px;margin-top:5%;text-align:center;-webkit-text-decoration:none;text-decoration:none;border-radius:5px;cursor:pointer;-webkit-transition:all .3s;transition:all .3s;font-size:100%;color:white;background-color:#34699A;box-shadow:0 8px 16px 0 rgba(0,0,0,0.2);}.btn-descripcion.__jsx-style-dynamic-selector:hover{background-color:#113F67;box-shadow:0 12px 14px 0 rgba(0,0,0,0.30);}.precio.__jsx-style-dynamic-selector p.__jsx-style-dynamic-selector{margin:4px;position:relative;top:10px;font-size:1.5em;}.contenedor-titulo-rayita.__jsx-style-dynamic-selector{width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;font-size:1.2em;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;color:#408AB4;font-weight:600;margin-top:5%;}.btn.__jsx-style-dynamic-selector{border:none;width:70%;height:30px;text-align:center;-webkit-text-decoration:none;text-decoration:none;border-radius:15px;cursor:pointer;-webkit-transition:all .3s;transition:all .3s;font-size:80%;color:white;background-color:#34699A;position:relative;box-shadow:0 8px 16px 0 rgba(0,0,0,0.2);}.btn.__jsx-style-dynamic-selector:hover{background-color:#113F67;box-shadow:0 12px 14px 0 rgba(0,0,0,0.30);}.formulario.__jsx-style-dynamic-selector{width:100%;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}.formulario.__jsx-style-dynamic-selector .form-control.__jsx-style-dynamic-selector{min-width:60%;max-width:500px;display:-webkit-box;display:-webkit-flex;display:-ms-flexbox;display:flex;-webkit-flex-direction:column;-ms-flex-direction:column;flex-direction:column;margin:10px 0;-webkit-box-pack:center;-webkit-justify-content:center;-ms-flex-pack:center;justify-content:center;}.formulario.__jsx-style-dynamic-selector label.__jsx-style-dynamic-selector{color:#34699A;font-weight:bold;font-size:1em;}.formulario.__jsx-style-dynamic-selector .form-control.__jsx-style-dynamic-selector input.__jsx-style-dynamic-selector{height:25px;border:solid 1px #34699A;background:#E9EFF4;border-radius:5px;}.formulario.__jsx-style-dynamic-selector textarea.__jsx-style-dynamic-selector{height:180px;border:solid 1px #34699A;background:#E9EFF4;border-radius:5px;resize:none;}.btn-enviar.__jsx-style-dynamic-selector{border:none;width:75px;height:30px;text-align:center;-webkit-text-decoration:none;text-decoration:none;border-radius:15px;cursor:pointer;-webkit-transition:all .3s;transition:all .3s;font-size:80%;color:white;background-color:#34699A;position:relative;box-shadow:0 8px 16px 0 rgba(0,0,0,0.2);}.btn-enviar.__jsx-style-dynamic-selector:hover{background-color:#113F67;box-shadow:0 12px 14px 0 rgba(0,0,0,0.30);}@media ".concat(_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].tablet, "{.nombre-producto.__jsx-style-dynamic-selector{padding-top:10%;}.img-y-descripcion.__jsx-style-dynamic-selector{-webkit-flex-direction:row;-ms-flex-direction:row;flex-direction:row;}.img-y-descripcion.__jsx-style-dynamic-selector div.__jsx-style-dynamic-selector{-webkit-align-items:flex-start;-webkit-box-align:flex-start;-ms-flex-align:flex-start;align-items:flex-start;-webkit-box-pack:start;-webkit-justify-content:flex-start;-ms-flex-pack:start;justify-content:flex-start;}.descripcion.__jsx-style-dynamic-selector p.__jsx-style-dynamic-selector{text-align:left;}.precio-btn.__jsx-style-dynamic-selector{-webkit-flex-direction:row-reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;-webkit-box-pack:end;-webkit-justify-content:flex-end;-ms-flex-pack:end;justify-content:flex-end;}.btn-descripcion.__jsx-style-dynamic-selector{width:60%;position:relative;left:10%;}.formulario.__jsx-style-dynamic-selector .form-control.__jsx-style-dynamic-selector{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.formulario.__jsx-style-dynamic-selector label.__jsx-style-dynamic-selector{width:70%;}.formulario.__jsx-style-dynamic-selector .form-control.__jsx-style-dynamic-selector input.__jsx-style-dynamic-selector{width:70%;}.formulario.__jsx-style-dynamic-selector textarea.__jsx-style-dynamic-selector{width:70%;}}@media ").concat(_breakpoints__WEBPACK_IMPORTED_MODULE_11__["device"].desktop, "{.nombre-producto.__jsx-style-dynamic-selector{font-size:1.5em;padding-top:3%;}.img-y-descripcion.__jsx-style-dynamic-selector div.__jsx-style-dynamic-selector{width:30%;}.img-y-descripcion.__jsx-style-dynamic-selector img.__jsx-style-dynamic-selector{width:30%;}.btn-descripcion.__jsx-style-dynamic-selector{width:60%;position:relative;left:10%;}.formulario.__jsx-style-dynamic-selector .form-control.__jsx-style-dynamic-selector{-webkit-align-items:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center;}.formulario.__jsx-style-dynamic-selector label.__jsx-style-dynamic-selector{width:40% !important;}.formulario.__jsx-style-dynamic-selector .form-control.__jsx-style-dynamic-selector input.__jsx-style-dynamic-selector{width:40%;}.formulario.__jsx-style-dynamic-selector textarea.__jsx-style-dynamic-selector{width:40%;}}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi9ob21lL2Fhcm9uL0RvY3VtZW50b3MvR2l0aHViL2ZpbGlwcGluaV9ob3NwaXRhbGFyaW8vQ2xpZW50L3BhZ2VzL3Byb2R1Y3RvLmpzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQWlHb0IsQUFJb0MsQUFTQyxBQUtELEFBUUYsQUFVTyxBQUtOLEFBS0MsQUFRRCxBQU9FLEFBZ0JhLEFBS2YsQUFPQyxBQVVDLEFBa0JhLEFBS2YsQUFRRyxBQVNBLEFBTUQsQUFPQyxBQVFELEFBZ0JhLEFBT04sQUFJRyxBQUlJLEFBS04sQUFJVSxBQUtoQixBQU1RLEFBR1IsQUFHQSxBQUdELEFBT00sQUFJTixBQUdBLEFBR0MsQUFNUSxBQUdHLEFBR1gsQUFHRCxVQWpPRCxBQWVILEFBb0tZLEFBU3JCLEFBR0EsQUFHQSxBQVdBLEFBR0EsQUFHcUIsQUFZckIsQUFHQSxDQXhQZSxBQWNGLEFBNEJDLEFBUUYsQUE0QkssQUFPTCxBQWlDQSxDQTdESCxBQXNDQyxBQThDZSxBQWVkLENBUmMsQ0F0QlYsQUFTRSxFQXZHSCxBQW1KZCxBQWFBLEFBK0JrQixJQXpMdEIsQ0E0TUksQ0F4TFksQUFzQ0EsQ0E2REEsRUFsSEksQUE4QjBCLEFBd0NBLEFBMkRBLEVBM0sxQixDQXlNSixBQWdDQSxDQTNKSixDQTlDWixBQThGZ0IsQ0FTQyxBQXdGYixHQXJLYSxBQXNDSyxDQTZEQSxFQWhCQSxBQTZEbEIsQUFnQ0EsQ0EzSmUsQUFxRUcsSUF6R0EsQ0ExQ0EsRUF3SXRCLEdBOUVzQixJQXNDRyxDQTZEQSxDQTlFekIsRUE4RHNCLENBT0EsR0F6R0osQ0ExQ0EsS0EwRE8sQ0FhekIsQUF3Q0EsQUEyREEsRUFVSSxLQTlLcUIsQUFxQ1gsQUFrR2QsQ0E1SWlCLEFBbUpELFNBaElVLENBUkEsQUFnQzFCLEFBSWlDLEFBbUNiLEFBaUNNLEVBaUMxQixFQW5KQSxJQStMMEIsQUFXdEIsQUFnQ0EsUUF4SnNCLENBWUgsQ0E2REEsQ0FoQ0csS0EyRFEsT0E3SFosS0FzQ0osQ0E2REEsWUFsR0EsRUFzQ0ssQ0E2REEsWUFsR0EsR0F0RHZCLFVBY2EsQ0FSYSxBQXdHSixTQS9GRCxVQTZFSCxBQTJCRCxDQWtDQyxHQWtDYyxDQWpKVixHQTFCQSxLQXVDSCxDQXNDSCxBQTJCVSxDQWtDVixHQTVFRSxRQWdCVyxDQTZEQSxDQW5HYixJQXVCSSxBQW1HaEIsUUF6SHlCLFFBdUJYLEdBZUcsQ0E2REEsVUEzRXJCLEdBdkI0QyxJQXNDQSxDQTZEQSxJQTlDbEIsTUF4R0gsa0JBb0NHLEdBMUJBLEFBMkt0QixJQWpJSixJQXNDQSxDQTZEQSxHQXJDQSw0REFqSEEsQUF3R0Esd0JBcEVBLEdBMUJBIiwiZmlsZSI6Ii9ob21lL2Fhcm9uL0RvY3VtZW50b3MvR2l0aHViL2ZpbGlwcGluaV9ob3NwaXRhbGFyaW8vQ2xpZW50L3BhZ2VzL3Byb2R1Y3RvLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExheW91dCBmcm9tICcuLi9jb21wb25lbnRzL0xheW91dCc7XG5pbXBvcnQgRm9vdGVyIGZyb20gJy4uL2NvbXBvbmVudHMvRm9vdGVyJztcbmltcG9ydCBIZWFkZXIgZnJvbSAnLi4vY29tcG9uZW50cy9IZWFkZXInO1xuaW1wb3J0ICBMaW5rICBmcm9tICduZXh0L2xpbmsnO1xuaW1wb3J0IHsgZGV2aWNlIH0gZnJvbSAnLi4vYnJlYWtwb2ludHMnXG5pbXBvcnQgUHJvZHVjdG9zTGF5b3V0IGZyb20gJy4uL2NvbXBvbmVudHMvUHJvZHVjdG9zTGF5b3V0JztcbmltcG9ydCBQcm9kdWN0byBmcm9tICcuLi9jb21wb25lbnRzL1Byb2R1Y3RvJztcblxuZXhwb3J0IGRlZmF1bHQgY2xhc3MgZXh0ZW5kcyBSZWFjdC5Db21wb25lbnR7XG4gICAgcmVuZGVyKCl7XG4gICAgICAgIHJldHVybihcblxuICAgICAgICAgICAgPExheW91dCB0aXRsZT1cIlByb2R1Y3RvIC0gRmlsaXBwaW5pXCI+XG5cbiAgICAgICAgICAgIDxIZWFkZXI+PC9IZWFkZXI+XG5cbiAgICAgICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT1cImRlc2NyaXBjaW9uXCI+XG5cbiAgICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPVwibm9tYnJlLXByb2R1Y3RvXCI+Tm9tYnJlIGRlbCBQcm9kdWN0bzwvaDM+XG5cbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImltZy15LWRlc2NyaXBjaW9uXCI+XG4gICAgICAgICAgICAgICAgICAgIDxpbWcgc3JjPVwiL3N0YXRpYy9jYW1pbGxhLnBuZ1wiLz5cbiAgICAgICAgICAgICAgICAgICAgPGRpdj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxoMz5EZXNjcmlwY2lvbjo8L2gzPlxuICAgICAgICAgICAgICAgICAgICAgICAgPHA+XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgTG9yZW0gaXBzdW0gZG9sb3Igc2l0IGFtZXQgY29uc2VjdGV0dXIsIGFkaXBpc2NpbmcgZWxpdCBmZWxpcyByaG9uY3VzIHNhcGllbixcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwZXIgYXQgc2NlbGVyaXNxdWUgdml2YW11cy4gQ29uZ3VlIGNvXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgbW1vZG8gbmV0dXMgZWdlc3RhcyBydXRydW0gcHJpbWlzIHBvcnR0aXRvclxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGN1YmlsaWEgaWQgYWxpcXVhbSBmZWxpcyBwZXIsIG5lcXVlIHZlc3RpYnVsdW0gaW5jZXB0b3MgZXRpYW0gbW9sZXN0aWUgaWFjdWxpc1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGhhYml0YW50IG9yY2kgY3JhcyBjdXJhZSBzb2xsaWNpdHVkaW4sIGZhY2lsaXNpIGVyb3MgdmFyaXVzIHRvcnF1ZW50IHNlbXBlciBkaVxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBoYXJldHJhIGVnZXQgcmlkaWN1bHVzIGFwdGVudC4gUG9ydGEgbGVjdHVzIGZhY2lsaXNpcyBkaWduaXNzaW0gbGVvIGVnZXQgcXVhXG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgcHJldGl1bSBpbnRlZ2VyIGRhcGlidXMsIG1vcmJpIGN1cnN1cyBydXRydW0gZHVpcyBuaWJoIGN1bSBtYWVjZW5hcyB0cmlzdGlxdWVcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBoYWMsIGV0aWFtIHZhcml1cyBmYW1lcyB0b3J0b3IgYWVuZWFuIGFsaXF1YW0gY29udmFsbGlzIHBlbGxlbnRlc3F1ZS5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvcD5cbiAgICAgICAgICAgICAgICAgICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT1cInByZWNpby1idG5cIj5cbiAgICAgICAgICAgICAgICAgICAgICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT1cImJ0bi1kZXNjcmlwY2lvblwiPkNvbnRhY3RhcjwvYnV0dG9uPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDxzZWN0aW9uIGNsYXNzTmFtZT1cInByZWNpb1wiPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICA8cD4kMTk5LDk5PC9wPlxuICAgICAgICAgICAgICAgICAgICAgICAgICAgIDwvc2VjdGlvbj5cbiAgICAgICAgICAgICAgICAgICAgICAgIDwvc2VjdGlvbj5cbiAgICAgICAgICAgICAgICAgICAgPC9kaXY+XG4gICAgICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgIDwvc2VjdGlvbj5cblxuICAgICAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPVwiY29udGVuZWRvci10aXR1bG8tcmF5aXRhXCIgcm9sZT1cIm1haW5cIj5cbiAgICAgICAgICAgICAgICAgICAgICAgIFxuICAgICAgICAgICAgICAgIDxoMyBjbGFzc05hbWU9XCJ0aXR1bG8tcmF5aXRhXCI+T3Ryb3MgUHJvZHVjdG9zPC9oMz5cblxuICAgICAgICAgICAgPC9zZWN0aW9uPlxuXG4gICAgICAgICAgICA8UHJvZHVjdG9zTGF5b3V0PlxuICAgICAgICAgICAgICAgIDxQcm9kdWN0byB0aXRsZT1cIk5vbWJyZSBkZWwgUHJvZHVjdG9cIiBwcmVjaW89XCIkMTk5LDk5XCIgaW1hZ2VuPVwiL3N0YXRpYy9jYW1pbGxhLnBuZ1wiIGlkPVwiMVwiPjwvUHJvZHVjdG8+XG4gICAgICAgICAgICAgICAgPFByb2R1Y3RvIHRpdGxlPVwiTm9tYnJlIGRlbCBQcm9kdWN0b1wiIHByZWNpbz1cIiQxOTksOTlcIiBpbWFnZW49XCIvc3RhdGljL2NhbWlsbGEucG5nXCIgaWQ9XCIxXCI+PC9Qcm9kdWN0bz5cbiAgICAgICAgICAgICAgICA8UHJvZHVjdG8gdGl0bGU9XCJOb21icmUgZGVsIFByb2R1Y3RvXCIgcHJlY2lvPVwiJDE5OSw5OVwiIGltYWdlbj1cIi9zdGF0aWMvY2FtaWxsYS5wbmdcIiBpZD1cIjFcIj48L1Byb2R1Y3RvPlxuICAgICAgICAgICAgICAgIDxQcm9kdWN0byB0aXRsZT1cIk5vbWJyZSBkZWwgUHJvZHVjdG9cIiBwcmVjaW89XCIkMTk5LDk5XCIgaW1hZ2VuPVwiL3N0YXRpYy9jYW1pbGxhLnBuZ1wiIGlkPVwiMVwiPjwvUHJvZHVjdG8+XG4gICAgICAgICAgICA8L1Byb2R1Y3Rvc0xheW91dD5cbiAgICAgICAgICAgIFxuICAgICAgICAgICAgPHNlY3Rpb24gY2xhc3NOYW1lPVwiY29udGVuZWRvci10aXR1bG8tcmF5aXRhXCI+XG4gICAgICAgICAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICA8aDMgY2xhc3NOYW1lPVwidGl0dWxvLXJheWl0YVwiPkNvbnRhY3Rhbm9zPC9oMz5cblxuICAgICAgICAgICAgPC9zZWN0aW9uPlxuXG4gICAgICAgICAgICA8c2VjdGlvbiBjbGFzc05hbWU9XCJmb3JtdWxhcmlvXCI+XG4gICAgICAgICAgICAgICAgPGRpdiBjbGFzc05hbWU9XCJmb3JtLWNvbnRyb2xcIj5cbiAgICAgICAgICAgICAgICAgICAgPGxhYmVsPk5vbWJyZSB5IEFwZWxsaWRvPC9sYWJlbD5cbiAgICAgICAgICAgICAgICAgICAgPGlucHV0IHR5cGU9XCJ0ZXh0XCIgbmFtZT1cIm5vbWJyZVwiIGF1dG9Db21wbGV0ZT1cIm9uXCIgcmVxdWlyZWQ+PC9pbnB1dD5cbiAgICAgICAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZm9ybS1jb250cm9sXCI+XG4gICAgICAgICAgICAgICAgICAgIDxsYWJlbD5FbWFpbDwvbGFiZWw+XG4gICAgICAgICAgICAgICAgICAgIDxpbnB1dCB0eXBlPVwiZW1haWxcIiBuYW1lPVwiRW1haWxcIiBhdXRvQ29tcGxldGU9XCJvblwiPjwvaW5wdXQ+XG4gICAgICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgICAgICA8ZGl2IGNsYXNzTmFtZT1cImZvcm0tY29udHJvbFwiPlxuICAgICAgICAgICAgICAgICAgICA8bGFiZWw+VGVsZWZvbm88L2xhYmVsPlxuICAgICAgICAgICAgICAgICAgICA8aW5wdXQgdHlwZT1cInRlbFwiIG5hbWU9XCJUZWxlZm9ub1wiIGF1dG9Db21wbGV0ZT1cIm9uXCI+PC9pbnB1dD5cbiAgICAgICAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgICAgICAgIDxkaXYgY2xhc3NOYW1lPVwiZm9ybS1jb250cm9sXCI+XG4gICAgICAgICAgICAgICAgICAgIDxsYWJlbD5NZW5zYWplPC9sYWJlbD5cbiAgICAgICAgICAgICAgICAgICAgPHRleHRhcmVhPjwvdGV4dGFyZWE+XG4gICAgICAgICAgICAgICAgPC9kaXY+XG5cbiAgICAgICAgICAgICAgICA8ZGl2PlxuICAgICAgICAgICAgICAgICAgICA8YnV0dG9uIGNsYXNzTmFtZT1cImJ0bi1lbnZpYXJcIiB0eXBlPVwiYnV0dG9uXCI+IEVudmlhciA8L2J1dHRvbj5cbiAgICAgICAgICAgICAgICA8L2Rpdj5cblxuICAgICAgICAgICAgPC9zZWN0aW9uPlxuICAgICAgICAgICAgXG4gICAgICAgICAgICA8Rm9vdGVyLz5cbiAgICAgICAgICAgICAgICBcblxuXG4gICAgICAgICAgICA8c3R5bGUganN4PlxuICAgICAgICAgICAgICAgIHtcbiAgICAgICAgICAgICAgICAgICAgYFxuXG4gICAgICAgICAgICAgICAgICAgIC5ub21icmUtcHJvZHVjdG8ge1xuICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nLXRvcDoyMCU7XG4gICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6IDEuNWVtO1xuICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6ICMxMTNGNjc7XG4gICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW4tdG9wOjUlO1xuICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgLmRlc2NyaXBjaW9ue1xuICAgICAgICAgICAgICAgICAgICAgICAgZGlzcGxheTpmbGV4O1xuICAgICAgICAgICAgICAgICAgICAgICAgZmxleC1kaXJlY3Rpb246Y29sdW1uO1xuICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgLmltZy15LWRlc2NyaXBjaW9ue1xuICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6IDEwMCU7XG4gICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OiBmbGV4O1xuICAgICAgICAgICAgICAgICAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICAgICAgICAgICAgICAgICAgICAgIGp1c3RpZnktY29udGVudDpjZW50ZXI7XG4gICAgICAgICAgICAgICAgICAgICAgICBhbGlnbi1pdGVtczogY2VudGVyO1xuICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgLmltZy15LWRlc2NyaXBjaW9uIGRpdntcbiAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOjgwJTtcbiAgICAgICAgICAgICAgICAgICAgICAgIGRpc3BsYXk6ZmxleDtcbiAgICAgICAgICAgICAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOiBjb2x1bW47XG4gICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW46MyU7XG4gICAgICAgICAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOmNlbnRlcjtcbiAgICAgICAgICAgICAgICAgICAgICAgIGFsaWduLWl0ZW1zOmNlbnRlcjtcbiAgICAgICAgICAgICAgICAgICAgICAgIGp1c3RpZnktY29udGVudDpjZW50ZXI7XG4gICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICAuaW1nLXktZGVzY3JpcGNpb24gaDN7XG4gICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6IDEuMmVtO1xuICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6ICMxMTNGNjc7XG4gICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICAuZGVzY3JpcGNpb24gaW1nIHtcbiAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiA1MCU7XG4gICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW46MyU7XG4gICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICAuZGVzY3JpcGNpb24gcCB7XG4gICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogMTAwJTs7XG4gICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6IDFlbTtcbiAgICAgICAgICAgICAgICAgICAgICAgIGZvbnQtd2VpZ2h0OmJvbGQ7XG4gICAgICAgICAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogIzExM0Y2NztcbiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbjowcHg7XG4gICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgLnByZWNpby1idG57XG4gICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDoxMDAlO1xuICAgICAgICAgICAgICAgICAgICAgICAgZGlzcGxheTpmbGV4O1xuICAgICAgICAgICAgICAgICAgICAgICAgZmxleC1kaXJlY3Rpb246Y29sdW1uLXJldmVyc2U7XG4gICAgICAgICAgICAgICAgICAgICAgICBhbGlnbi1pdGVtczpjZW50ZXI7XG4gICAgICAgICAgICAgICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6Y2VudGVyO1xuICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgIC5idG4tZGVzY3JpcGNpb24ge1xuICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyOiBub25lO1xuICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6NzAlO1xuICAgICAgICAgICAgICAgICAgICAgICAgaGVpZ2h0OiA1MHB4O1xuICAgICAgICAgICAgICAgICAgICAgICAgbWFyZ2luLXRvcDo1JTtcbiAgICAgICAgICAgICAgICAgICAgICAgIHRleHQtYWxpZ246IGNlbnRlcjtcbiAgICAgICAgICAgICAgICAgICAgICAgIHRleHQtZGVjb3JhdGlvbjogbm9uZTtcbiAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlci1yYWRpdXM6IDVweDtcbiAgICAgICAgICAgICAgICAgICAgICAgIGN1cnNvcjpwb2ludGVyO1xuICAgICAgICAgICAgICAgICAgICAgICAgdHJhbnNpdGlvbjogYWxsIC4zcztcbiAgICAgICAgICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogMTAwJTtcbiAgICAgICAgICAgICAgICAgICAgICAgIGNvbG9yOiB3aGl0ZTtcbiAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICMzNDY5OUE7XG4gICAgICAgICAgICAgICAgICAgICAgICBib3gtc2hhZG93OiAwIDhweCAxNnB4IDAgcmdiYSgwLDAsMCwwLjIpO1xuICAgICAgICAgICAgICAgICAgICB9ICAgXG5cbiAgICAgICAgICAgICAgICAgICAgLmJ0bi1kZXNjcmlwY2lvbjpob3ZlcntcbiAgICAgICAgICAgICAgICAgICAgICAgIGJhY2tncm91bmQtY29sb3I6ICMxMTNGNjc7XG4gICAgICAgICAgICAgICAgICAgICAgICBib3gtc2hhZG93OiAwIDEycHggMTRweCAwIHJnYmEoMCwwLDAsMC4zMCk7XG4gICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICAucHJlY2lvIHB7XG4gICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW46NHB4O1xuICAgICAgICAgICAgICAgICAgICAgICAgcG9zaXRpb246cmVsYXRpdmU7XG4gICAgICAgICAgICAgICAgICAgICAgICB0b3A6MTBweDtcbiAgICAgICAgICAgICAgICAgICAgICAgIGZvbnQtc2l6ZToxLjVlbTtcbiAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICAgICAgLmNvbnRlbmVkb3ItdGl0dWxvLXJheWl0YXtcbiAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiAxMDAlO1xuICAgICAgICAgICAgICAgICAgICAgICAgZGlzcGxheTpmbGV4O1xuICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiAxLjJlbTtcbiAgICAgICAgICAgICAgICAgICAgICAgIGp1c3RpZnktY29udGVudDpjZW50ZXI7ICAgXG4gICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogIzQwOEFCNDtcbiAgICAgICAgICAgICAgICAgICAgICAgIGZvbnQtd2VpZ2h0OiA2MDA7XG4gICAgICAgICAgICAgICAgICAgICAgICBtYXJnaW4tdG9wOiA1JTtcbiAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgIC5idG57XG4gICAgICAgICAgICAgICAgICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogNzAlO1xuICAgICAgICAgICAgICAgICAgICAgICAgaGVpZ2h0OiAzMHB4O1xuICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogY2VudGVyO1xuICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC1kZWNvcmF0aW9uOiBub25lO1xuICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogMTVweDtcbiAgICAgICAgICAgICAgICAgICAgICAgIGN1cnNvcjpwb2ludGVyO1xuICAgICAgICAgICAgICAgICAgICAgICAgdHJhbnNpdGlvbjogYWxsIC4zcztcbiAgICAgICAgICAgICAgICAgICAgICAgIGZvbnQtc2l6ZTogODAlO1xuICAgICAgICAgICAgICAgICAgICAgICAgY29sb3I6IHdoaXRlO1xuICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzM0Njk5QTtcbiAgICAgICAgICAgICAgICAgICAgICAgIHBvc2l0aW9uOnJlbGF0aXZlO1xuICAgICAgICAgICAgICAgICAgICAgICAgYm94LXNoYWRvdzogMCA4cHggMTZweCAwIHJnYmEoMCwwLDAsMC4yKTtcbiAgICAgICAgICAgICAgICAgICAgfSAgIFxuXG5cblxuICAgICAgICAgICAgICAgICAgICAuYnRuOmhvdmVye1xuICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZC1jb2xvcjogIzExM0Y2NztcbiAgICAgICAgICAgICAgICAgICAgICAgIGJveC1zaGFkb3c6IDAgMTJweCAxNHB4IDAgcmdiYSgwLDAsMCwwLjMwKTtcbiAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgIC5mb3JtdWxhcmlvIHtcbiAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOjEwMCU7XG4gICAgICAgICAgICAgICAgICAgICAgICBkaXNwbGF5OmZsZXg7XG4gICAgICAgICAgICAgICAgICAgICAgICBmbGV4LWRpcmVjdGlvbjogY29sdW1uO1xuICAgICAgICAgICAgICAgICAgICAgICAgYWxpZ24taXRlbXM6Y2VudGVyO1xuICAgICAgICAgICAgICAgICAgICAgICAganVzdGlmeS1jb250ZW50OmNlbnRlcjtcbiAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgIC5mb3JtdWxhcmlvIC5mb3JtLWNvbnRyb2x7XG4gICAgICAgICAgICAgICAgICAgICAgICBtaW4td2lkdGg6NjAlO1xuICAgICAgICAgICAgICAgICAgICAgICAgbWF4LXdpZHRoOjUwMHB4O1xuICAgICAgICAgICAgICAgICAgICAgICAgZGlzcGxheTpmbGV4O1xuICAgICAgICAgICAgICAgICAgICAgICAgZmxleC1kaXJlY3Rpb246IGNvbHVtbjtcbiAgICAgICAgICAgICAgICAgICAgICAgIG1hcmdpbjoxMHB4IDA7XG4gICAgICAgICAgICAgICAgICAgICAgICBqdXN0aWZ5LWNvbnRlbnQ6Y2VudGVyO1xuICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgLmZvcm11bGFyaW8gbGFiZWx7XG4gICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjojMzQ2OTlBO1xuICAgICAgICAgICAgICAgICAgICAgICAgZm9udC13ZWlnaHQ6IGJvbGQ7XG4gICAgICAgICAgICAgICAgICAgICAgICBmb250LXNpemU6MWVtO1xuXG4gICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgLmZvcm11bGFyaW8gLmZvcm0tY29udHJvbCBpbnB1dHtcbiAgICAgICAgICAgICAgICAgICAgICAgIGhlaWdodDogMjVweDtcbiAgICAgICAgICAgICAgICAgICAgICAgIGJvcmRlcjogc29saWQgMXB4ICMzNDY5OUE7XG4gICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kOiNFOUVGRjQ7XG4gICAgICAgICAgICAgICAgICAgICAgICBib3JkZXItcmFkaXVzOiA1cHg7XG4gICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICAuZm9ybXVsYXJpbyB0ZXh0YXJlYXtcbiAgICAgICAgICAgICAgICAgICAgICAgIGhlaWdodDogMTgwcHg7XG4gICAgICAgICAgICAgICAgICAgICAgICBib3JkZXI6IHNvbGlkIDFweCAjMzQ2OTlBO1xuICAgICAgICAgICAgICAgICAgICAgICAgYmFja2dyb3VuZDojRTlFRkY0O1xuICAgICAgICAgICAgICAgICAgICAgICAgYm9yZGVyLXJhZGl1czogNXB4O1xuICAgICAgICAgICAgICAgICAgICAgICAgcmVzaXplOiBub25lO1xuICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgLmJ0bi1lbnZpYXJ7XG4gICAgICAgICAgICAgICAgICAgICAgICBib3JkZXI6IG5vbmU7XG4gICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogNzVweDs7XG4gICAgICAgICAgICAgICAgICAgICAgICBoZWlnaHQ6IDMwcHg7XG4gICAgICAgICAgICAgICAgICAgICAgICB0ZXh0LWFsaWduOiBjZW50ZXI7XG4gICAgICAgICAgICAgICAgICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XG4gICAgICAgICAgICAgICAgICAgICAgICBib3JkZXItcmFkaXVzOiAxNXB4O1xuICAgICAgICAgICAgICAgICAgICAgICAgY3Vyc29yOnBvaW50ZXI7XG4gICAgICAgICAgICAgICAgICAgICAgICB0cmFuc2l0aW9uOiBhbGwgLjNzO1xuICAgICAgICAgICAgICAgICAgICAgICAgZm9udC1zaXplOiA4MCU7XG4gICAgICAgICAgICAgICAgICAgICAgICBjb2xvcjogd2hpdGU7XG4gICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMzQ2OTlBO1xuICAgICAgICAgICAgICAgICAgICAgICAgcG9zaXRpb246cmVsYXRpdmU7XG4gICAgICAgICAgICAgICAgICAgICAgICBib3gtc2hhZG93OiAwIDhweCAxNnB4IDAgcmdiYSgwLDAsMCwwLjIpO1xuICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgLmJ0bi1lbnZpYXI6aG92ZXJ7XG4gICAgICAgICAgICAgICAgICAgICAgICBiYWNrZ3JvdW5kLWNvbG9yOiAjMTEzRjY3O1xuICAgICAgICAgICAgICAgICAgICAgICAgYm94LXNoYWRvdzogMCAxMnB4IDE0cHggMCByZ2JhKDAsMCwwLDAuMzApO1xuICAgICAgICAgICAgICAgICAgICB9XG5cbiAgICAgICAgICAgICAgICAgICAgQG1lZGlhICR7ZGV2aWNlLnRhYmxldH17XG5cbiAgICAgICAgICAgICAgICAgICAgICAgIC5ub21icmUtcHJvZHVjdG8ge1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHBhZGRpbmctdG9wOjEwJTtcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICAgICAgLmltZy15LWRlc2NyaXBjaW9ue1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZsZXgtZGlyZWN0aW9uOnJvdztcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICAgICAgLmltZy15LWRlc2NyaXBjaW9uIGRpdntcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbGlnbi1pdGVtczpmbGV4LXN0YXJ0O1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGp1c3RpZnktY29udGVudDpmbGV4LXN0YXJ0O1xuICAgICAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgICAgICAuZGVzY3JpcGNpb24gcCB7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgdGV4dC1hbGlnbjogbGVmdDtcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICAgICAgLnByZWNpby1idG57XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgZmxleC1kaXJlY3Rpb246cm93LXJldmVyc2U7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYWxpZ24taXRlbXM6Y2VudGVyO1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGp1c3RpZnktY29udGVudDpmbGV4LWVuZDtcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgIC5idG4tZGVzY3JpcGNpb257XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6IDYwJTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwb3NpdGlvbjpyZWxhdGl2ZTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBsZWZ0OjEwJTtcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICAgICAgLmZvcm11bGFyaW8gLmZvcm0tY29udHJvbHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBhbGlnbi1pdGVtczpjZW50ZXI7XG4gICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAuZm9ybXVsYXJpbyBsYWJlbHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogNzAlO1xuICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgLmZvcm11bGFyaW8gLmZvcm0tY29udHJvbCBpbnB1dHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogNzAlO1xuICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgLmZvcm11bGFyaW8gdGV4dGFyZWF7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6NzAlO1xuICAgICAgICAgICAgICAgICAgICAgICAgfVxuXG4gICAgICAgICAgICAgICAgICAgIH1cblxuICAgICAgICAgICAgICAgICAgICBAbWVkaWEgJHtkZXZpY2UuZGVza3RvcH17XG4gICAgICAgICAgICAgICAgICAgICAgICAubm9tYnJlLXByb2R1Y3Rve1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIGZvbnQtc2l6ZToxLjVlbTtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICBwYWRkaW5nLXRvcDozJTtcbiAgICAgICAgICAgICAgICAgICAgICAgIH1cbiAgICAgICAgICAgICAgICAgICAgICAgIC5pbWcteS1kZXNjcmlwY2lvbiBkaXZ7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6MzAlO1xuICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgLmltZy15LWRlc2NyaXBjaW9uIGltZ3tcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDozMCU7XG4gICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICAuYnRuLWRlc2NyaXBjaW9ue1xuICAgICAgICAgICAgICAgICAgICAgICAgICAgIHdpZHRoOiA2MCU7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgcG9zaXRpb246cmVsYXRpdmU7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgbGVmdDoxMCU7XG4gICAgICAgICAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICAgICAgICAgICAgICBcbiAgICAgICAgICAgICAgICAgICAgICAgIC5mb3JtdWxhcmlvIC5mb3JtLWNvbnRyb2x7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgYWxpZ24taXRlbXM6Y2VudGVyO1xuICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgLmZvcm11bGFyaW8gbGFiZWx7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6IDQwJSAhaW1wb3J0YW50O1xuICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgLmZvcm11bGFyaW8gLmZvcm0tY29udHJvbCBpbnB1dHtcbiAgICAgICAgICAgICAgICAgICAgICAgICAgICB3aWR0aDogNDAlO1xuICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgLmZvcm11bGFyaW8gdGV4dGFyZWF7XG4gICAgICAgICAgICAgICAgICAgICAgICAgICAgd2lkdGg6NDAlO1xuICAgICAgICAgICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgICAgICAgICAgICAgXG4gICAgICAgICAgICAgICAgICAgIGBcbiAgICAgICAgICAgICAgICB9XG4gICAgICAgICAgICA8L3N0eWxlPlxuXG4gICAgICAgICAgICA8L0xheW91dD5cbiAgICAgICAgKVxuXG4gICAgfVxufVxuIl19 */\n/*@ sourceURL=/home/aaron/Documentos/Github/filippini_hospitalario/Client/pages/producto.js */")));
     }
   }]);
 
@@ -12461,28 +12833,44 @@ function (_React$Component) {
 
 /***/ }),
 
-/***/ 1:
-/*!**************************************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fproducto&absolutePagePath=C%3A%5CUsers%5CAaron%5CDocuments%5CGitHub%5Cfilippini_hospitalario%5CClient%5Cpages%5Cproducto.js ***!
-  \**************************************************************************************************************************************************************************/
+/***/ "./routes.js":
+/*!*******************!*\
+  !*** ./routes.js ***!
+  \*******************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fproducto&absolutePagePath=C%3A%5CUsers%5CAaron%5CDocuments%5CGitHub%5Cfilippini_hospitalario%5CClient%5Cpages%5Cproducto.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fproducto&absolutePagePath=C%3A%5CUsers%5CAaron%5CDocuments%5CGitHub%5Cfilippini_hospitalario%5CClient%5Cpages%5Cproducto.js!./");
+"use strict";
+
+
+var routes = __webpack_require__(/*! next-routes */ "./node_modules/next-routes/dist/index.js");
+
+module.exports = routes().add('index').add('productos').add('contacto').add('quienes-somos').add('producto', '/:slug.:id', 'producto');
+
+/***/ }),
+
+/***/ 2:
+/*!**********************************************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fproducto&absolutePagePath=%2Fhome%2Faaron%2FDocumentos%2FGithub%2Ffilippini_hospitalario%2FClient%2Fpages%2Fproducto.js ***!
+  \**********************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fproducto&absolutePagePath=%2Fhome%2Faaron%2FDocumentos%2FGithub%2Ffilippini_hospitalario%2FClient%2Fpages%2Fproducto.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fproducto&absolutePagePath=%2Fhome%2Faaron%2FDocumentos%2FGithub%2Ffilippini_hospitalario%2FClient%2Fpages%2Fproducto.js!./");
 
 
 /***/ }),
 
-/***/ "dll-reference dll_4d62ad301d4c9a40eec7":
+/***/ "dll-reference dll_1aef2d0bbc0d334d831c":
 /*!*******************************************!*\
-  !*** external "dll_4d62ad301d4c9a40eec7" ***!
+  !*** external "dll_1aef2d0bbc0d334d831c" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_4d62ad301d4c9a40eec7;
+module.exports = dll_1aef2d0bbc0d334d831c;
 
 /***/ })
 
-},[[1,"static/runtime/webpack.js"]]]));;
+},[[2,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=producto.js.map
